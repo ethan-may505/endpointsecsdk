@@ -1,0 +1,2 @@
+add_executable(DetectProducts DetectProducts.cpp)
+target_include_directories(DetectProducts PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

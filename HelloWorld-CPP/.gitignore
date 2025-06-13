@@ -36,3 +36,5 @@ src/Patch/.vs/
 src/Patch/Patch.csproj.user
 
 src/vapm/
+
+out/

@@ -1,0 +1,2 @@
+add_executable(ProcessCallback ProcessCallback.cpp)
+target_include_directories(ProcessCallback PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

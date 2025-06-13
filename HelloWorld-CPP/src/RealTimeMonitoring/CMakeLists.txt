@@ -1,0 +1,2 @@
+add_executable(RealTimeMonitoring RealTimeMonitoring.cpp)
+target_include_directories(RealTimeMonitoring PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
