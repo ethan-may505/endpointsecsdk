@@ -1,0 +1,25 @@
+4v AntiPhising Integration Notes
+------------------------------
+[Kovell Ventures Ltd.] [100101]
+	iDoctor {100122}
+		- iDoctor <100122> 
+			- GetAntiphishingState (1010)
+				- This method might return WAAPI_ERROR_ACCESS_DENIED when running under root priviledge, please run as normal user.
+==============================================================================================================================			
+[Kromtech Alliance Corp.] [100118]
+	MacKeeper {100148}
+		- MacKeeper <100163>
+			- GetAntiphishingState (1010)
+				- Return WAAPI_ERROR_ACCESS_DENIED(-22) if the GUI of MacKeeper is running.
+=================================================================================================================================
+[Kaspersky Lab] [100056]
+	Kaspersky Internet Security {100068}
+		- Kaspersky Internet Security <100207> 
+			- GetAntiphishingState (1010)
+				- If the license key of product is expired, the antiphishing state will always be disabled although on GUI it's still enabled.
+=================================================================================================================================
+[Intego] [100038]
+	VirusBarrier {100047}
+		- VirusBarrier <100146> 
+			- GetAntiphishingState (1010)
+				-  Returned the value on UI.

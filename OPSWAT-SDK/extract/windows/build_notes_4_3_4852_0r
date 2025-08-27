@@ -1,0 +1,50 @@
+
+
+Release Date: 19/08/2025
+
+============================================================
+
+Enhancement
+
+[Windows]
+
+
+
+
+New Application Support
+
+[Windows]
+
+- V4 | Windows | Add support for JupyterLab Desktop
+
+
+New Application Version Support
+
+[Windows]
+
+- V4 | Windows | Add support for McAfee version 1.32.165.1
+
+
+New Method Implementation
+
+[Windows]
+
+- [FortiClient] Fortinet Inc. - Update GetDefinitionState implementation for FortiClient
+- [WinRAR] Alexander Roshal - Update Run implementation for WinRAR (x64)
+- [Cloudflare WARP] Cloudflare, Inc. - Implement GetVersion for Cloudflare WARP
+- [Cloudflare WARP] Cloudflare, Inc. - Implement TerminateProcesses for Cloudflare WARP
+- [Cloudflare WARP] Cloudflare, Inc. - Implement GetRunningState for Cloudflare WARP
+- [Cloudflare WARP] Cloudflare, Inc. - Implement Run for Cloudflare WARP
+- [VirtualBox] Oracle Corporation - Update GetVersion implementation for VirtualBox
+- [JupyterLab] Project Jupyter - Implement GetVersion for JupyterLab
+- [JupyterLab] Project Jupyter - Implement Run for JupyterLab
+
+
+OPSWAT Certification Program Update
+
+[Windows]
+
+
+
+
+============================================================

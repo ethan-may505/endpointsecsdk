@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "KB information schema",
+  "type": "object",
+  "properties": {
+    "oesis": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "header": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "timestamp": { "type": "integer" },
+                "time": { "type": "string" },
+                "copyright": { "type": "string" },
+                "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+                "schema_version": {
+                  "type": "string",
+                  "pattern": "^[0-9]+\\.[0-9]+-[0-9]+\\.[0-9]+$"
+                },
+                "description": { "type": "string" }
+              },
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "timestamp",
+                "time",
+                "copyright",
+                "version",
+                "schema_version",
+                "description"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": ["header"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id_os_map": {
+              "type": "object",
+              "patternProperties": {
+                "^[1-9][0-9]*$": {
+                  "type": "string",
+                  "pattern": "^win(server)?[0-9]+$"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "patternProperties": {
+            "^win(server)?[0-9]+$": {
+              "type": "object",
+              "patternProperties": {
+                "^kb_base(_[0-9]+\\.[0-9]+)?$": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]{5}\\.[0-9]{1,5}$": {
+                      "type": "object",
+                      "properties": {
+                        "build_version": {
+                          "type": "string",
+                          "pattern": "^[0-9]{5}\\.[0-9]{1,5}$"
+                        },
+                        "kb_articles": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "kb_id": {
+                                "type": "integer",
+                                "minimum": 0
+                              },
+                              "availability_date": {
+                                "type": "integer",
+                                "minimum": 0
+                              }
+                            },
+                            "required": ["kb_id", "availability_date"],
+                            "additionalProperties": false
+                          },
+                          "minItems": 1
+                        }
+                      },
+                      "required": ["build_version", "kb_articles"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "^kb_cves(_[0-9]+\\.[0-9]+)?$": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]{6,7}$": {
+                      "type": "object",
+                      "properties": {
+                        "kb_id": {
+                          "type": "integer",
+                          "minimum": 100000,
+                          "maximum": 9999999
+                        },
+                        "cves": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer",
+                            "minimum": 1
+                          }
+                        }
+                      },
+                      "required": ["kb_id", "cves"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "^kb_tree(_[0-9]+\\.[0-9]+)?$": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]{6,7}$": {
+                      "type": "object",
+                      "properties": {
+                        "kb_id": {
+                          "type": "integer",
+                          "minimum": 100000,
+                          "maximum": 9999999
+                        },
+                        "supersede_kbs": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        },
+                        "cumulative": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": ["kb_id", "supersede_kbs"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false,
+          "required": ["id_os_map"]
+        }
+      ],
+      "unevaluatedItems": false
+    }
+  },
+  "additionalProperties": false,
+  "required": ["oesis"]
+}

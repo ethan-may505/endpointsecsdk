@@ -1,0 +1,81 @@
+{
+	"support_chart": 
+	[
+		{
+			"cve": "CVE-2017-0143",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0144",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0145",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0146",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0147",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0148",
+			"description": "Vulnerability that exploits WannaCry ransomware."
+		},
+		{
+			"cve": "CVE-2017-0199",
+			"description": "Vulnerability that exploits GoldenEye/Peyta ransomware."
+		},
+		{
+			"cve": "CVE-2017-8563",
+			"description": "Vulnerability that exploits Windows evaluation of privilege."
+		},
+		{
+			"cve": "CVE-2019-0708",
+			"description": "Vulnerability that allows remote code execution through Remote Desktop Services."
+		},
+		{
+			"cve": "CVE-2019-1181",
+			"description": "Vulnerability that allows remote code execution through Remote Desktop Services."
+		},
+		{
+			"cve": "CVE-2019-1182",
+			"description": "Vulnerability that allows remote code execution through Remote Desktop Services."
+		},
+		{
+			"cve": "CVE-2019-1222",
+			"description": "Vulnerability that allows remote code execution through Remote Desktop Services."
+		},
+		{
+			"cve": "CVE-2019-1223",
+			"description": "Vulnerability that allows denial of service in Windows Remote Desktop Protocol."
+		},
+		{
+			"cve": "CVE-2019-1224",
+			"description": "Vulnerability that disclosure information of Windows Remote Desktop Protocol Server."
+		},
+		{
+			"cve": "CVE-2019-1225",
+			"description": "Vulnerability that disclosure information of Windows Remote Desktop Protocol Server."
+		},
+		{
+			"cve": "CVE-2019-1226",
+			"description": "Vulnerability that allows remote code execution through Remote Desktop Services."
+		},
+		{
+			"cve": "CVE-2020-0601",
+			"description": "Vulnerability in Windows CryptoAPI which allows using spoofed code-signing certificate to sign a malicious executable and make it looks like it comes from trusted source."
+		},
+		{
+			"cve": "CVE-2020-0796",
+			"description": "Vulnerability that allows remote code execution of the Microsoft Server Message Block 3.1.1 (SMBv3) protocol."
+		},
+		{
+			"cve": "CVE-2021-34527",
+			"description": "Vulnerability in Windows Print Spooler that allows remote code execution with SYSTEM privileges."
+		}
+	]
+}

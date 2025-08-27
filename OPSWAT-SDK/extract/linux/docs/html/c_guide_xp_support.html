@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Client Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+
+	<script>buildNav(4, 0, 0);</script>
+
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> How to provide explicit dynamic linking support for Windows XP</h3>
+			
+			<!-- Break down into sections -->
+			<table class="table-no-border">
+
+				<tr>
+					<td><h4>When and why does this fix need to be applied?</h4></td>
+				</tr>
+				<tr>
+					<td><p>There is a known limitation when dealing with Thread Local Storage on Windows XP, which is documented here: <a href="https://support.microsoft.com/en-us/kb/118816">https://support.microsoft.com/en-us/kb/118816</a>.</p>
+						<p>While libwaapi does not explicitly use TLS, it does use C++11 functionality. Microsoft uses TLS behind-the-scenes in some of it's C++11 implementation logic, which introduces this issue.</p>
+						<p>The only integrations that require this work-around are those which are explict dynamic linking (using LoadLibrary) and need to provide Windows XP (SP3+) support.
+						If linking implicitly against libwaapi.lib is an option then this is the preferred method and nothing else needs to be done.</p>
+					</td>
+				</tr>
+				<tr>
+					<td><h4>How should the linking fix be applied?</h4></td>
+				</tr>
+				<tr>
+					<td><p>To resolve the issue, all that needs to be done is to include "wa_api_xp_support.lib" into the project settings for the integrating executable. The lib can be found under the "supplemental" directory within the lib section of the package.</p>
+						<p>Any executable project that uses LoadLibrary to load "libwaapi.dll" will need to include the wa_api_xp_support.lib in the project. If another dll is loaded explicitly and that dll loads libwaapi.dll, either implicitly or explicitly, then this fix will also be necessary.</p>
+						<p>The .lib can <b>ONLY</b> be included through the linker options for the project. It <b>CANNOT</b> be included
+						through the use of "#pragma comment" directives. This will not work as the compiler that processes the #pragma, in many cases, loads the lib incorrectly or doesn't load it at all. This is due to the particular way that the lib was crafted to create this work around.</p>
+						<p>If using Visual Studio then the .lib would generally be added to the "Configuration Properties" -> "Linker" -> "Input" -> "Additional Dependencies" or similar depending on the VS version.</p>
+					</td>
+				</tr>
+				<tr>
+					<td><h4>What is the difference between the release and release_static versions of the XP lib?</h4></td>
+				</tr>
+				<tr>
+					<td><p>Within the win32 or x64 directories for the supplemental libs there are both "release" and "release_static" directories. The version that needs to be used depends on how the integrating executable is linked to the Microsoft CRT.</p>
+						<p>If the executable is built with the "/MT" linker option then it is statically linking the CRT and should use the "release_static" version of "wa_api_xp_support.lib."</p>
+						<p>If the executable is built with the "/MD" linker option then it is dynamically linking the CRT and should use the "release" version of "wa_api_xp_support.lib."</p>
+						</td>
+				</tr>
+			</table>
+		</div>
+		<hr/>
+	</div>
+
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+
+</body>
+</html>

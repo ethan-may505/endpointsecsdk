@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+	
+	<!-- data content for C SDK -->
+	<script src="data/auto_labels.js"></script>
+	<script src="data/auto_methods.js"></script>
+	<script src="data/auto_product_categories.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+		<script>buildNav(2, 0, 0);</script>
+
+		<!-- search content will override the bottom-container -->
+		<div id="bottomContainer" class="bottom-container">
+
+			<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+			<div class="sidebar">
+
+				<div class="panel-heading" role="tab" id="methodsAccordion">
+
+				<!-- ensure that the organization of methods matches up with the module filter button ordering -->
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="core-method" data-bs-parent="#methodsAccordion" href="#collapseCore" aria-controls="collapseCore">
+							<span class='icon-chevron-right'></span>&ensp;MDES SDK Core
+						  </a>
+					</div>
+					<div id="collapseCore" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="manageability-method" data-bs-parent="#methodsAccordion" href="#collapseManageability" aria-controls="collapseManageability">
+							<span class='icon-chevron-right'></span>&ensp;Manageability
+						</a>
+					</div>
+					<div id="collapseManageability" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="removal-method" data-bs-parent="#methodsAccordion" href="#collapseRemoval" aria-controls="collapseRemoval">
+							<span class='icon-chevron-right'></span>&ensp;Removal
+						</a>
+					</div>
+					<div id="collapseRemoval" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="deviceinfo-method" data-bs-parent="#methodsAccordion" href="#collapseDeviceInfo" aria-controls="collapseDeviceInfo">
+							<span class='icon-chevron-right'></span>&ensp;Device Info
+						</a>
+					</div>
+					<div id="collapseDeviceInfo" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="vulnerability-method" data-bs-parent="#methodsAccordion" href="#collapseVulnerability" aria-controls="collapseVulnerability">
+							<span class='icon-chevron-right'></span>&ensp;Vulnerability
+						</a>
+					</div>
+					<div id="collapseVulnerability" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="wadriver-method" data-bs-parent="#methodsAccordion" href="#collapseDriver" aria-controls="collapseDriver">
+							<span class='icon-chevron-right'></span>&ensp;WaDriver
+						</a>
+					</div>
+					<div id="collapseDriver" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="diagnostic-method" data-bs-parent="#methodsAccordion" href="#collapseDiagnostic" aria-controls="collapseDiagnostic">
+							<span class='icon-chevron-right'></span>&ensp;Diagnostic
+						</a>
+					</div>
+					<div id="collapseDiagnostic" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+				
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="diagnostic-method" data-bs-parent="#methodsAccordion" href="#collapseBrowser" aria-controls="collapseBrowser">
+							<span class='icon-chevron-right'></span>&ensp;Advanced Browser
+						</a>
+					</div>					
+					<div id="collapseBrowser" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="diagnostic-method" data-bs-parent="#methodsAccordion" href="#collapseInfection" aria-controls="collapseInfection">
+							<span class='icon-chevron-right'></span>&ensp;Infection
+						</a>
+					</div>
+					<div id="collapseInfection" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+					
+					<!-- JUST UNCOMMENT THIS WHEN THE SCORING MODULE IS ADDED TO THE CORE, RANGES ALREADY ADDED TO JS FILE
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="scoring-method" data-bs-parent="#methodsAccordion" href="#collapseScoring" aria-controls="collapseScoring">
+							<span class='icon-chevron-right'></span>&ensp;Scoring
+						</a>
+					</div>
+					<div id="collapseScoring" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+					-->
+					
+					<!-- JUST UNCOMMENT THIS WHEN THE HEURISTIC MODULE IS ADDED TO THE CORE, RANGES ALREADY ADDED TO JS FILE
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="heuristic-method" data-bs-parent="#methodsAccordion" href="#collapseHeuristic" aria-controls="collapseHeuristic">
+							<span class='icon-chevron-right'></span>&ensp;Heuristic
+						</a>
+					</div>
+					<div id="collapseHeuristic" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+					-->
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="netscan-method" data-bs-parent="#methodsAccordion" href="#collapseNetscan" aria-controls="collapseNetscan">
+							<span class='icon-chevron-right'></span>&ensp;Netscan
+						</a>
+					</div>
+					<div id="collapseNetscan" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+					
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="netscan-method" data-bs-parent="#methodsAccordion" href="#collapseDLP" aria-controls="collapseDLP">
+							<span class='icon-chevron-right'></span>&ensp;Data Loss Protection
+						</a>
+					</div>
+
+					<div id="collapseDLP" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" role="button" data-bs-toggle="collapse" data-method="mobile-method" data-bs-parent="#methodsAccordion" href="#collapseMobile" aria-controls="collapseMobile">
+							<span class='icon-chevron-right'></span>&ensp;MDES SDK Mobile
+						</a>
+					</div>
+
+					<div id="collapseMobile" class="accordion-body collapse">
+						<ul class="nav nav-list nav-sidebar nav-scroll">
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Scrolling area that auto-updates with side-nav -->
+			<div class="bottom-container-scroll-area">	
+				<h3 class="blue">Methods</h3>
+			</div>
+
+		</div>
+
+		<!-- search goes here, clears above -->
+		<div id="search-container" class="search-container"></div>
+	</div>
+	
+<script>
+$(function()
+{	
+	$('a.accordion-toggle').click(function()
+	{
+		var $this = $(this);
+			//method = $this.data('method');
+
+		if( !$this.hasClass('collapsed') )
+		{
+			$this.parent().removeClass('active');
+			//$("."+method).addClass('hide');
+		}
+		else
+		{
+			$this.parent().addClass('active');
+			//$("."+method).removeClass('hide');
+		}
+	});
+	
+	buildMethods();
+	hiddenFeatureMethods(['netscan-method','dlp-method','mobile-method']);
+});
+</script>
+
+</body>
+</html>

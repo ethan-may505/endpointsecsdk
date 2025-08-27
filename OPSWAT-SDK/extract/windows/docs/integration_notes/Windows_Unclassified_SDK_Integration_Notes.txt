@@ -1,0 +1,48 @@
+4V Unclassified Integration Notes
+--------------------------------------
+[Joyent, Inc.] [663]
+	Node.js LTS {3179}
+		- Node.js LTS <1090>
+			- GetProductInfo (109)
+				- Not detected if uncheck features "Online documentation shortcuts" at step Custom step.
+				
+	Node.js Current {3180}	
+		- Node.js Current <3340> 
+			- GetProductInfo (109)
+				- Not detected if uncheck features "Online documentation shortcuts" at step Custom step.
+========================================================================================================================================================
+[voidtools] [1750]
+	Everything {3313}
+		- Everything (x64) <2890>
+			- Run (102)
+				- This method only works properly if installing only one edition (x64 or x86) on a machine. If installing both x64 and x86 on a machine, it will just run the latest installed edition, althought we run manually by clicking on the .exe at the install location of each edition -> This is product limitation.
+				
+	Everything {3313}
+		- Everything (x86) <3560>
+			- Run (102)
+				- This method only works properly if installing only one edition (x64 or x86) on a machine. If installing both x64 and x86 on a machine, it will just run the latest installed edition, althought we run manually by clicking on the .exe at the install location of each edition -> This is product limitation.
+========================================================================================================================================================
+[Adobe Systems Inc.] [91]
+	Adobe Acrobat Reader DC Continuous {2966}
+		- Adobe Acrobat Reader DC Continuous MUI <3104>
+			- GetVersion (100)
+				- This method cannot return the language code if the user does not run the application for the first time.
+	Adobe Acrobat DC Continuous {2972}
+		- Adobe Acrobat DC Continuous <3033>
+			- GetVersion (100)
+				- This method cannot return the language code if the user does not run the application for the first time.
+========================================================================================================================================================
+[Giorgio Tani] [226]
+	PeaZip {263}
+		- PeaZip msi (x64) <3665>
+			- GetRunningState (101)
+				- Only support if this is the only PeaZip installed in the machine and must be at the default installation.
+			- Run (102)
+				- Only support if this is the only PeaZip installed in the machine and must be at the default installation.
+			- TerminateProcesses (103)
+				- Only support if this is the only PeaZip installed in the machine and must be at the default installation.
+			- GetInstallationDirectories (104)
+				- Only support if this is the only PeaZip installed in the machine and must be at the default installation.
+			- GetComponents (105)
+				- Only support if this is the only PeaZip installed in the machine and must be at the default installation.
+========================================================================================================================================================

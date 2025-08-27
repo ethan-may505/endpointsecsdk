@@ -1,0 +1,19 @@
+4v AntiPhising Integration Notes
+------------------------------
+[Avira GmbH] [294]
+	Avira Family Protection Suite {357}
+		- Avira Family Protection Suite <362> 
+			- GetAntiphishingState (1010)
+				- Only work as expected after at least 1 successfully update.
+========================================================================================================================================================
+[ESET] [7]
+	ESET NOD32 Antivirus {8}
+		- ESET NOD32 Antivirus <2685>
+			- GetAntiphishingState (1010)
+				- Only returns false if Anti-phishing or Web Access Protection is permanently disabled
+========================================================================================================================================================
+[MSecure Data Labs] [1276]
+	MSecure DenyWall Total Security 360 {2760}
+		- MSecure DenyWall Total Security 360 <2804>
+			- GetAntiphishingState (1010)
+				- Only returns true if phishing and general category of firewall filter are enabled

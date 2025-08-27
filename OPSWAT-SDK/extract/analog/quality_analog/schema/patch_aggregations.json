@@ -1,0 +1,95 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "_id": {
+        "type": "integer"
+      },
+      "schema_version": {
+	"type": "string"
+      },
+      "product_name": {
+        "type": "string"
+      },
+      "vulnerabilities": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+        ,
+        "minItems":0
+      },
+      "release_note_link": {
+        "type": "string"
+      },
+      "eula_link": {
+        "type": "string"
+      },
+      "latest_version": {
+        "type": "string"
+      },
+      "download_links": {
+        "type": "array",
+        "items": 
+          {
+            "type": "object",
+            "properties": {
+              "link": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string"
+              },
+              "language": {
+                "type": "string"
+              },
+              "architecture": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "link"
+            ]
+          }
+        
+      },
+      "language_default": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string"
+      },
+      "requires_reboot": {
+        "type": "string"
+      },
+      "fresh_installable": {
+        "type": "integer"
+      },
+      "architectures": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+      },
+      "requires_uninstall_first": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "release_date",
+      "requires_reboot",
+      "_id",
+      "schema_version",
+      "product_name",
+      "vulnerabilities",
+      "release_note_link",
+      "eula_link",
+      "latest_version",
+      "download_links",
+      "fresh_installable",
+      "requires_uninstall_first"
+    ],
+    "additionalProperties": false
+  }

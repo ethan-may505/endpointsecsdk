@@ -1,0 +1,26 @@
+4V Encryption Integration Notes
+------------------------------
+[IDRIX] [1320]
+	VeraCrypt  {2296}
+		VeraCrypt  <2334>
+			- GetEncryptionState (1009)
+				- This method works out with Encrypt the Windows System partition.
+=========================================================================================================
+[New Softwares.net] [297]
+	Folder Lock {367}
+ 		Folder Lock <371>
+   			GetEncryptionState (1009)
+    				 - This method is supported only for English based OS.
+=========================================================================================================
+[WinMagic Inc.] [772]
+	SecureDoc {1255}
+ 		SecureDoc <1270>
+   			GetEncryptionState (1009)
+    				 - This method only return information for encrypted drives.
+=========================================================================================================
+[Check Point Software Technologies] [173]
+	Check Point Endpoint Security {848}
+		Check Point Endpoint Security <857>
+			- GetEncryptionState (1009)
+				- Return state encrypted only when using "Check Point Full Disk Encryption", return unencrypted when using "BitLocker Management" because disk(s) would be encrypted by BitLocker.
+=========================================================================================================

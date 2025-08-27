@@ -1,0 +1,6 @@
+dll
+license
+sample-code-cs/obj
+sample-code-cs/bin
+sample-code-cs/Properties
+sample-code-cs/*.csproj

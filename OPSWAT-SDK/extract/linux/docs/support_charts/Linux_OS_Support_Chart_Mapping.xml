@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:51:13 2025" Name="OS Support Chart Mapping" SDKVersion="4.3.3919.0">
+				<Version Name="Fedora">
+					<Edition Name="Fedora 28" OsId="2000"/>
+					<Edition Name="Fedora 29" OsId="2001"/>
+					<Edition Name="Fedora 30" OsId="2002"/>
+					<Edition Name="Fedora 31" OsId="2003"/>
+					<Edition Name="Fedora 32" OsId="2004"/>
+					<Edition Name="Fedora 33" OsId="2005"/>
+					<Edition Name="Fedora 34" OsId="2006"/>
+					<Edition Name="Fedora 35" OsId="2007"/>
+					<Edition Name="Fedora 36" OsId="2008"/>
+					<Edition Name="Fedora 37" OsId="2009"/>
+					<Edition Name="Fedora 38" OsId="2010"/>
+					<Edition Name="Fedora 39" OsId="2011"/>
+					<Edition Name="Fedora 40" OsId="2012"/>
+					<Edition Name="Fedora 41" OsId="2064"/>
+				</Version>
+				<Version Name="Red Hat Enterprise Linux">
+					<Edition Name="Red Hat Enterprise Linux 4" OsId="2013"/>
+					<Edition Name="Red Hat Enterprise Linux 5" OsId="2014"/>
+					<Edition Name="Red Hat Enterprise Linux 6" OsId="2015"/>
+					<Edition Name="Red Hat Enterprise Linux 7" OsId="2016"/>
+					<Edition Name="Red Hat Enterprise Linux 8" OsId="2017"/>
+					<Edition Name="Red Hat Enterprise Linux 9" OsId="2018"/>
+					<Edition Name="Red Hat Enterprise Linux 10" OsId="2065"/>
+				</Version>
+				<Version Name="CentOS">
+					<Edition Name="CentOS 5" OsId="2019"/>
+					<Edition Name="CentOS 6" OsId="2020"/>
+					<Edition Name="CentOS 7" OsId="2021"/>
+					<Edition Name="CentOS 8" OsId="2022"/>
+				</Version>
+				<Version Name="Ubuntu">
+					<Edition Name="Ubuntu 4.10" OsId="2023"/>
+					<Edition Name="Ubuntu 5.04" OsId="2024"/>
+					<Edition Name="Ubuntu 5.10" OsId="2025"/>
+					<Edition Name="Ubuntu 6.06" OsId="2026"/>
+					<Edition Name="Ubuntu 6.10" OsId="2027"/>
+					<Edition Name="Ubuntu 7.04" OsId="2028"/>
+					<Edition Name="Ubuntu 7.10" OsId="2029"/>
+					<Edition Name="Ubuntu 8.04" OsId="2030"/>
+					<Edition Name="Ubuntu 8.10" OsId="2031"/>
+					<Edition Name="Ubuntu 9.04" OsId="2032"/>
+					<Edition Name="Ubuntu 9.10" OsId="2033"/>
+					<Edition Name="Ubuntu 10.04" OsId="2034"/>
+					<Edition Name="Ubuntu 10.10" OsId="2035"/>
+					<Edition Name="Ubuntu 11.04" OsId="2036"/>
+					<Edition Name="Ubuntu 11.10" OsId="2037"/>
+					<Edition Name="Ubuntu 12.04" OsId="2038"/>
+					<Edition Name="Ubuntu 12.10" OsId="2039"/>
+					<Edition Name="Ubuntu 13.04" OsId="2040"/>
+					<Edition Name="Ubuntu 13.10" OsId="2041"/>
+					<Edition Name="Ubuntu 14.04" OsId="2042"/>
+					<Edition Name="Ubuntu 14.10" OsId="2043"/>
+					<Edition Name="Ubuntu 15.04" OsId="2044"/>
+					<Edition Name="Ubuntu 15.10" OsId="2045"/>
+					<Edition Name="Ubuntu 16.04" OsId="2046"/>
+					<Edition Name="Ubuntu 16.10" OsId="2047"/>
+					<Edition Name="Ubuntu 17.04" OsId="2048"/>
+					<Edition Name="Ubuntu 17.10" OsId="2049"/>
+					<Edition Name="Ubuntu 18.04" OsId="2050"/>
+					<Edition Name="Ubuntu 18.10" OsId="2051"/>
+					<Edition Name="Ubuntu 19.04" OsId="2052"/>
+					<Edition Name="Ubuntu 19.10" OsId="2053"/>
+					<Edition Name="Ubuntu 20.04" OsId="2054"/>
+					<Edition Name="Ubuntu 20.10" OsId="2055"/>
+					<Edition Name="Ubuntu 21.04" OsId="2056"/>
+					<Edition Name="Ubuntu 21.10" OsId="2057"/>
+					<Edition Name="Ubuntu 22.04" OsId="2058"/>
+					<Edition Name="Ubuntu 22.10" OsId="2059"/>
+					<Edition Name="Ubuntu 23.04" OsId="2060"/>
+					<Edition Name="Ubuntu 23.10" OsId="2061"/>
+					<Edition Name="Ubuntu 24.04" OsId="2062"/>
+					<Edition Name="Ubuntu 24.10" OsId="2063"/>
+					<Edition Name="Ubuntu 25.04" OsId="2066"/>
+				</Version>
+				<Version Name="AlmaLinux OS">
+					<Edition Name="AlmaLinux 8" OsId="2067"/>
+					<Edition Name="AlmaLinux 9" OsId="2068"/>
+					<Edition Name="AlmaLinux 10" OsId="2069"/>
+				</Version>
+				<Version Name="Rocky Linux">
+					<Edition Name="Rocky Linux 8" OsId="2070"/>
+					<Edition Name="Rocky Linux 9" OsId="2071"/>
+					<Edition Name="Rocky Linux 10" OsId="2072"/>
+				</Version>
+				<Version Name="Debian">
+					<Edition Name="Debian 11" OsId="2073"/>
+					<Edition Name="Debian 12" OsId="2074"/>
+					<Edition Name="Debian 13" OsId="2075"/>
+				</Version>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - OS IDs</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #0CEEDD; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="OS IDs">
+						<tr align="left" valign="bottom">
+							<th width="600">OS Name</th>
+							<th width="100">OS ID</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Version">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Edition">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@OsId"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"/>
+</xsl:stylesheet>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+		<script>buildNav(-1, 0, 0);</script>
+
+		<!-- search content will override the bottom-container -->
+		<div id="bottomContainer" class="bottom-container">
+
+			<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+			<!--<div class="sidebar">
+
+				<ul class="nav nav-list nav-sidebar nav-scroll">
+					<li class="active"><a href="#feature">Features</a></li>
+					<li><a href="#package">Package</a></li>
+					<li><a href="#license">License</a></li>
+					<li><a href="#configuration">Configuration</a></li>
+					<li><a href="#integration">Integration</a></li>
+				</ul>
+
+			</div> -->
+
+			<!-- Scrolling area that auto-updates with side-nav -->
+			<div class="bottom-container-scroll-area">
+
+				<h3 class="blue">Search</h3>
+				<p>Search the C API documentation</p>
+				<input type="text" id="tipue_search_input" class="input-xxlarge search-query" >
+
+			</div>
+		</div>
+		
+		<!-- search goes here, clears above -->
+		<div id="search-container" class="search-container"></div>
+		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:16:28 2025" Name="FIREWALL_Linux_Support_Chart" SDKVersion="4.3.3928.0" Timestamp="1755767788.1210005">
+				<Vendor Vendor_ID="200205" Vendor_Name="Canonical Ltd.">
+					<Support Product_ID="200185" Product_Name="UFW" Signature_ID="200204" Tested_Points="0.35" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="UFW" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200185" Product_Name="UFW" Signature_ID="200204" Tested_Points="0.36" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="UFW" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200097" Vendor_Name="IPTables">
+					<Support Product_ID="200033" Product_Name="IPTables" Signature_ID="200034" Tested_Points="1.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="IPTables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200033" Product_Name="IPTables" Signature_ID="200034" Tested_Points="1.8.4" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="IPTables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200033" Product_Name="IPTables" Signature_ID="200034" Tested_Points="1.8.7" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="IPTables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200033" Product_Name="IPTables" Signature_ID="200034" Tested_Points="1.8.10" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="IPTables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200033" Product_Name="IPTables" Signature_ID="200034" Tested_Points="1.8.11" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="IPTables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200089" Vendor_Name="Kaspersky Lab">
+					<Support Product_ID="200016" Product_Name="Kaspersky Endpoint Security for Linux" Signature_ID="200017" Tested_Points="8.0" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.X" Signature_Name="Kaspersky Endpoint Security for Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200016" Product_Name="Kaspersky Endpoint Security for Linux" Signature_ID="200017" Tested_Points="11.1.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.1.X" Signature_Name="Kaspersky Endpoint Security for Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200016" Product_Name="Kaspersky Endpoint Security for Linux" Signature_ID="200017" Tested_Points="11.2.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.2.X" Signature_Name="Kaspersky Endpoint Security for Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200016" Product_Name="Kaspersky Endpoint Security for Linux" Signature_ID="200017" Tested_Points="12.0.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Kaspersky Endpoint Security for Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="va" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200090" Vendor_Name="McAfee, Inc.">
+					<Support Product_ID="200060" Product_Name="McAfee Firewall for Linux" Signature_ID="200061" Tested_Points="8.0.4" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="McAfee Firewall for Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200142" Vendor_Name="Panda Security, S.L.">
+					<Support Product_ID="200105" Product_Name="Cytomic EPDR" Signature_ID="200105" Tested_Points="2.00.06.0001" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.00.X" Signature_Name="Cytomic EPDR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200105" Product_Name="Cytomic EPDR" Signature_ID="200105" Tested_Points="0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Cytomic EPDR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200024" Vendor_Name="Red Hat, Inc.">
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="0.8.4" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.8.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="0.8.2" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.8.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="0.4.4.6" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.4.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="1.0.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="1.1.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.1.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="1.2.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.2.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="1.3.4" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="2.1.1" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.1.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+					<Support Product_ID="200182" Product_Name="Firewalld" Signature_ID="200201" Tested_Points="0.9.11" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.9.X" Signature_Name="Firewalld" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="v" SetFirewallState="va" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200131" Vendor_Name="The Netfilter Project">
+					<Support Product_ID="200088" Product_Name="nftables" Signature_ID="200089" Tested_Points="0.8.2" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.8.X" Signature_Name="nftables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200088" Product_Name="nftables" Signature_ID="200089" Tested_Points="1.0.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="nftables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200088" Product_Name="nftables" Signature_ID="200089" Tested_Points="1.0.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="nftables" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="va" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200107" Vendor_Name="Trend Micro, Inc.">
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="11.0.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="12.0.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="20.0.0" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200206" Vendor_Name="WatchGuard Technologies Inc">
+					<Support Product_ID="200188" Product_Name="WatchGuard Advanced EPDR" Signature_ID="200207" Tested_Points="1.12.00" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.12.X" Signature_Name="WatchGuard Advanced EPDR" Marketing_Alias_Names="Cytomic Advanced EPDR, Cytomic Advanced EDR" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200188" Product_Name="WatchGuard Advanced EPDR" Signature_ID="200207" Tested_Points="1.11.05" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.11.X" Signature_Name="WatchGuard Advanced EPDR" Marketing_Alias_Names="Cytomic Advanced EPDR, Cytomic Advanced EDR" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+					<Support Product_ID="200188" Product_Name="WatchGuard Advanced EPDR" Signature_ID="200207" Tested_Points="03.03.00.0001" Release_Name="" Test_Covered_Major_Version="03" Test_Covered_Minor_Version="03.03.X" Signature_Name="WatchGuard Advanced EPDR" Marketing_Alias_Names="Cytomic Advanced EPDR, Cytomic Advanced EDR" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetFirewallState="X" SetFirewallState="X" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - FIREWALL</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="FIREWALL">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetFirewallState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">SetFirewallState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetFirewallState='v'">
+											<td class="cellv">
+												<a title="GetFirewallState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetFirewallState='X'">
+											<td class="cellx">
+												<a title="GetFirewallState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetFirewallState='O'">
+											<td class="cello">
+												<a title="GetFirewallState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetFirewallState='Z'">
+											<td class="cellz">
+												<a title="GetFirewallState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetFirewallState='va'">
+											<td class="cellva">
+												<a title="GetFirewallState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@SetFirewallState='v'">
+											<td class="cellv">
+												<a title="SetFirewallState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetFirewallState='X'">
+											<td class="cellx">
+												<a title="SetFirewallState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetFirewallState='O'">
+											<td class="cello">
+												<a title="SetFirewallState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetFirewallState='Z'">
+											<td class="cellz">
+												<a title="SetFirewallState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetFirewallState='va'">
+											<td class="cellva">
+												<a title="SetFirewallState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,501 @@
+{
+    "sdk_version": "4.3.4852.0",
+    "checksums": [
+        {
+            "name": "libwaadbrowser.dll",
+            "path": "bin/advancedbrowser/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "9d1b2296b7560f3388d22ab492e41276b8b604638f9b556ab302ed57cfc1589c"
+            }
+        },
+        {
+            "name": "libwaadbrowser.dll",
+            "path": "bin/advancedbrowser/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "769a56a2ca8748de0e6d223f91281a5b06f9a6c930a6a77e1b23a8d850be7aaf"
+            }
+        },
+        {
+            "name": "libwaadbrowser.dll",
+            "path": "bin/advancedbrowser/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "e71854bf926ed8a48174f2a2341c7efcfe585578134a8b9d3063aebb520a3998"
+            }
+        },
+        {
+            "name": "libwaaddon.dll",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "69b77de809b09876a481a8bbd8629b5584795f55bd3b770feafb3b639f35336b"
+            }
+        },
+        {
+            "name": "libwaapi.dll",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "56a0cd5540dd8b2367a19175423fb94834b4f8173c8ebc387b602b4b848162e8"
+            }
+        },
+        {
+            "name": "libwaheap.dll",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "848de7e1d2119251cae70027bb92a00b6910a24c1273555a3d9834a7ad1b69bc"
+            }
+        },
+        {
+            "name": "libwautils.dll",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "6dceed536522d911c82384350b1b4a70a1c2e24c2d06ea24841e2a91d9c32a4c"
+            }
+        },
+        {
+            "name": "OESISEndpointAssessmentTool.exe",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "75dec7520a27fc74e50f319963fe328580dda445138bfbb97d886ed805384bf8"
+            }
+        },
+        {
+            "name": "WaDiagnose.exe",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "768d4d61e12757ef7146dd61b044b5222283068ea4d3d05a87f085e68bf082e2"
+            }
+        },
+        {
+            "name": "WaDiagnose_legacy.exe",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "8eb56138800add8d7f2be8b7c5bab0a8ef9852289f762c4f76e238b89e0009f0"
+            }
+        },
+        {
+            "name": "WaDiagnose_README.txt",
+            "path": "bin/detection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0595d8aee8b2caf3458e54a97bd5db729a34913baa1904bc7be183edb2174a88"
+            }
+        },
+        {
+            "name": "libwaaddon.dll",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "cabf44e0d78c8d4c3aa60900b7dbeeebc7f42c5020f7bf509ced447fc532a001"
+            }
+        },
+        {
+            "name": "libwaapi.dll",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "8219aae8fb750152b91c7ef55850290183ccbbb5c5fc6be3538d80046d0ca665"
+            }
+        },
+        {
+            "name": "libwaheap.dll",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "8edf6f615bbb87e29f54b54381c6fba4fd932a7b061a6d2b158e78b0e5d058ba"
+            }
+        },
+        {
+            "name": "libwautils.dll",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "35b01664beb34042689f7ed26f4d2a84cfcb19ec2e8f718fb05d9a9e41c7d709"
+            }
+        },
+        {
+            "name": "OESISEndpointAssessmentTool.exe",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "900f7e5af2262b3d5ae1fe324af470a393346b4de81495bfa3809557f8a3728a"
+            }
+        },
+        {
+            "name": "WaDiagnose.exe",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0c2e9590ce5092e76f7141fe20499696441b73e4f19c50f83c43751c5f18c9c0"
+            }
+        },
+        {
+            "name": "WaDiagnose_legacy.exe",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "2f9d9002f8920914b74e0bd06acc7c19f28033d587c106e640882054f8dc490c"
+            }
+        },
+        {
+            "name": "WaDiagnose_README.txt",
+            "path": "bin/detection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0595d8aee8b2caf3458e54a97bd5db729a34913baa1904bc7be183edb2174a88"
+            }
+        },
+        {
+            "name": "libwaaddon.dll",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "370858154d92d99cb9af9ed57e82d5e961746c79868d7a0aab7398892a564c4e"
+            }
+        },
+        {
+            "name": "libwaapi.dll",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "1dda00137c9631e81baf87c3d33bb7bf8e458b72c51845e32582d334b18295f7"
+            }
+        },
+        {
+            "name": "libwaheap.dll",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "8d878b7ce2d2b7a9afb60ca6620209ca5cd2634a0344cac4a74f2654ffc8810f"
+            }
+        },
+        {
+            "name": "libwautils.dll",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "df021625e496438908c4f7ad5a4fdb1823255756fb313ee68864f92f73dbd669"
+            }
+        },
+        {
+            "name": "OESISEndpointAssessmentTool.exe",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "cff8d24ef9bddecdba529a365e0a2e4043bd908618df35248ed34dc13f9869b1"
+            }
+        },
+        {
+            "name": "WaDiagnose.exe",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "128575b333799a7175f0e8413bfe32f195f454a78d6dc0cbedab55d32abfcbf2"
+            }
+        },
+        {
+            "name": "WaDiagnose_legacy.exe",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0e4e7ab2cf0288a7b5dde727166b6caff930ccb809b7eb8f7eec5a16de0fe1c4"
+            }
+        },
+        {
+            "name": "WaDiagnose_README.txt",
+            "path": "bin/detection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0595d8aee8b2caf3458e54a97bd5db729a34913baa1904bc7be183edb2174a88"
+            }
+        },
+        {
+            "name": "libwadeviceinfo.dll",
+            "path": "bin/deviceinfo/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "485e98c9f3a1cf044b8dfee813818d84652f1d01d26e8b698fcf11ee5b08f1b8"
+            }
+        },
+        {
+            "name": "libwadeviceinfo.dll",
+            "path": "bin/deviceinfo/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "0c99d238b9749b66e1af3df376024f7da112d8bb05ce978f80b3bca9e837bd71"
+            }
+        },
+        {
+            "name": "libwadeviceinfo.dll",
+            "path": "bin/deviceinfo/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "f74718f5514d7546b87ae1df2904589008e5bbe37d674da160bf9cff4d6cfe33"
+            }
+        },
+        {
+            "name": "libwacollector.dll",
+            "path": "bin/diagnostics/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "38b3f3e522cde06e1e9adba036367f15b6ec8f86945dcd4cb0bb5048abaa54c6"
+            }
+        },
+        {
+            "name": "libwacollector.dll",
+            "path": "bin/diagnostics/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "2d737810aabd1a349b2484844524af251e11019bf6b332b898562bcff6cba72c"
+            }
+        },
+        {
+            "name": "libwacollector.dll",
+            "path": "bin/diagnostics/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "d3d10b2e90ef338be82fdd3c734cebf138296ac15f41251ea1fce0dffe2f114f"
+            }
+        },
+        {
+            "name": "libwadlp.dll",
+            "path": "bin/dlp/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "a72a7c1f6642fc591dbcad8c830bae040a575e397529ff885fd7379453617142"
+            }
+        },
+        {
+            "name": "libwadlp.dll",
+            "path": "bin/dlp/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "efcaa96ccc82230cfb0aefa75fd3f40a5eb9264444204039513d40ff10aad029"
+            }
+        },
+        {
+            "name": "libwadlp.dll",
+            "path": "bin/dlp/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "9dd7d6e98f50d5aa04bfdfd4d063c94c88b0cf2d8abbed6d61cade601e0b57ec"
+            }
+        },
+        {
+            "name": "commondb.db",
+            "path": "bin/infection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "61375c17ada21bd00683c5b5623dc916b76da3bbd90d14ca12977d5f1b86cf80"
+            }
+        },
+        {
+            "name": "libwainfection.dll",
+            "path": "bin/infection/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "15bc6cdd0ab9cd98231db87551cd23c92b0db60ca5b2ed5b2eb93bb455243eaf"
+            }
+        },
+        {
+            "name": "commondb.db",
+            "path": "bin/infection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "61375c17ada21bd00683c5b5623dc916b76da3bbd90d14ca12977d5f1b86cf80"
+            }
+        },
+        {
+            "name": "libwainfection.dll",
+            "path": "bin/infection/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "196f117090af5753ff1020f6db632e0921082b68d47e60653bfe1bf216fcfb1c"
+            }
+        },
+        {
+            "name": "commondb.db",
+            "path": "bin/infection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "61375c17ada21bd00683c5b5623dc916b76da3bbd90d14ca12977d5f1b86cf80"
+            }
+        },
+        {
+            "name": "libwainfection.dll",
+            "path": "bin/infection/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "bf3f1c50b3a1cce93989645dfaf6b0069c73f7e1f78930f9de6d3b15103ad7d7"
+            }
+        },
+        {
+            "name": "libwalocal.dll",
+            "path": "bin/manageability/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "f04cd626c805b2ebfd733cf1d6fc609ccd2cfea37d36d70af04ae52a49eb12d7"
+            }
+        },
+        {
+            "name": "wa_3rd_party_host_ARM64.exe",
+            "path": "bin/manageability/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "a1bac3924bffc624ed89740462ede2bc2e3d3561547f0ccd7d1f33a8061817bc"
+            }
+        },
+        {
+            "name": "libwalocal.dll",
+            "path": "bin/manageability/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "d6815a31c73051d31ca2819c94611482704415eb81d43d6fc0b6275767fe8435"
+            }
+        },
+        {
+            "name": "wa_3rd_party_host_32.exe",
+            "path": "bin/manageability/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "7118654447d1f30b07bea36ea7319b2994c4c645f86d3317e15a2b9f5d675ada"
+            }
+        },
+        {
+            "name": "wa_3rd_party_host_64.exe",
+            "path": "bin/manageability/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "c0e862042479571ed06dc4be126e05b2ef9124a5d52d3ebc7ce9bcb3eef93c49"
+            }
+        },
+        {
+            "name": "libwalocal.dll",
+            "path": "bin/manageability/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "af3c452995b46c13316523a00dd16cf6c2f384481014c019f3e4bebdbdce8108"
+            }
+        },
+        {
+            "name": "wa_3rd_party_host_32.exe",
+            "path": "bin/manageability/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "fbbcb30e94b0dc23f0e4b35fc4e214d111e3fda8851bc0ab9034f6772e7075fa"
+            }
+        },
+        {
+            "name": "wa_3rd_party_host_64.exe",
+            "path": "bin/manageability/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "cb3ebf99d06040fd6855196e27fdfbdc66ec04b6ec8e13707e8e5999d20f3ddf"
+            }
+        },
+        {
+            "name": "libwanetscan.dll",
+            "path": "bin/netscan/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "48549917d5cf89482948c765c91f6d18c1142c59ac2571ae7e910eb03a75f3f4"
+            }
+        },
+        {
+            "name": "libwanetscan.dll",
+            "path": "bin/netscan/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "5c9c7c86308072d019e2307911fc286e4c7b63f5af2064043410f14fb7c8f62b"
+            }
+        },
+        {
+            "name": "libwanetscan.dll",
+            "path": "bin/netscan/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "1cdbb3b4141fd5f464b402855cdffdbb44577e55e4975fbdf3b2a9fdb25465a2"
+            }
+        },
+        {
+            "name": "libwaremoval.dll",
+            "path": "bin/removal/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "31cb18ac44c446e40b75ec115e0f71cd9e6f2af4154e686c1d40294a30b97e97"
+            }
+        },
+        {
+            "name": "libwaremoval.dll",
+            "path": "bin/removal/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "95e8a0a62343c53f7cf2956a7cbc66fb09e993d73b8feba784e3f7cceeddc2e1"
+            }
+        },
+        {
+            "name": "libwaremoval.dll",
+            "path": "bin/removal/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "083a57fbea25c1e430f6958148fabca45c4a3ad57fd225730a06b46eff7afba1"
+            }
+        },
+        {
+            "name": "libwavmodapi.dll",
+            "path": "bin/vulnerability/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "708e04fd91c0cec481686d78287a979934d14f2e888fb656539188d590e7db97"
+            }
+        },
+        {
+            "name": "libwavmodapi.dll",
+            "path": "bin/vulnerability/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "ae6b1491db4b3a85611583285c2cb6beff24287e38a70ca45ff1db59403202f2"
+            }
+        },
+        {
+            "name": "libwavmodapi.dll",
+            "path": "bin/vulnerability/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "f19e656e338b42541d3c3127ea52747252c8c0ebcbf56258b994caa3f0ceebbd"
+            }
+        },
+        {
+            "name": "libwadriver.dll",
+            "path": "bin/wadriver/arm64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "802a5a2f4825e7772be872217084625e7bbcfca0b09c1672020ce02013a4d8ef"
+            }
+        },
+        {
+            "name": "libwadriver.dll",
+            "path": "bin/wadriver/win32/release",
+            "hash": {
+                "type": "sha256",
+                "value": "536d8bf582d1df369d6c6b5319500eb8cf4d014e088ed54829f82a9c3fea4745"
+            }
+        },
+        {
+            "name": "libwadriver.dll",
+            "path": "bin/wadriver/x64/release",
+            "hash": {
+                "type": "sha256",
+                "value": "c22ea6176458242000753d8dab981bfbe94fdf9c7138b75a9775f38f411f5c48"
+            }
+        }
+    ]
+}

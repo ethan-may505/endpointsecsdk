@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> How to register for and handle events </h3>
+			<p>Hover over each of the <i class="icon-info-sign blue icon-large"></i> signs to view the pop-up details.</p>
+
+			<!-- Break down into sections -->
+			<table class="table-no-border">
+				
+				<tr>
+					<td></td>
+					<td><h4>How do you create event handlers?</h4></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><p>Events can be registered by calling <a href="c_sdk.html#wa_api_register_handler">wa_api_register_handler</a> and passing the appropriate json to the json_event_info argument. Possible <code>event_type</code> values are:</p>
+						<ul>
+							<li><b>0</b> = Register for callbacks when <a href="c_guide_async_api.html">Asynchronous Invoke</a> calls complete. Each async invoke call must be passed the <code>handler_id</code> inside the <code>json_in</code> parameter. For example, to make a <a href='c_method.html#DetectProducts'>DetectProducts</a> call with an async callback it might look like this:
+								<pre class="prettyprint c"><code>{
+    "handler_id" : 1234,
+    "input" : {
+        "method" : 0,
+        "category" : 0,
+        "async_job" : true
+    }
+}
+</code></pre>
+								The <code>handler_id</code> must be a valid id value that was returned from <a href="c_sdk.html#wa_api_register_handler">wa_api_register_handler</a>. Completed async jobs that are passed to event callbacks will not be retrievable by calls to <a href='c_method.html#QueryAsyncResults'>QueryAsyncResults</a>.
+							</li>
+							<li><b>1</b> = Register for callbacks when a process is started or stopped on the system.</li>
+							<li><b>2</b> = Register for callbacks when a product is installed or uninstalled on the system.</li>
+							<li><b>3</b> = Register for callbacks when a product state changes. This is equivalent to making an Async wa_api_invoke call for a particular product signature and method, except the wa_api_invoke will be called every 5 seconds for checking the changes and the handler will be called every time the product state changes. Currently the only supported methods are: <a href='c_method.html#GetRealTimeProtectionState'>GetRealTimeProtectionState</a>, <a href='c_method.html#GetFirewallState'>GetFirewallState</a>. See <a href="c_sdk.html#wa_api_register_handler">wa_api_register_handler</a> for details on configuring the call.</li>
+							<li><b>4</b> = Register for callbacks when the driver blocks a drive through auto-blocking mode.</li>
+							<li><b>9</b> = Register for callbacks when there is a progress change in the method <a href='c_method.html#InstallMissingPatches1014'>InstallMissingPatches</a> of Windows Update Agent.</li>
+							<li>(Windows only) <b>10</b> = Register for callbacks when a product state changes. This is equivalent to (<code>event_type</code> = 3) except the changes will be monitored and notified at real time without 5 seconds interval call of wa_api_invoke. The supported signatures and methods can be found in the latest support chart. See <a href="c_sdk.html#wa_api_register_handler">wa_api_register_handler</a> for details on configuring the call.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><p>Events can be unregistered by calling <a href="c_sdk.html#wa_api_unregister_handler">wa_api_unregister_handler</a>.</p></td>
+				</tr>
+				<tr>
+					<td><i id="info-handling-callbacks" class="icon-info-sign blue icon-2x"></i></td>
+					<td><h4>Handling results in your <a class="typ" href="c_sdk.html#wa_event_handler">wa_event_handler</a> callback function</h4></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Each type of event will pass a different json_event to the handler. The json_event format is defined below for each possible event type.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for async Invoke events (<code>event_type</code> = 0)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 0,
+    "handler_id" : number,
+    "result" : { ... }
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("result", "object", "The same result object that would be returned from the async invoke call itself. This includes errors, see remarks section.");
+					endJsonTable();
+				</script>
+				</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for process change events (<code>event_type</code> = 1)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 1,
+    "handler_id" : number,
+    "action" : string,
+    "name" : string,
+    "process_id" : number,
+    "binary_path" : string,
+    "command_line" : string
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("action", "string", "The process change action. Possible values: 'created', 'destroyed'");
+					addJsonRow("name", "string", "The name of the process.");
+					addJsonRow("process_id", "string", "The process identifier. Note: process ids get reused by the operating system, so this value should not be used long term.");
+					addJsonRow("binary_path", "string", "The path on disk to the binary for the process.");
+					addJsonRow("command_line", "string", "The command line arguments that were passed to the process.");
+					endJsonTable();
+				</script>
+				</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for install state change events (<code>event_type</code> = 2)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 2,
+    "handler_id" : number,
+    "action" : string,
+    "name" : string,
+    "install_location" : string
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("action", "string", "The install state change action. Possible values: 'installed', 'uninstalled'");
+					addJsonRow("name", "string", "(optional)The name of the application, if available.");
+					addJsonRow("install_location", "string", "(optional)The path for the application, if available.");
+					endJsonTable();
+				</script>
+				</td>
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for product state change events (<code>event_type</code> = 3) or (<code>event_type</code> = 10)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 3,
+    "handler_id" : number,
+    "result" : { ... }
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("result", "object", "The same result object that would be returned from the matching invoke call itself. This includes errors, see remarks section. In the event of an error, monitoring will stop to prevent continuous errors being reported.");
+					endJsonTable();
+				</script>
+				</td>
+
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for driver auto-block event notifications (<code>event_type</code> = 4)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 4,
+    "handler_id" : number,
+    "path" : string
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("path", "string", "The mount point path for the drive which the driver had just auto-blocked.");
+					endJsonTable();
+				</script>
+				</td>
+
+
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for reading file to buffer event (<code>event_type</code> = 5)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 5,
+    "handler_id" : number,
+    "path" : string,
+    "buffer" : string,
+    "size" : number,
+    "eof" : boolean
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("path", "string", "The path of the file which is being read.");
+					addJsonRow("buffer", "string", "Numerical pointer address in string form, supplied for convenience - this pointer will match the buffer pointer which was initially configured with this handler callback.");
+					addJsonRow("size", "number", "Size (in bytes) of available data in buffer registered with this handler callback.");
+					addJsonRow("eof", "boolean", "Indicates whether end-of-file has been reached, in which case this would be the last call to this handler for file given by 'path'.");
+					endJsonTable();
+				</script>
+				</td>
+				
+				<tr>
+					<td></td>
+					<td><h5>Output <code>json_event</code> for progress change in the method InstallMissingPatches of Windows Update Agent (<code>event_type</code> = 9)</h5></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><pre class="prettyprint c"><code>{
+    "event_type" : 9,
+    "handler_id" : number,
+    "code" : number
+    "overall_progress" : number,
+    "patches" : [
+        {
+            "title" : string,
+            "progress" : number
+        },
+        ...
+    ]
+}
+</code></pre></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+				<script>
+					startJsonTable();
+					addJsonRow("code", "number", "The return code from the progress monitor. WAAPI_OK if all works correctly. Otherwise, this is an error code.");
+					addJsonRow("event_type", "number", "Matches the event_type for the registered event. Included as a convenience so the same event handler could be used to process all event types, if desired.");
+					addJsonRow("handler_id", "number", "Matches the handler_id for the registered event. Included as a convenience so the event handler knows the id for the call in the event the handler is registered multiple times.");
+					addJsonRow("overall_progress", "number", "The overall progress of the method.");
+					addJsonRow("patches", "array", "List of input patches of the method.");
+					addJsonRow("patches.title", "string", "The name of the patch.");
+					addJsonRow("patches.progress", "number", "The progress of the patch.");
+					endJsonTable();
+				</script>
+				</td>
+
+				</tr>
+					<td></td>
+					<td><h4>*Remarks</h4></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<ul>
+							<li>If an error occurs during an event which makes product method calls then the error will be passed to the event handler. This means that the 'error' key may appear in the json_event output instead of the 'result' key.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<hr/>
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+	
+	<script>
+		$(function(){
+										
+			$('#info-handling-callbacks').popover( { placement : 'left',
+										title : 'Handling Callbacks',
+										content: 'The wa_event_handler function pointer must be in accessible memory to be callable by the MDES SDK, otherwise it will throw an access violation.',
+										trigger : 'hover' } );
+			
+		});
+	</script>
+	
+</body>
+</html>

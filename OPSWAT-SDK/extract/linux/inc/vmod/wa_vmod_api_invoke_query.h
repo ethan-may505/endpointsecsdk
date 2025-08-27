@@ -1,0 +1,49 @@
+#pragma once
+/**
+*	@file wa_vmod_api_invoke_query.h
+*	@brief Defines component method identifiers for rest query interface.
+*
+*	@defgroup WA_VMOD_component_query Querying
+*	@brief Defines component method identifiers for rest query interface.
+*/
+
+/**
+*	@brief Will query  the OPSWAT VMod server REST interface for product compliance and vulnerability results
+*	@ingroup WA_VMOD_component_query
+*/
+#define WA_VMOD_DOWNLOAD_DATABASE							50200
+#define WA_VMOD_UPDATE_DATABASE								50201
+
+#define WA_VMOD_PATCH_GET_LATEST_INSTALLER					50300
+#define WA_VMOD_PATCH_INSTALL_FROM_FILES					50301
+#define WA_VMOD_PATCH_LOAD_DATABASE							50302
+#define	WA_VMOD_EXECUTE_PATCH_SCRIPTS						50303
+#define WA_VMOD_GET_DATABASE_INFO							50304
+#define WA_VMOD_V4_DETECT_PRODUCT							50350
+#define WA_VMOD_V4_GET_DEF_STATE							50450
+#define WA_VMOD_V4_GET_PRODUCT_PATCH_LEVEL 					50500
+#define WA_VMOD_V4_DEFINITIONS_SOURCE_CHECK 				50501
+#define WA_VMOD_V4_IS_DEFUNCT 								50502
+#define WA_VMOD_V4_GET_REMEDIATIONS 						50503
+#define WA_VMOD_V4_GET_PRODUCT_VULNERABILITY				50505
+#define WA_VMOD_V4_IS_SYSTEM_VULNERABLE_TO_VULNS			50506
+#define WA_VMOD_V4_GET_SUPPORTED_DETECTABLE_VULNS			50507
+#define WA_VMOD_V4_GET_SYSTEM_VULNS_BY_INSTALLED_PATCHES	50508
+#define WA_VMOD_V4_GET_SYSTEM_VULNERABILITIES				50509
+#define WA_VMOD_V4_BULK_QUERY 								50510
+#define WA_VMOD_V4_GET_ENCRYPTED_REQUEST					50512
+#define WA_VMOD_V4_PROCESS_ENCRYPTED_REQUEST				50513
+#define WA_VMOD_V4_CONSUME_OFFLINE_VMOD_DATABASE			50520
+#define WA_VMOD_V4_LOAD_VULNERABILITY_DATABASE              50520
+#define WA_VMOD_V4_UPDATE_OFFLINE_VMOD_DATABASE				50521
+#define WA_VMOD_V4_GET_SYSTEM_PATCH_LEVEL 					50550
+#define WA_VMOD_V4_PROCESS_VULN_HASH						50700
+#define WA_VMOD_V4_LOAD_VULN_HASH_DATABASE					50701
+#define WA_VMOD_V4_UPDATE_VULN_HASH_DATABASE				50702
+#define WA_VMOD_V4_GET_HASH_VULN							50703
+#define WA_VMOD_V4_GET_FILE_VULN							50704
+#define WA_VMOD_SCAP_LOAD_DATABASE							50800
+#define WA_VMOD_SCAP_GET_PRODUCT_VULN						50801
+#define WA_VMOD_SCAP_GET_SYSTEM_VULN						50802
+
+//#define WA_VMOD_TESTING_WU									50888

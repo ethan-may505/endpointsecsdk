@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:16:27 2025" Name="UNCLASSIFIED_Linux_Support_Chart" SDKVersion="4.3.3928.0" Timestamp="1755767787.2010345">
+				<Vendor Vendor_ID="200178" Vendor_Name="ActiveState">
+					<Support Product_ID="200147" Product_Name="ActivePerl" Signature_ID="200157" Tested_Points="5.30.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.30.X" Signature_Name="ActivePerl 5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200147" Product_Name="ActivePerl" Signature_ID="200157" Tested_Points="5.28.1" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.28.X" Signature_Name="ActivePerl 5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200101" Vendor_Name="Adobe Systems Inc.">
+					<Support Product_ID="200052" Product_Name="Adobe Flash Player" Signature_ID="200053" Tested_Points="26.0.0.151ubuntu0.14.04.1" Release_Name="" Test_Covered_Major_Version="26" Test_Covered_Minor_Version="26.0.X" Signature_Name="Adobe Flash Player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200052" Product_Name="Adobe Flash Player" Signature_ID="200053" Tested_Points="31.0.0.108" Release_Name="" Test_Covered_Major_Version="31" Test_Covered_Minor_Version="31.0.X" Signature_Name="Adobe Flash Player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200163" Vendor_Name="Apache Software Foundation">
+					<Support Product_ID="200131" Product_Name="Apache NetBeans IDE" Signature_ID="200140" Tested_Points="12.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="Apache NetBeans IDE" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200160" Product_Name="Apache OpenOffice" Signature_ID="200169" Tested_Points="4.1.7" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.1.X" Signature_Name="Apache OpenOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200164" Vendor_Name="Approximatrix, LLC">
+					<Support Product_ID="200132" Product_Name="Simply Fortran" Signature_ID="200141" Tested_Points="3.12.3271" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.12.X" Signature_Name="Simply Fortran" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200162" Vendor_Name="Avidemux Ltd">
+					<Support Product_ID="200128" Product_Name="Avidemux" Signature_ID="200137" Tested_Points="2.7.4" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="Avidemux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200128" Product_Name="Avidemux" Signature_ID="200137" Tested_Points="2.7.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="Avidemux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200141" Vendor_Name="Blender Foundation">
+					<Support Product_ID="200104" Product_Name="Blender" Signature_ID="200104" Tested_Points="1.18.04" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.18.X" Signature_Name="Blender" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200104" Product_Name="Blender" Signature_ID="200104" Tested_Points="2.68" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Blender" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200099" Vendor_Name="Citrix Systems, Inc.">
+					<Support Product_ID="200199" Product_Name="Citrix Workspace" Signature_ID="200218" Tested_Points="24.2.0.65" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.2.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200199" Product_Name="Citrix Workspace" Signature_ID="200218" Tested_Points="22.12.0.12" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.12.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200199" Product_Name="Citrix Workspace" Signature_ID="200218" Tested_Points="24.11.0.85" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.11.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200113" Vendor_Name="Code::Blocks">
+					<Support Product_ID="200067" Product_Name="Code::Blocks" Signature_ID="200068" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Code::Blocks" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200166" Vendor_Name="Codebox Software">
+					<Support Product_ID="200134" Product_Name="BitMeter" Signature_ID="200143" Tested_Points="0.7.6" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.7.X" Signature_Name="BitMeter" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200153" Vendor_Name="Cppcheck">
+					<Support Product_ID="200116" Product_Name="Cppcheck" Signature_ID="200125" Tested_Points="1.90" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Cppcheck" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200149" Vendor_Name="DbVis Software AB">
+					<Support Product_ID="200112" Product_Name="DbVisualizer" Signature_ID="200121" Tested_Points="11.0.2" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="DbVisualizer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200112" Product_Name="DbVisualizer" Signature_ID="200121" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="DbVisualizer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200176" Vendor_Name="Deluge Team">
+					<Support Product_ID="200145" Product_Name="Deluge" Signature_ID="200154" Tested_Points="1.3.15" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="Deluge" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200145" Product_Name="Deluge" Signature_ID="200154" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Deluge" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200145" Product_Name="Deluge" Signature_ID="200154" Tested_Points="2.0.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.0.X" Signature_Name="Deluge" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200145" Product_Name="Deluge" Signature_ID="200154" Tested_Points="1.1.13.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.1.X" Signature_Name="Deluge" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200133" Vendor_Name="Dimitri van Heesch">
+					<Support Product_ID="200092" Product_Name="Doxygen" Signature_ID="200092" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Doxygen" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200224" Vendor_Name="Docker, Inc.">
+					<Support Product_ID="200217" Product_Name="Docker Engine" Signature_ID="200236" Tested_Points="28.2.2" Release_Name="" Test_Covered_Major_Version="28" Test_Covered_Minor_Version="28.2.X" Signature_Name="Docker Engine" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200143" Vendor_Name="Dropbox, Inc.">
+					<Support Product_ID="200106" Product_Name="Dropbox" Signature_ID="200106" Tested_Points="2020.03.04" Release_Name="" Test_Covered_Major_Version="2020" Test_Covered_Minor_Version="2020.03.X" Signature_Name="Dropbox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200218" Vendor_Name="Eclipse Foundation, Inc.">
+					<Support Product_ID="200206" Product_Name="Eclipse Temurin JDK with Hotspot 20" Signature_ID="200225" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Eclipse Temurin JDK with Hotspot 20" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200207" Product_Name="Eclipse Temurin JDK with Hotspot 21" Signature_ID="200226" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Eclipse Temurin JDK with Hotspot 21" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200208" Product_Name="Eclipse Temurin JDK with Hotspot 22" Signature_ID="200227" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Eclipse Temurin JDK with Hotspot 22" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200200" Vendor_Name="Elasticsearch B.V.">
+					<Support Product_ID="200218" Product_Name="Elasticsearch" Signature_ID="200237" Tested_Points="9.0.2" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.0.X" Signature_Name="Elasticsearch" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200150" Vendor_Name="Electronic Team, Inc">
+					<Support Product_ID="200113" Product_Name="USB Network Gate" Signature_ID="200122" Tested_Points="9.0.0" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.0.X" Signature_Name="USB Network Gate" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200177" Vendor_Name="Firebird SQL Server">
+					<Support Product_ID="200146" Product_Name="Firebird SQL Server" Signature_ID="200155" Tested_Points="3.0.5.33220" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="Firebird SQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200146" Product_Name="Firebird SQL Server" Signature_ID="200155" Tested_Points="5.0.1.1469" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Firebird SQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200146" Product_Name="Firebird SQL Server" Signature_ID="200155" Tested_Points="4.0.5.3140" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.0.X" Signature_Name="Firebird SQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200146" Product_Name="Firebird SQL Server" Signature_ID="200155" Tested_Points="5.0.2.1613" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Firebird SQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200157" Vendor_Name="Flux Software LLC">
+					<Support Product_ID="200121" Product_Name="F.lux" Signature_ID="200130" Tested_Points="1.2.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.2.X" Signature_Name="F.lux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200121" Product_Name="F.lux" Signature_ID="200130" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="F.lux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200183" Vendor_Name="Foxit Software Inc.">
+					<Support Product_ID="200153" Product_Name="FoxitReader" Signature_ID="200163" Tested_Points="2.4.5.0727" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.4.X" Signature_Name="FoxitReader" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200165" Vendor_Name="Free Pascal Community">
+					<Support Product_ID="200133" Product_Name="Free Pascal Compiler" Signature_ID="200142" Tested_Points="3.0.4" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="Free Pascal Compiler" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200128" Vendor_Name="Free Software Foundation, Inc.">
+					<Support Product_ID="200162" Product_Name="Inkscape" Signature_ID="200171" Tested_Points="0.92.3" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.92.X" Signature_Name="Inkscape" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200155" Vendor_Name="Freeplane">
+					<Support Product_ID="200118" Product_Name="Freeplane" Signature_ID="200127" Tested_Points="1.7.10" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.7.X" Signature_Name="Freeplane" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200181" Vendor_Name="FrostWire">
+					<Support Product_ID="200151" Product_Name="FrostWire" Signature_ID="200161" Tested_Points="6.0.8" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="FrostWire" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200074" Vendor_Name="GNU">
+					<Support Product_ID="200172" Product_Name="Vesta Control Panel" Signature_ID="200189" Tested_Points="0.9.8" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.9.X" Signature_Name="Vesta Control Panel" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200172" Product_Name="Vesta Control Panel" Signature_ID="200189" Tested_Points="1.0.0-6" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="Vesta Control Panel" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200147" Vendor_Name="Geany">
+					<Support Product_ID="200110" Product_Name="Geany" Signature_ID="200119" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Geany" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200173" Vendor_Name="Giorgio Tani">
+					<Support Product_ID="200142" Product_Name="PeaZip" Signature_ID="200151" Tested_Points="7.3.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.3.X" Signature_Name="PeaZip" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200142" Product_Name="PeaZip" Signature_ID="200151" Tested_Points="7.3.1" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.3.X" Signature_Name="PeaZip" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200016" Vendor_Name="Google Inc.">
+					<Support Product_ID="200130" Product_Name="Android Studio" Signature_ID="200139" Tested_Points="4.1.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.1.X" Signature_Name="Android Studio" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200195" Product_Name="Go" Signature_ID="200215" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Go" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200168" Vendor_Name="Google Summer of Code">
+					<Support Product_ID="200136" Product_Name="Retroshare" Signature_ID="200145" Tested_Points="0.6.5" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.6.X" Signature_Name="Retroshare" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200136" Product_Name="Retroshare" Signature_ID="200145" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Retroshare" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200136" Product_Name="Retroshare" Signature_ID="200145" Tested_Points="0.6.9999" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.6.X" Signature_Name="Retroshare" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200223" Vendor_Name="Grafana Labs">
+					<Support Product_ID="200216" Product_Name="Grafana" Signature_ID="200235" Tested_Points="12.0.1" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Grafana" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200216" Product_Name="Grafana" Signature_ID="200235" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Grafana" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200145" Vendor_Name="Guiffy Software, Inc">
+					<Support Product_ID="200108" Product_Name="Guiffy" Signature_ID="200108" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Guiffy" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200169" Vendor_Name="HandBrake">
+					<Support Product_ID="200138" Product_Name="HandBrake" Signature_ID="200147" Tested_Points="1.3.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="HandBrake" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200138" Product_Name="HandBrake" Signature_ID="200147" Tested_Points="1.3.3" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="HandBrake" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200179" Vendor_Name="IDM Computer Solutions, Inc.">
+					<Support Product_ID="200148" Product_Name="UltraEdit" Signature_ID="200158" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="UltraEdit" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200152" Vendor_Name="Igor Pavlov">
+					<Support Product_ID="200219" Product_Name="7zip" Signature_ID="200238" Tested_Points="23.01" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.X" Signature_Name="7zip" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200219" Product_Name="7zip" Signature_ID="200238" Tested_Points="21.07" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.X" Signature_Name="7zip" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200115" Product_Name="P7Zip" Signature_ID="200124" Tested_Points="16.02" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="P7Zip" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200161" Vendor_Name="Investintech.com Inc.">
+					<Support Product_ID="200126" Product_Name="Able2Extract" Signature_ID="200135" Tested_Points="15.0.5" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.0.X" Signature_Name="Able2Extract" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200138" Vendor_Name="Jaap Karssenberg">
+					<Support Product_ID="200100" Product_Name="Zim" Signature_ID="200101" Tested_Points="0.72.1" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.72.X" Signature_Name="Zim" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200160" Vendor_Name="JetBrains">
+					<Support Product_ID="200124" Product_Name="PhpStorm" Signature_ID="200133" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="PhpStorm" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200214" Vendor_Name="KeePassXC Team">
+					<Support Product_ID="200201" Product_Name="KeePassXC" Signature_ID="200220" Tested_Points="2.6.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.6.X" Signature_Name="KeePassXC" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200201" Product_Name="KeePassXC" Signature_ID="200220" Tested_Points="2.7.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="KeePassXC" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200201" Product_Name="KeePassXC" Signature_ID="200220" Tested_Points="2.7.8" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="KeePassXC" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200140" Vendor_Name="Kingsoft Office Software Corporation Limited">
+					<Support Product_ID="200102" Product_Name="WPS Office" Signature_ID="200103" Tested_Points="11.1.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.1.X" Signature_Name="WPS Office" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200198" Vendor_Name="Larry Wall">
+					<Support Product_ID="200171" Product_Name="Perl" Signature_ID="200188" Tested_Points="5.16.3" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.16.X" Signature_Name="perl-base" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200171" Product_Name="Perl" Signature_ID="200188" Tested_Points="5.30.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.30.X" Signature_Name="perl-base" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200171" Product_Name="Perl" Signature_ID="200188" Tested_Points="5.34.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.34.X" Signature_Name="perl-base" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200174" Vendor_Name="Lauyan Software">
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200152" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Lauyan TOWeb V8" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200180" Tested_Points="01.8.0.490" Release_Name="" Test_Covered_Major_Version="01" Test_Covered_Minor_Version="01.8.X" Signature_Name="Lauyan TOWeb V1" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200181" Tested_Points="2.8.1.537" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.8.X" Signature_Name="Lauyan TOWeb V2" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200182" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Lauyan TOWeb V3" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200183" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Lauyan TOWeb V5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200184" Tested_Points="7.2.4.780" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="Lauyan TOWeb V7" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200190" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Lauyan TOWeb V9" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200143" Product_Name="Lauyan TOWeb" Signature_ID="200191" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Lauyan TOWeb V4" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200134" Vendor_Name="LibreCAD Team">
+					<Support Product_ID="200094" Product_Name="LibreCAD" Signature_ID="200094" Tested_Points="2.1.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.1.X" Signature_Name="LibreCAD" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200094" Product_Name="LibreCAD" Signature_ID="200094" Tested_Points="2.1.2" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.1.X" Signature_Name="LibreCAD" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200170" Vendor_Name="Litixsoft GmbH">
+					<Support Product_ID="200139" Product_Name="Mongo Management Studio" Signature_ID="200148" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Mongo Management Studio" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200146" Vendor_Name="Mauricio Piacentini">
+					<Support Product_ID="200109" Product_Name="DB Browser for SQLite" Signature_ID="200109" Tested_Points="3.13.1" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.13.X" Signature_Name="DB Browser for SQLite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200196" Vendor_Name="Microsoft Corporation">
+					<Support Product_ID="200174" Product_Name="Powershell Core" Signature_ID="200193" Tested_Points="7.2.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="Powershell Core" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.79.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.79.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.90.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.90.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.91.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.91.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.92.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.92.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.93.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.93.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.94.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.94.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.95.3" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.95.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200187" Product_Name="Visual Studio Code" Signature_ID="200206" Tested_Points="1.96.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.96.X" Signature_Name="Visual Studio Code" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200199" Vendor_Name="Mono Project">
+					<Support Product_ID="200175" Product_Name="Mono" Signature_ID="200194" Tested_Points="6.12.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.12.X" Signature_Name="Mono" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200175" Product_Name="Mono" Signature_ID="200194" Tested_Points="6.12.0.122" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.12.X" Signature_Name="Mono" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200135" Vendor_Name="Moritz Bunkus">
+					<Support Product_ID="200095" Product_Name="MKVToolNix" Signature_ID="200095" Tested_Points="37.0.0" Release_Name="" Test_Covered_Major_Version="37" Test_Covered_Minor_Version="37.0.X" Signature_Name="MKVToolNix" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200008" Vendor_Name="Mozilla Corporation">
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="68.7.0" Release_Name="" Test_Covered_Major_Version="68" Test_Covered_Minor_Version="68.7.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="68.10.0" Release_Name="" Test_Covered_Major_Version="68" Test_Covered_Minor_Version="68.10.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="78.7.0" Release_Name="" Test_Covered_Major_Version="78" Test_Covered_Minor_Version="78.7.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="115.12.0" Release_Name="" Test_Covered_Major_Version="115" Test_Covered_Minor_Version="115.12.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="115.10.1" Release_Name="" Test_Covered_Major_Version="115" Test_Covered_Minor_Version="115.10.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="115.13.0" Release_Name="" Test_Covered_Major_Version="115" Test_Covered_Minor_Version="115.13.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.1.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.1.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.2.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.2.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.3.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.3.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.8.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.8.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.8.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.8.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.3.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.3.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.4.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.4.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.4.3" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.4.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.4.4" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.4.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.5.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.5.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.5.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.5.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.5.2" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.5.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.6.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.6.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.7.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.7.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="136.0.1" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="137.0" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="137.0.1" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.0.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.9.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.9.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.9.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.9.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.9.2" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.9.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="137.0.2" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.0.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="128.10.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.10.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="138.0" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200096" Product_Name="Thunderbird" Signature_ID="200096" Tested_Points="138.0.1" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.0.X" Signature_Name="Thunderbird" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200148" Vendor_Name="Nero Linux Disc Burning Software">
+					<Support Product_ID="200111" Product_Name="Nero Linux" Signature_ID="200120" Tested_Points="4.0.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.0.X" Signature_Name="Nero Linux" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200195" Vendor_Name="OpenJS Foundation">
+					<Support Product_ID="200167" Product_Name="Node.js" Signature_ID="200179" Tested_Points="10.19.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.19.X" Signature_Name="Node.js" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200167" Product_Name="Node.js" Signature_ID="200179" Tested_Points="8.10.0" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.10.X" Signature_Name="Node.js" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200003" Vendor_Name="Oracle Corporation">
+					<Support Product_ID="200069" Product_Name="Java" Signature_ID="200070" Tested_Points="0.63ubuntu1~02" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Java" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200069" Product_Name="Java" Signature_ID="200070" Tested_Points="11-1" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="Java" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200069" Product_Name="Java" Signature_ID="200070" Tested_Points="17.0.8" Release_Name="" Test_Covered_Major_Version="17" Test_Covered_Minor_Version="17.0.X" Signature_Name="Java" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200069" Product_Name="Java" Signature_ID="200070" Tested_Points="22.0.2" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.0.X" Signature_Name="Java" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200069" Product_Name="Java" Signature_ID="200070" Tested_Points="21.0.4" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.0.X" Signature_Name="Java" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200091" Product_Name="Java SE Development Kit" Signature_ID="200091" Tested_Points="1.8.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="Java SE Development Kit" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200125" Product_Name="MySQL Server" Signature_ID="200134" Tested_Points="8.0.20" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="MySQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200125" Product_Name="MySQL Server" Signature_ID="200134" Tested_Points="9.2.0" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.2.X" Signature_Name="MySQL Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200120" Product_Name="MySQL Workbench" Signature_ID="200129" Tested_Points="8.0.20" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="MySQL Workbench" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200120" Product_Name="MySQL Workbench" Signature_ID="200129" Tested_Points="6.0.6" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="MySQL Workbench" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200120" Product_Name="MySQL Workbench" Signature_ID="200129" Tested_Points="8.0.36" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="MySQL Workbench" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200120" Product_Name="MySQL Workbench" Signature_ID="200129" Tested_Points="8.0.41" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="MySQL Workbench" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200111" Vendor_Name="Python Software Foundation">
+					<Support Product_ID="200065" Product_Name="Python 2.7" Signature_ID="200066" Tested_Points="2.7.14" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="Python" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200065" Tested_Points="3.6.5" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Python 3.5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200065" Tested_Points="3.4.1" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="Python 3.5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200065" Tested_Points="3.5.3" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.5.X" Signature_Name="Python 3.5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200065" Tested_Points="3.6.9" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Python 3.5" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200110" Tested_Points="3.5.9" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.5.X" Signature_Name="Python 3.6" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200110" Tested_Points="3.6.10" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Python 3.6" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200110" Tested_Points="3.6.9" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Python 3.6" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200111" Tested_Points="3.7.7" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.7.X" Signature_Name="Python 3.7" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200111" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Python 3.7" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200112" Tested_Points="3.8.3" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.8.X" Signature_Name="Python 3.8" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200113" Tested_Points="3.4.10" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="Python 3.4" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200114" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Python 3.0" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200115" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Python 3.1" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200116" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Python 3.2" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200117" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Python 3.3" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200118" Tested_Points="3.9.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.9.X" Signature_Name="Python 3.9" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200211" Tested_Points="3.10.12" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.10.X" Signature_Name="Python 3.10" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200211" Tested_Points="3.10.13" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.10.X" Signature_Name="Python 3.10" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200103" Product_Name="Python3" Signature_ID="200211" Tested_Points="3.10.6" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.10.X" Signature_Name="Python 3.10" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200144" Vendor_Name="RStudio, Inc.">
+					<Support Product_ID="200107" Product_Name="RStudio" Signature_ID="200107" Tested_Points="1.2.5042" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.2.X" Signature_Name="RStudio" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200188" Vendor_Name="Ricardo Villalba">
+					<Support Product_ID="200158" Product_Name="SMPlayer" Signature_ID="200168" Tested_Points="20.6.0" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.6.X" Signature_Name="SMPlayer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200136" Vendor_Name="Spencer Kimball, Peter Mattis and the GIMP Development Team">
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="2.10.14" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.10.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="2.8.22" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.8.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="2.10.18" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.10.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="2.10.38" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.10.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="3.0.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200098" Product_Name="GIMP" Signature_ID="200098" Tested_Points="3.0.2" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="GIMP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200194" Vendor_Name="Spotify Ltd">
+					<Support Product_ID="200166" Product_Name="Spotify" Signature_ID="200175" Tested_Points="1.1.10" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.1.X" Signature_Name="Spotify" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200184" Vendor_Name="Sublime HQ Pty Ltd">
+					<Support Product_ID="200154" Product_Name="Sublime Text" Signature_ID="200164" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Sublime Text 3" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200182" Vendor_Name="SweetScape Software">
+					<Support Product_ID="200152" Product_Name="010 Editor" Signature_ID="200162" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="010 Editor" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200137" Vendor_Name="Synacor Inc">
+					<Support Product_ID="200099" Product_Name="Zimbra Desktop" Signature_ID="200099" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Zimbra Desktop" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200192" Vendor_Name="The Audacity Team">
+					<Support Product_ID="200164" Product_Name="Audacity" Signature_ID="200173" Tested_Points="2.3.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.3.X" Signature_Name="Audacity" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200185" Vendor_Name="The Document Foundation">
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="6.4.5" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="7.3" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="24.2.5.2" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.2.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="24.8.0.3" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.8.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="24.2.2.1" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.2.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="24.8.2.1" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.8.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200197" Product_Name="LibreOffice" Signature_ID="200165" Tested_Points="25.2.0.3" Release_Name="" Test_Covered_Major_Version="25" Test_Covered_Minor_Version="25.2.X" Signature_Name="LibreOffice" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200221" Vendor_Name="The Git Development Community">
+					<Support Product_ID="200211" Product_Name="Git" Signature_ID="200230" Tested_Points="2.43.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.43.X" Signature_Name="Git" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200211" Product_Name="Git" Signature_ID="200230" Tested_Points="2.35.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.35.X" Signature_Name="Git" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200211" Product_Name="Git" Signature_ID="200230" Tested_Points="2.43.5" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.43.X" Signature_Name="Git" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200211" Product_Name="Git" Signature_ID="200230" Tested_Points="2.39.5" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.39.X" Signature_Name="Git" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200211" Product_Name="Git" Signature_ID="200230" Tested_Points="2.21.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.21.X" Signature_Name="Git" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200123" Vendor_Name="The PHP Group">
+					<Support Product_ID="200079" Product_Name="PHP" Signature_ID="200080" Tested_Points="7.2.24" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="PHP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200079" Product_Name="PHP" Signature_ID="200080" Tested_Points="8.1.7" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.1.X" Signature_Name="PHP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200211" Vendor_Name="The Qt Company Ltd">
+					<Support Product_ID="200194" Product_Name="Qt" Signature_ID="200214" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Qt" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200187" Vendor_Name="The Wireshark developer community">
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="3.2.3" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.2.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="2.6.10" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.6.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="3.6.20" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="3.67.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.67.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="3.4.10" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.2.6" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.2.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.2.5" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.2.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="3.6.2" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.6.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.3" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.5" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200157" Product_Name="Wireshark" Signature_ID="200167" Tested_Points="4.4.6" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Wireshark" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200167" Vendor_Name="The pgAdmin Development Team">
+					<Support Product_ID="200169" Product_Name="pgAdmin" Signature_ID="200144" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="pgAdmin 4" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200159" Vendor_Name="Tixati Software Inc.">
+					<Support Product_ID="200123" Product_Name="Tixati" Signature_ID="200132" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Tixati" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200210" Vendor_Name="VMware, Inc">
+					<Support Product_ID="200193" Product_Name="Open VM Tools" Signature_ID="200213" Tested_Points="12.1.5.39265" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.1.X" Signature_Name="Open VM Tools" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200175" Vendor_Name="VideoLAN">
+					<Support Product_ID="200144" Product_Name="VLC media player" Signature_ID="200153" Tested_Points="3.0.11" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="VLC media player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200144" Product_Name="VLC media player" Signature_ID="200153" Tested_Points="2.2.2" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.2.X" Signature_Name="VLC media player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200144" Product_Name="VLC media player" Signature_ID="200153" Tested_Points="3.0.19" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="VLC media player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200144" Product_Name="VLC media player" Signature_ID="200153" Tested_Points="3.0.20" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="VLC media player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200144" Product_Name="VLC media player" Signature_ID="200153" Tested_Points="3.0.21" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="VLC media player" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200193" Vendor_Name="Visual Paradigm International Ltd.">
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200176" Tested_Points="16.0" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="Visual Paradigm 16.0" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200176" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Visual Paradigm 16.0" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200177" Tested_Points="16.1" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="Visual Paradigm 16.1" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200177" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Visual Paradigm 16.1" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200178" Tested_Points="16.2" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="Visual Paradigm 16.2" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200187" Tested_Points="16.2" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="Visual Paradigm 16.2" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200165" Product_Name="Visual Paradigm" Signature_ID="200187" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Visual Paradigm 16.2" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200209" Vendor_Name="WineHQ">
+					<Support Product_ID="200192" Product_Name="wine" Signature_ID="200212" Tested_Points="6.0.3" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="wine" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200156" Vendor_Name="XBMC-Foundation">
+					<Support Product_ID="200119" Product_Name="Kodi" Signature_ID="200128" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Kodi" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200215" Vendor_Name="Xmind Ltd.">
+					<Support Product_ID="200202" Product_Name="Xmind" Signature_ID="200221" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Xmind" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200151" Vendor_Name="Yukihiro Matsumoto">
+					<Support Product_ID="200114" Product_Name="Ruby" Signature_ID="200123" Tested_Points="2.3.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.3.X" Signature_Name="Ruby" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200114" Product_Name="Ruby" Signature_ID="200123" Tested_Points="2.6.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.6.X" Signature_Name="Ruby" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200154" Vendor_Name="aMule Team">
+					<Support Product_ID="200117" Product_Name="aMule" Signature_ID="200126" Tested_Points="2.3.2" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.3.X" Signature_Name="aMule" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200171" Vendor_Name="brackets.io">
+					<Support Product_ID="200140" Product_Name="Brackets" Signature_ID="200149" Tested_Points="1.14.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.14.X" Signature_Name="Brackets" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200124" Vendor_Name="www.sopcast.com">
+					<Support Product_ID="200080" Product_Name="SopCast" Signature_ID="200081" Tested_Points="3.2.6" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.2.X" Signature_Name="SopCast" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="200080" Product_Name="SopCast" Signature_ID="200081" Tested_Points="0.8.5" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.8.X" Signature_Name="SopCast" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - UNCLASSIFIED</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="UNCLASSIFIED">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:51:11 2025" Name="PATCH_MANAGEMENT_Linux_Support_Chart" SDKVersion="4.3.3919.0" Timestamp="1755593471.3130424">
+				<Vendor Vendor_ID="200005" Vendor_Name="BMC Software, Inc.">
+					<Support Product_ID="200184" Product_Name="BMC Client Management Agent" Signature_ID="200203" Tested_Points="0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="BMC Client Management Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="O" DownloadMissingPatches="X" GetInstalledPatches="O" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200184" Product_Name="BMC Client Management Agent" Signature_ID="200203" Tested_Points="20.08.03.211109" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.08.X" Signature_Name="BMC Client Management Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="O" DownloadMissingPatches="X" GetInstalledPatches="O" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200039" Product_Name="BMC FootPrints Asset Core" Signature_ID="200040" Tested_Points="11.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="BMC FootPrints Asset Core" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200205" Vendor_Name="Canonical Ltd.">
+					<Support Product_ID="200190" Product_Name="Snap" Signature_ID="200209" Tested_Points="22.04.1" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.04.X" Signature_Name="Snap" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200190" Product_Name="Snap" Signature_ID="200209" Tested_Points="2.60.4" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.60.X" Signature_Name="Snap" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200074" Vendor_Name="GNU">
+					<Support Product_ID="200040" Product_Name="Advanced Packaging Tool" Signature_ID="200041" Tested_Points="1.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Advanced Packaging Tool" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="v" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200040" Product_Name="Advanced Packaging Tool" Signature_ID="200041" Tested_Points="2.0.2" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.0.X" Signature_Name="Advanced Packaging Tool" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="v" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200040" Product_Name="Advanced Packaging Tool" Signature_ID="200041" Tested_Points="2.4.5" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.4.X" Signature_Name="Advanced Packaging Tool" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="v" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200040" Product_Name="Advanced Packaging Tool" Signature_ID="200041" Tested_Points="2.6.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.6.X" Signature_Name="Advanced Packaging Tool" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="v" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200040" Product_Name="Advanced Packaging Tool" Signature_ID="200041" Tested_Points="2.7.14" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="Advanced Packaging Tool" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="v" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200215" Product_Name="Flatpak" Signature_ID="200234" Tested_Points="1.14.4" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.14.X" Signature_Name="Flatpak" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="200214" Product_Name="RPM Package Manager" Signature_ID="200233" Tested_Points="4.18.1" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.18.X" Signature_Name="RPM Package Manager" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="200214" Product_Name="RPM Package Manager" Signature_ID="200233" Tested_Points="4.16.1.3" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.16.X" Signature_Name="RPM Package Manager" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="200214" Product_Name="RPM Package Manager" Signature_ID="200233" Tested_Points="4.11.3" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.11.X" Signature_Name="RPM Package Manager" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="200041" Product_Name="Yum" Signature_ID="200042" Tested_Points="2.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200041" Product_Name="Yum" Signature_ID="200042" Tested_Points="3.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.X" Signature_Name="Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200041" Product_Name="Yum" Signature_ID="200042" Tested_Points="4.2.23" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.2.X" Signature_Name="Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200041" Product_Name="Yum" Signature_ID="200042" Tested_Points="4.2.17" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.2.X" Signature_Name="Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200041" Product_Name="Yum" Signature_ID="200042" Tested_Points="4.9.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.9.X" Signature_Name="Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200204" Vendor_Name="Pacman Development Team">
+					<Support Product_ID="200181" Product_Name="pacman" Signature_ID="200200" Tested_Points="6.0.1" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="pacman" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200207" Vendor_Name="Quest Software Inc.">
+					<Support Product_ID="200189" Product_Name="Quest KACE Agent" Signature_ID="200208" Tested_Points="13.1.19" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.1.X" Signature_Name="Quest KACE Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200024" Vendor_Name="Red Hat, Inc.">
+					<Support Product_ID="200050" Product_Name="Dandified Yum" Signature_ID="200051" Tested_Points="1.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Dandified Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="200050" Product_Name="Dandified Yum" Signature_ID="200051" Tested_Points="4.9.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.9.X" Signature_Name="Dandified Yum" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="O" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200106" Vendor_Name="SUSE LINUX GmbH">
+					<Support Product_ID="200057" Product_Name="Zypper" Signature_ID="200058" Tested_Points="1.11.14" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.11.X" Signature_Name="Zypper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="v" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200212" Vendor_Name="ZOHO Corp">
+					<Support Product_ID="200196" Product_Name="ManageEngine Patch Manager Plus Agent" Signature_ID="200216" Tested_Points="11.3.2406.1.L" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.3.X" Signature_Name="ManageEngine Patch Manager Plus Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - PATCH_MANAGEMENT</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="PATCH_MANAGEMENT">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetAgentState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">FetchRemoteData</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_small">InstallMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_small">DownloadMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetInstalledPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">SetAgentState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetAgentState='v'">
+											<td class="cellv">
+												<a title="GetAgentState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='X'">
+											<td class="cellx">
+												<a title="GetAgentState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='O'">
+											<td class="cello">
+												<a title="GetAgentState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='Z'">
+											<td class="cellz">
+												<a title="GetAgentState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@FetchRemoteData='v'">
+											<td class="cellv">
+												<a title="FetchRemoteData = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='X'">
+											<td class="cellx">
+												<a title="FetchRemoteData = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='O'">
+											<td class="cello">
+												<a title="FetchRemoteData = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='Z'">
+											<td class="cellz">
+												<a title="FetchRemoteData = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetMissingPatches='v'">
+											<td class="cellv">
+												<a title="GetMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='X'">
+											<td class="cellx">
+												<a title="GetMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='O'">
+											<td class="cello">
+												<a title="GetMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='Z'">
+											<td class="cellz">
+												<a title="GetMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@InstallMissingPatches='v'">
+											<td class="cellv">
+												<a title="InstallMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='X'">
+											<td class="cellx">
+												<a title="InstallMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='O'">
+											<td class="cello">
+												<a title="InstallMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='Z'">
+											<td class="cellz">
+												<a title="InstallMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@DownloadMissingPatches='v'">
+											<td class="cellv">
+												<a title="DownloadMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='X'">
+											<td class="cellx">
+												<a title="DownloadMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='O'">
+											<td class="cello">
+												<a title="DownloadMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='Z'">
+											<td class="cellz">
+												<a title="DownloadMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstalledPatches='v'">
+											<td class="cellv">
+												<a title="GetInstalledPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='X'">
+											<td class="cellx">
+												<a title="GetInstalledPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='O'">
+											<td class="cello">
+												<a title="GetInstalledPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='Z'">
+											<td class="cellz">
+												<a title="GetInstalledPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@SetAgentState='v'">
+											<td class="cellv">
+												<a title="SetAgentState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='X'">
+											<td class="cellx">
+												<a title="SetAgentState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='O'">
+											<td class="cello">
+												<a title="SetAgentState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='Z'">
+											<td class="cellz">
+												<a title="SetAgentState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

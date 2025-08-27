@@ -1,0 +1,114 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "_id": {
+        "type": "string"
+      },
+      "schema_version": {
+        "type": "string"
+      },
+      "product_name": {
+        "type": "string"
+      },
+      "vulnerabilities": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+        ,
+        "minItems":0
+      },
+      "kb_id": {
+        "type": "integer"
+      },
+      "release_note_link": {
+        "type": "string"
+      },
+      "eula_link": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string"
+      },
+      "requires_reboot": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "download_link": {
+        "type": "object",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "link": {
+                "type": "string"
+              },
+              "sha1": {
+                "type": "string"
+              },
+              "architecture": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "link",
+              "sha1"
+            ]
+          }
+        ],
+        "uniqueItems": true,
+        "minItems":1
+      },
+      "architectures": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+      },
+      "os_info": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+      },
+      "category": {
+        "type": "string"
+      },
+      "severity": {
+        "type": "string"
+      },
+      "vendor": {
+        "type": "string"
+      },
+      "optional":{
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "description",
+      "title",
+      "release_date",
+      "requires_reboot",
+      "_id",
+      "schema_version",
+      "product_name",
+      "kb_id",
+      "release_note_link",
+      "download_link",
+      "category",
+      "severity",
+      "vendor",
+      "os_info",
+      "optional"
+    ],
+    "additionalProperties": false
+  }

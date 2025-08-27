@@ -1,0 +1,86 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "_id": {
+        "type": "integer"
+      },
+      "type_id": {
+        "type": "integer"
+      },
+      "v4_vid": {
+        "type": "integer"
+      },
+      "v4_pids": {
+        "type": "array",
+        "items":
+          {
+            "type": "integer"
+          }
+        ,
+        "uniqueItems": true,
+        "minItems":1
+      },
+      "ranges": {
+        "type": "array",
+        "items":
+          {
+            "type": "object",
+            "properties": {
+              "start": {
+                "type": "string"
+              },
+              "limit": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "start",
+              "limit"
+            ]
+          }
+        ,
+        "minItems":0
+      },
+      "v4_signatures": {
+        "type": "array",
+        "items":
+          {
+            "type": "integer"
+          }
+        ,
+        "uniqueItems": true,
+        "minItems":1
+      },
+      "cve": {
+        "type": "string",
+        "pattern": "^CVE-[0-9]{4}-[0-9]{4,}$"
+      },
+      "cpe": {
+        "type": "string"
+      },
+      "channel_pattern": {
+        "type": "string"
+      },
+      "timestamp": {
+        "type": "integer"
+      },
+      "schema_version": {
+        "type": "string"
+      },
+      "os_type": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "_id",
+      "type_id",
+      "v4_vid",
+      "v4_pids",
+      "ranges",
+      "cve",
+      "schema_version",
+      "os_type"
+      ],
+    "additionalProperties": false
+  }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDKs Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+		<script>buildNav(5, 0, 0);</script>
+
+		<!-- search content will override the bottom-container -->
+		<div id="bottomContainer" class="bottom-container">
+
+			<!-- Scrolling area that auto-updates with side-nav -->
+			<div class="bottom-container-scroll-area no-nav">
+
+				<h3 class="blue">MDES SDK FAQ</h3>
+				<p>The following document contains frequently asked questions and general MDES SDK information and integration.</p>
+                <br />
+        	<!-- faq1 -->
+                <h4 class="blue">1. How to decrease high CPU utilization when checking Windows patch level (method_id: WA_VMOD_V4_GET_SYSTEM_PATCH_LEVEL)?</h4>
+    High CPU utilization is caused by Windows Update service (wuauserv) when it searches for updates. One way of reducing high CPU utilization is lowering wuauserv process priority.
+   To lower wuauserv priority: <br /> In Windows Task Manager (Services tab) locate wuauserv service and check PID (process-id) of corresponding process. In Processes tab locate corresponding process,
+     right-click on it's name and select Below Normal priority in Set Priotity pop-up menu.
+	<br/><br/>
+		<!-- Comment since unused 
+                <h4 class="blue"><a href="oesis_feature_list.html">2. What are the current features that MetaDefender Endpoint Security SDK supports today and what are the other roadmap items?</a></h4>
+    This page documents the current available features of MetaDefender Endpoint Security SDK within different operating system, including Windows, OSX, Android, iOS and Linux. It also lists out features that are not supported today but are part of our roadmap. 
+	<br/><br/>
+	 	-->
+		<!-- faq2 -->
+                <h4 class="blue">2. How to report bug for auto-patching feature (method WA_VMOD_PATCH_GET_LATEST_INSTALLER and WA_VMOD_PATCH_INSTALL_FROM_FILES)?</h4>
+		As with any MetaDefender Endpoint Security SDK's method, please check if the bug is reproducible with the latest MDES SDK and data packages. If it is so, please include full JSON input and output to the methods in the report. This will help us locate the problem quickly and sometimes we can answer you right away. Reporting only error code is not enough in most cases.<br/>
+    Please also include any log files returned from method's output. They are installer's own log and can give us useful information for debugging.<br/>
+    If you think the bug depends on the environment then you should also include diagnostic file from WaDiagnose tool, which is included in MetaDefender Endpoint Security SDK package.<br/>
+    For Operating System patching feature, you should also include detailed debug log. You can retrieve it by putting a v4Debug.dat file in the same directory as libwaapi.dll/.so/.dylib and running the desired method again, then collecting all v4DebugInfo_*.log files in the same location.
+	<br/><br/>
+		<!-- faq3 -->
+                <h4 class="blue">3. I found a bug in Windows Update Offline (WUO) feature.</h4>
+		Please check if the bug belongs to below known issues with Windows Update Offline feature:<br/>
+		WUO misses a KB compared to Windows Update Agent (WUA):
+		<ul>
+			<li>WUA may show a KB that can only be installed when another KB is installed beforehand. WUO only list KBs that can be installed with the current state of machine. To get all possible missing KBs, you should install all listed KBs and recheck.</li>
+			<li>WUA may show a KB that is not applicable to the machine. You can try installing the KB through Windows Update user interface and find all lines that contain that KB in %WINDIR%\Logs\CBS\CBS.log. If there is text "Not applicable" below that then the KB is actually not applicable.</li>
+			<li>WUA may show a security KB that requires a feature update to be installed beforehand. WUO does not show that KB because it's not applicable with current machine state. User should install the feature update KB to make it appear.</li>
+			<li>WUA may show a KB superseded by another one returned by WUO. If you install all KBs returned from WUO, that KB should be disappeared when recheck with WUA.</li>
+		</ul>
+		WUO returns more KBs than WUA:
+		<ul>
+			<li>The KB is probably missing on the machine, but WUA has more information to decide that the KB is superseded and only show the superseding one. You can install the KB returned by WUO just fine.</li>
+		</ul>
+		Some KBs cannot be installed:
+		<ul>
+			<li>WUO may fail to install a KB because it needs another KB (also returned in detected KBs list) to be installed beforehand. We don't have that dependency data, but you can try installing KBs in the order returned by WUO to resolve the problem since we sort KBs by published time and put servicing stack KBs first. This heuristic method may fail sometimes, so please retry installing all KBs until all of them are installed. Some known KBs having this problem are KB2841134, KB2729094, KB2670838, etc.</li>
+		</ul>
+			<br/><br/>
+			</div>
+
+		</div>
+
+		<!-- search goes here, clears above -->
+		<div id="search-container" class="search-container"></div>
+		
+	</div>
+	
+</body>
+</html>

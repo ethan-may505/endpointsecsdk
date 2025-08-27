@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+	
+	<!-- data content for C SDK -->
+	<script src="data/auto_error_codes.js"></script>
+	
+	<script type="text/javascript">
+		function addParam( param, sig, desc ) {
+			document.write( "<tr>" );
+			document.write( "<td><code>" + param + "</code></td>" );
+			document.write( "<td>[" + sig + "]</td>" );
+			document.write( "<td width=\"50%\">" + desc + "</td>" );
+			document.write( "</tr>" );
+		}
+	</script>
+	
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(3, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+		
+		<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+		<div class="sidebar">
+			
+			<ul class="nav nav-list nav-sidebar nav-scroll">
+				<li class="active"><a href="#return-code-macros">Return Code Macros</a></li>
+				<li><a href="#success-codes">Success Codes</a></li>
+				<li><a href="#error-codes">Error Codes</a></li>
+			</ul>
+		
+		</div>
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue">Return Codes</h3>
+			<p>The following documents the possible return codes from method calls when using the MetaDefender Endpoint Security SDK.</p>
+			
+			<section id="return-code-macros">
+				<h4>Return code macros</h4>
+				<p>All success error codes are greater than or equal to 0
+					and all failure error codes are less than 0. There are 3 macros available for checking success or failure error codes.</p>
+					
+				<p id="WAAPI_SUCCESS">To check an error code for success</p>
+				<pre class="prettyprint c"><code> #define WAAPI_SUCCESS(code) (((<span class="nocode"><a class="typ" href="#wa_int">wa_int</a></span>)(code))>=0)</code></pre>
+				
+				<p>The following examples illustrate how to use this macro function:</p>
+				<pre class="prettyprint c"><code> if( WAAPI_SUCCESS( <span class="nocode"><a class="typ" href="#WAAPI_OK">WAAPI_OK</a></span> ) ) 
+ {
+   // Will enter the if-statement
+ }
+ if( WAAPI_SUCCESS( <span class="nocode"><a class="typ" href="#WAAPI_ERROR_GENERAL">WAAPI_ERROR_GENERAL</a></span> ) )
+ {
+   // Will NOT enter the if-statement
+ }</code></pre>
+				
+				<p id="WAAPI_FAILED">To check an error code for failure</p>
+				<pre class="prettyprint c"><code> #define WAAPI_FAILED(code) (((<span class="nocode"><a class="typ" href="#wa_int">wa_int</a></span>)(code))<0)</code></pre>
+				
+				<p>The following examples illustrate how to use this macro function:</p>
+				<pre class="prettyprint c"><code> if( WAAPI_FAILED( <span class="nocode"><a class="typ" href="#WAAPI_ERROR_GENERAL">WAAPI_ERROR_GENERAL</a></span> ) ) 
+ {
+   // Will enter the if-statement
+ }
+ if( WAAPI_FAILED( <span class="nocode"><a class="typ" href="#WAAPI_OK">WAAPI_OK</a></span> ) )
+ {
+   // Will NOT enter the if-statement
+ }</code></pre>
+ 
+ <p id="WAAPI_SUCCESS_SPECIAL">To check an error code for special success case. These codes are considered successful, but provide additional information about the current product state. When a special success code is returned, some of the data returned from the call be be unavailable.</p>
+				<pre class="prettyprint c"><code> #define WAAPI_SUCCESS_SPECIAL(code) (((<span class="nocode"><a class="typ" href="#wa_int">wa_int</a></span>)(code))>=1000)</code></pre>
+				
+				<p>The following examples illustrate how to use this macro function:</p>
+				<pre class="prettyprint c"><code> if( WAAPI_SUCCESS_SPECIAL( <span class="nocode"><a class="typ" href="#WAAPI_OK_NO_SCAN_REPORTED">WAAPI_OK_NO_SCAN_REPORTED</a></span> ) ) 
+ {
+   // Will enter the if-statement
+ }
+ if( WAAPI_SUCCESS_SPECIAL( <span class="nocode"><a class="typ" href="#WAAPI_OK">WAAPI_OK</a></span> ) )
+ {
+   // Will NOT enter the if-statement
+ }</code></pre>
+ 
+			</section> <!-- end of return code macros -->
+			
+			<section id="success-codes">
+ 				<h4>Available return codes:</h4>
+				<p>Every function call will return one of the following codes to determine the success or failure of the call.</p>
+ 				<script type="text/javascript">
+ 					
+					for(error in G_ERROR_CODES)
+					{					
+						var cur = G_ERROR_CODES[error],
+							errorValue = cur["id"];
+						if(errorValue >= 0)
+						{
+							var	errorDefine = cur["name"],
+								errorDesc = cur["brief"];
+							
+							document.write( "<p id='" + errorDefine + "'>" + errorDesc + "</p>" ); 
+							document.write( "<pre class='prettyprint c'><code>" );
+							document.write( " #define " + errorDefine + " " + errorValue );
+							document.write( "</code></pre>" );
+						}
+					}
+					
+ 				</script> 
+ 				
+			</section> <!-- end of success codes -->
+			<section id="error-codes">
+ 				<script type="text/javascript">
+ 					
+					for(error in G_ERROR_CODES)
+					{					
+						var cur = G_ERROR_CODES[error],
+							errorValue = cur["id"];
+						if(errorValue < 0)
+						{
+							var	errorDefine = cur["name"],
+								errorDesc = cur["brief"];
+							
+							document.write( "<p id='" + errorDefine + "'>" + errorDesc + "</p>" ); 
+							document.write( "<pre class='prettyprint c'><code>" );
+							document.write( " #define " + errorDefine + " " + errorValue );
+							document.write( "</code></pre>" );
+						}
+					}
+					
+ 				</script> 
+ 				
+			</section> <!-- end of error codes -->
+			
+		</div>
+
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+</body>
+</html>

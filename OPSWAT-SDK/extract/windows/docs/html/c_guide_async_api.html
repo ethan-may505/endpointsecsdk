@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> How to use the Asynchronous API </h3>
+			<p>Hover over each of the <i class="icon-info-sign blue icon-large"></i> signs to view the pop-up details.</p>
+
+			<!-- Break down into sections -->
+			<table class="table-no-border">
+				
+				<tr>
+					<td></td>
+					<td><h4>What is the Async API?</h4></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><p>The Async API provides a mechanism to run asynchronous <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> calls.</p></td>
+				</tr>
+				<tr>
+					<td><i id="info-async-use" class="icon-info-sign blue icon-2x"></i></td>	
+					<td><p>In order to use the Async API, MetaDefender Endpoint Security SDK must be configured correctly. Passing in the <a href="c_sdk.html#WAAPI_CONFIG_ASYNC_API_MODE">WAAPI_CONFIG_ASYNC_API_MODE</a> to <a href="c_sdk.html#wa_api_setup">wa_api_setup</a> configures 
+						whether and how the MDES SDK makes asynchronous calls for that session. Depending on the configuration, calls to <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> can be executed such that they will not wait for the invoke call to finish. 
+						Instead the calls will return immediately with a job identifier to allow tracking the call.</p></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h4>Performing an Async Invoke</h4></td>
+				</tr>
+				<tr>
+					<td><i id="info-async-invoke" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>Every <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> call can be made asynchronously. Here is an example of calling DetectProducts asynchronously:</p>
+						<pre class="prettyprint c"><code>{
+    "input" : {
+        "method" : 0,
+        "async_job" : true
+    }
+}
+</code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-async-result" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>All async calls will return the following json from <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a>:</p>
+						<pre class="prettyprint c"><code>{
+    "result" : {
+        "method" : number,
+        "code" : number,
+        "timing" : number,
+        "timestamp" : string,
+        "async_job_id" : string
+    }
+}
+</code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h4>Retrieving Async Invoke Results</h4></td>
+				</tr>
+				<tr>
+					<td><i id="info-async-get-results" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>A separate <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> method, <a href="c_method.html#QueryAsyncResults">QueryAsyncResults</a>, allows you to retrieve all asynchronous calls that have completed at the time of its calling. 
+						This method can be polled for async results until there are no more results to collect, which can be identified by the return code from the call.</p>
+				<tr>
+					<td></td>
+					<td><h4>*Remarks</h4></td>
+				</tr>
+				<tr>
+					<td></td>	
+					<td>
+						<ul>
+							<li>Some calls, such as a full scan for an Antimalware product, are async by nature, but can still be made through the Async API. These calls will not become synchronous by using this API mode, i.e. we will not wait for the full scan to finish before returning results.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<hr/>
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+	
+	<script>
+		$(function(){
+										
+			$('#info-async-use').popover( { placement : 'left',
+										title : 'Async Use',
+										content: 'See the configuration option under Getting Started for details on configuring the async API.',
+										trigger : 'hover' } );
+									
+			$('#info-async-invoke').popover( { placement : 'left',
+										title : 'Async Invoke',
+										content: 'The async_job key may be ignored or unneeded depending on the setup configuration.',
+										trigger : 'hover' } );
+			$('#info-async-result').popover( { placement : 'left',
+										title : 'Async Result',
+										content: 'The async_job_id value will be unique for all values within the MDES SDK session. Once wa_api_teardown has been called the job ids no longer exist and will be reused in other sessions.',
+										trigger : 'hover' } );
+			$('#info-async-get-results').popover( { placement : 'left',
+										title : 'Get Async Results',
+										content: 'This call cannot be made asynchronously to avoid various chicken-and-egg problems.',
+										trigger : 'hover' } );
+		});
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+	
+	<!-- data content for C SDK -->
+	<script src="data/auto_configurations.js"></script>
+	<script src="data/auto_product_categories.js"></script>
+	
+	<script type="text/javascript">
+		function addParam( param, sig, desc ) {
+			document.write( "<tr>" );
+			document.write( "<td><code>" + param + "</code></td>" );
+			document.write( "<td>[" + sig + "]</td>" );
+			document.write( "<td width=\"50%\">" + desc + "</td>" );
+			document.write( "</tr>" );
+		}
+		
+		function addReturn( code, desc ) {
+			document.write( "<tr>" );
+			document.write( "<td><a href=\"c_return_codes.html#" + code + "\">" + code + "</a></td>" );
+			document.write( "<td width=\"50%\">" + desc + "</td>" );
+			document.write( "</tr>" );
+		}
+
+		function generateBadge(title, condition){
+			if (!condition)
+				return "";
+			return `<div class="badge-container"><span class="badge badge-pill badge-dark"><small>${title}</small></span></div>`;
+		}
+	</script>
+	
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(1, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+		
+		<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+		<div class="sidebar">
+			
+			<ul class="nav nav-list nav-sidebar nav-scroll">
+				<li class="active"><a href="#binaries">Binaries</a></li>
+				<li><a href="#headers">Headers</a></li>
+				<li><a href="#functions">Functions</a></li>
+				<li><a href="#data-types">Data types</a></li>
+				<li><a href="#configurations">Configurations</a></li>
+				<li><a href="#product-categories">Product categories</a></li>
+			</ul>
+		
+		</div>
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue">Getting Started</h3>
+			<p>The following documents the C interface to the MetaDefender Endpoint Security SDK including data types, functions, and components. Much of the documentation 
+				found in this form covers other languages extentions. Each language extension is catered to the language itself, however, all
+				functionality is identical with each langauge.</p>
+			
+			<section id="binaries">
+				<h4>Binaries</h4>
+				
+				<p>The following are the binaries which are required for MetaDefender Endpoint Security SDK to run properly. Note that the authenticity of all binaries can be verified by ensuring they are signed by OPSWAT, Inc.</p>
+	
+				<table class="table table-bordered table-condensed">
+					<tr>
+						<td>libwaapi.dll</td>
+						<td width="50%">The entry point into MetaDefender Endpoint Security SDK. This is the only one that needs to be loaded by integrating applications.</td>
+					</tr>
+					<tr>
+						<td>libwautils.dll</td>
+						<td>Required by libwaapi.dll</td>
+					</tr>
+					<tr>
+						<td>libwaheap.dll</td>
+						<td>Required by libwaapi.dll</td>
+					</tr>
+					<tr>
+						<td>libwaapi.lib</td>
+						<td>Optional. Stub library to allow for implicit integration.</td>
+					</tr>
+				</table>
+				
+				<p>The following binaries are required when using specific module extensions or deployment configurations.</p>
+	
+				<table class="table table-bordered table-condensed">
+					<tr>
+						<td>libwalocal.dll</td>
+						<td>Required for method support using the manageability module.</td>
+					</tr>
+					<tr>
+						<td>libwadeviceinfo.dll</td>
+						<td>Required for method support using the device info module.</td>
+					</tr>
+					<tr>
+						<td>libwaremoval.dll</td>
+						<td>Required for method support using the removal module.</td>
+					</tr>
+					<tr>
+						<td>libwavmodapi.dll</td>
+						<td>Required for method support using the vulnerability module.</td>
+					</tr>
+					<tr>
+						<td>libwaresource.dll</td>
+						<td>Required for offline deployments.</td>
+					</tr>
+					<tr>
+						<td>libwacollector.dll</td>
+						<td>Required for using the diagnostics module.</td>
+					</tr>
+					<tr>
+						<td>libwadriver.dll</td>
+						<td>Required for using the system driver module.</td>
+					</tr>
+					<tr>
+						<td>libwaadbrowser.dll</td>
+						<td>Required for using the advanced browser module.</td>
+					</tr>
+					<tr>
+						<td>libwainfection.dll</td>
+						<td>Required for using the infection module.</td>
+					</tr>
+					<tr>
+						<td>libwanetscan.dll</td>
+						<td>Required for using the netscan module.</td>
+					</tr>
+					<tr>
+						<td>libwaaddon.dll</td>
+						<td>Required for using the addon methods, which extend the core functionality.</td>
+					</tr>
+					<tr>
+						<td>rm.exe</td>
+						<td>Required by libwaremoval.dll.</td>
+					</tr>
+					<tr>
+						<td>wa_3rd_party_host_32.exe/wa_3rd_party_host_64.exe</td>
+						<td>Required by libwautils.dll and libwalocal.dll.</td>
+					</tr>
+				</table>
+				
+				<p><h5 class='blue'>Remarks:</h5> If the integrating application has the core libraries (libwaapi.dll, libwautils.dll and libwaheap.dll) in a location other than the executable location, a WINAPI call must be made to SetDllDirectory() specifying the library location. This must be done prior to loading libwaapi.dll. See <a href='http://msdn.microsoft.com/en-us/library/windows/desktop/ms686203(v=vs.85).aspx' target='_blank'>msdn</a> for reference.</p>
+			</section>
+			
+			<section id="headers">
+				<h4>Headers</h4>
+				
+				<p>The following are the C header files made available by the MetaDefender Endpoint Security SDK</p>
+	
+				<table class="table table-bordered table-condensed">
+					<tr>
+						<td>wa_api.h</td>
+						<td width="50%">Only header file that should be explicitly included in integrating applications. Contains function signatures exported by libwaapi.dll, and includes the other header files, making relevent defines and typedefs available.</td>
+					</tr>
+					<tr>
+						<td>wa_api_defs.h</td>
+						<td>Defines exporters/importers</td>
+					</tr>
+					<tr>
+						<td>wa_api_error_codes.h</td>
+						<td>Defines error codes</td>
+					</tr>
+					<tr>
+						<td>wa_api_fnc_ptr.h</td>
+						<td>Defines function pointer helpers</td>
+					</tr>
+					<tr>
+						<td>wa_api_data_types.h</td>
+						<td>Defines data types</td>
+					</tr>
+					<tr>
+						<td>wa_api_product_categories.h</td>
+						<td>Defines product categories</td>
+					</tr>
+					<tr>
+						<td>wa_api_config_options.h</td>
+						<td>Defines configuration options</td>
+					</tr>
+					<tr>
+						<td>wa_api_invoke_common.h</td>
+						<td>Defines common methods for products</td>
+					</tr>
+					<tr>
+						<td>wa_api_invoke_method.h</td>
+						<td>Defines common methods for products</td>
+					</tr>
+					<tr>
+						<td>wa_api_invoke_detect.h</td>
+						<td>Defines detection methods</td>
+					</tr>
+					<tr>
+						<td>wa_api_json_keys.h</td>
+						<td>Defines json object keys that map to json values</td>
+					</tr>
+				</table>
+			</section>
+			
+			<!-- functions -->
+			<section id="functions">
+				<h4>Functions</h4>
+				
+				<p>All functions will return an <a href="c_return_codes.html#error-codes">error code</a> that is used to determine the success or failure of the function
+				call. Every function uses the same return signature WAAPI_DECLFUNCTION which is defined as follows:</p>
+				<pre class="prettyprint c"><code> #define WAAPI_DECLFUNCTION __declspec(dllimport) __int32 __stdcall</code></pre>
+				
+				<div id="wa_api_setup" class="function-border">
+					<div class="function">wa_api_setup</div>
+					<p>Initialize the MetaDefender Endpoint Security SDK with license and configuration parameters.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_setup ( 
+        const <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar</a></span> * json_config 
+        <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar</a></span> ** json_out
+ );</code></pre>
+	
+					<p>The provided license key activates all deployed components. If the license key provided is valid for the primary component and not for others, it will not return an error until calls to the unlicensed component are attempted.
+						If a component deployed is not licensed by the provided license key, then calls to 
+						<a href="#wa_api_invoke">wa_api_invoke</a> will return <a href="c_return_codes.html#WAAPI_ERROR_COMPONENT_NOT_LICENSED">WAAPI_ERROR_COMPONENT_NOT_LICENSED.</a></p>
+					<p>An example of the output from this call can be found in the <a href="c_guide_handle_output.html#setupReturn">MDES SDK guide</a></p>
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Parameters</th><th/><th/></tr></thead>
+						<script type="text/javascript">
+							addParam( "json_config", "IN", "The configuration and licensing options for the interface. See <a href=\"#configurations\">possible configurations</a>. Also, see the <a href=\"c_guide_quick_start.html#init\">Quick Start guide</a> for an example." );
+							addParam( "json_out", "OUT", "json_out The initialization results. An example of the output from this call can be found in the <a href=\"c_guide_handle_output.html#setupReturn\">MDES SDK guide</a>." );
+						</script>
+					</table>
+					
+					<p>The <code>json_config</code> parameter supports the following keys:</p>
+					<pre class="prettyprint c"><code> {
+        "config" : { ... },
+        "config_debug" : {
+            "debug_log_output_path": string,
+            "debug_log_level" : string,
+            "debug_log_components" : [
+                    string,
+                    ...
+            ],
+            "debug_log_file_size": number,
+            "debug_log_folder_size": number,
+            "debug_log_time": number,
+            "debug_log_count": number,
+            "debug_log_signatures" : [
+                    number,
+                    ...
+            ],
+            "debug_log_methods" : [
+                    number,
+                    ...
+            ]
+        },
+        "get_current_config" : true,
+        "reset_defaults" : true
+ }</code></pre>
+					<script>
+						startJsonTable();
+						addJsonRow("config", "object", "Specifies the desired configuration values to set. Optional if \"get_current_config\" is being used.");
+						addJsonRow("config_debug", "object", "(optional) Specifies the desired configuration values for debug logs. Debug logs will be activated automatically if this key exists.");
+						addJsonRow("config_debug.debug_log_output_path", "string", "(optional) The directory where the debug logs will be written to.");
+						addJsonRow("config_debug.debug_log_level", "string", "(optional) Specifies the log level. This value can be OFF, DEBUG, ERROR, FATAL, INFO, WARNING, TRACE, or ALL.");
+						addJsonRow("config_debug.debug_log_components", "array&lt;string&gt;", "(optional) Specifies the log components. Possible values are CORE, SETUP, TEARDOWN, INVOKE, or ALL.");
+						addJsonRow("config_debug.debug_log_file_size", "number", "(optional) Specifies the log file size in MB.");
+						addJsonRow("config_debug.debug_log_folder_size", "number", "(optional) Specifies the log folder size in MB.");
+						addJsonRow("config_debug.debug_log_time", "number", "(optional) Specifies the log retention time in hours.");
+						addJsonRow("config_debug.debug_log_count", "number", "(optional) Specifies the number of logs for retention..");
+						addJsonRow("config_debug.debug_log_signatures", "array&lt;number&gt;", "(optional) Specifies the desired signatures to be logged.");
+						addJsonRow("config_debug.debug_log_methods", "array&lt;number&gt;", "(optional) Specifies the desired methods to be logged");
+						addJsonRow("get_current_config", "boolean", "(optional) If true, the current configuration settings will be returned in json_out <b>without</b> performing a setup or reconfig.");
+						addJsonRow("reset_defaults", "boolean", "(optional) If true, the current configuration settings will be reset to default options before setting the options specified in the \"config\" object.");
+						endJsonTable();
+					</script>
+					
+					
+					
+					
+					
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "On successful initialization" );
+							addReturn( "WAAPI_ERROR_GENERAL", "General error has occurred, query details for more information" );
+							addReturn( "WAAPI_ERROR_LICENSE_MISSING", "If the license file is missing" );
+							addReturn( "WAAPI_ERROR_LICENSE_MISMATCH", "If the license key provided does not match the license key file" );
+							addReturn( "WAAPI_ERROR_ALREADY_INITIALIZED", "The MDES SDK is already initialized" );
+							addReturn( "WAAPI_ERROR_DATABASE_MISSING", "The database required for initialization is missing with the deployment" );
+							addReturn( "WAAPI_ERROR_DATABASE_CORRUPTED", "The database required for initialization exists, but is corrupted" );
+							addReturn( "WAAPI_ERROR_INVALID_JSON", "The value passed in for <code>json_config</code> is not valid JSON format." );
+						</script>
+					</table>
+					
+					<b>Remarks</b>
+					<ul>
+						<li>In order to release all internal structures created by a successful call to this function, you must call <a href="#wa_api_teardown">wa_api_teardown</a></li>
+					</ul>
+				</div> <!-- end of wa_api_setup -->
+				
+				<div id="wa_api_invoke" class="function-border">
+					<div class="function">wa_api_invoke</div>
+					<p>Performs an invocation call to the component.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_invoke( 
+        const <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar</a></span> *json_in, 
+        <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar</a></span> **json_out
+ );</code></pre>
+ 					<p>The invocation call will be dispatched to the proper component based on the provided <code>json_in</code> parameters. If the component is deployed and licensed,
+						the call will then dispatch the JSON input to the component for processing. If successful, the output results of the invocation will be returned in the <code>json_out</code>
+						parameter. If failure, the error results of the invocation will be returned in the <code>json_out</code> parameter.</p>
+						
+					<table class="table table-condensed">
+						<thead><tr><th>Parameters</th><th/><th/></tr></thead>
+						<script type="text/javascript">
+							addParam( "json_in", "IN", "The invocation input to dispatch to the component. The dispatching and definition of the expected format is defined per method and is included in the <code>json_in</code>." );
+							addParam( "json_out", "OUT", "The invocation output results. User can <b>never</b> pass NULL, must pass a valid pointer that can be allocated with content. See how to handle output results for details." );
+						</script>
+					</table>
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "On success" );
+							addReturn( "WAAPI_ERROR_GENERAL", "General error has occurred, query details for more information" );
+							addReturn( "WAAPI_ERROR_COMPONENT_NOT_LICENSED", "If the component required to perform selected method call is not licensed for use." );
+							addReturn( "WAAPI_ERROR_COMPONENT_LICENSE_EXPIRED", "If the component required to perform selected method call's license has expired." );
+							addReturn( "WAAPI_ERROR_COMPONENT_NOT_DEPLOYED", "If the component required to perform selected method call is licensed, but not deployed." );
+							addReturn( "WAAPI_ERROR_NOT_INITIALIZED", "MDES SDK has not been initialized yet, see wa_api_setup for initialization details." );
+							addReturn( "WAAPI_ERROR_INVALID_JSON", "The value passed in for <code>json_in</code> is not valid JSON format." );
+							addReturn( "WAAPI_ERROR_INVALID_INPUT_ARGS", "The value passed in for <code>json_in</code> does not match the method description." );
+							addReturn( "WAAPI_ERROR_COM", "A COM error occurred. Windows only." );
+							addReturn( "WAAPI_ERROR_ACCESS_DENIED", "The access was denied to perform the requested action." );
+						</script>
+					</table>
+					
+					<b>Remarks</b>
+					<ul>
+						<li>Each method invoked on the component can return additional error codes than mentioned. See each of the methods descriptions for additional information 
+							about <a href="c_return_codes.html#error-codes">possible error codes</a> that can be returned by this MDES SDK call.</li>
+						<li>The <code>json_out</code> pointer will be allocated by this function. It is the callers responsibility to call <a href="#wa_api_free">wa_api_free</a> 
+							on this pointer to release the memory back to the process. If the function returns a failure error code, then the <code>json_out</code> parameter
+							will allocated with memory containing the error information of the invocation, therefore a call to <a href="#wa_api_free">wa_api_free</a>
+							is still necessary. </li>
+					</ul>
+							
+				</div> <!-- end of wa_api_invoke -->
+				
+				<div id="wa_api_free" class="function-border">
+					<div class="function">wa_api_free</div>
+					<p>Will release the memory of the pointer allocated by MetaDefender Endpoint Security SDK calls.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_free( 
+        <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar</a></span> * json_data  
+ );</code></pre>
+					<p><a href="#wa_api_invoke">wa_api_invoke</a> will allocate memory to the <code>json_out</code> parameters that contain
+						the results of the function calls. It is up to the caller to release the memory allocated during these function calls using this function.</p>
+						
+					<table class="table table-condensed">
+						<thead><tr><th>Parameters</th><th/><th/></tr></thead>
+						<script type="text/javascript">
+							addParam( "json_out", "IN,OUT", "The pointer to the memory that is to be released" );
+						</script>
+					</table>
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "Always" );
+						</script>
+					</table>
+					
+				</div><!-- end of wa_api_free -->
+				
+				<div id="wa_api_teardown" class="function-border">
+					<div class="function">wa_api_teardown</div>
+					<p>Deinitializes the MetaDefender Endpoint Security SDK interface and destructs all internal structures created.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_teardown( 
+ );</code></pre>
+					<p>This function must be called to release all internally held memory, handles, etc. Should only be called
+						when your integration is finished using the MDES SDK.</p>
+						
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "On success" );
+							addReturn( "WAAPI_ERROR_GENERAL", "General error has occurred, query details for more information" );
+							addReturn( "WAAPI_ERROR_NOT_INITIALIZED", "A successful call to <a href=\"#wa_api_setup\">wa_api_setup</a> was never called" );
+						</script>
+					</table>
+				
+				</div><!-- end of wa_api_teardown -->
+				
+				<div id="wa_api_register_handler" class="function-border">
+					<div class="function">wa_api_register_handler</div>
+					<p>Register an event handler for the specified event. When the event is triggered the handler will be invoked.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_register_handler( 
+        const <span class="nocode"><a class="typ" href="#wa_wchar">wa_wchar*</a></span> json_event_info, 
+        <span class="nocode"><a class="typ" href="#wa_event_handler">wa_event_handler</a></span> event_handler,
+        <span class="nocode"><a class="typ" href="#wa_int">wa_int*</a></span> handler_id
+ );</code></pre>
+ 					<p>An event will be registered based on the provided <code>json_event_info</code> parameters. Each time the event is triggered <code>event_handler</code> will be called.
+						The event can be unregistered by passing <code>handler_id</code> to <a href="#wa_api_unregister_handler">wa_api_unregister_handler</a>. All events will be unregistered on <a href="#wa_api_teardown">wa_api_teardown</a>.</p>
+						
+					<table class="table table-condensed">
+						<thead><tr><th>Parameters</th><th/><th/></tr></thead>
+						<script type="text/javascript">
+							addParam( "json_event_info", "IN", "The json formatted input which identifies what event is being registered." );
+							addParam( "event_handler", "IN", "A <a class='typ' href='#wa_event_handler'>wa_event_handler</a> which is a function pointer that takes a <a class='typ' href='#wa_wchar'>wa_wchar*</a> as its only argument. The argument will be a json formatted string that differs based on the type of event the handler is registered with. The json string must be freed using <a href='#wa_api_free'>wa_api_free</a> when finished using it. See the <a href='c_guide_event_handling.html'>MDES SDK guide</a> for details on possible return values." );
+							addParam( "handler_id", "OUT", "An id for the event. This is used to deregister the event later or to pass to async invoke calls." );
+						</script>
+					</table>
+					
+					<p>The <code>json_event_info</code> parameter supports the following keys:</p>
+					<pre class="prettyprint c"><code> {
+        "event_type" : number,
+        "config" : { ... }
+ }</code></pre>
+					<script>
+						startJsonTable();
+						addJsonRow("event_type", "number", "Possible values:<br><ul>"+
+							"<li>0 = Register for callbacks when Async Invoke calls complete. Each Async Invoke call must be passed the <code>handler_id</code> to the <a href='#wa_api_invoke'>wa_api_invoke</a> call's <code>json_in</code> parameter. For an example, see the <a href='c_guide_event_handling.html'>MDES SDK guide</a>. Completed async jobs that are passed to event callbacks will not be retrievable by calls to <a href='c_method.html#QueryAsyncResults'>QueryAsyncResults</a>.</li>"+
+							"<li>1 = Register for a callback when a process is started or stopped on the system.</li>"+
+							"<li>2 = Register for a callback when a product is installed or uninstalled on the system.</li>"+
+							"<li>3 = Register for callbacks when a product state changes. This is equivalent to making an Async wa_api_invoke call for a particular product signature and method, except the handler will be called every time the product state changes. Currently the only supported methods are: <a href='c_method.html#GetRealTimeProtectionState'>GetRealTimeProtectionState</a>, <a href='c_method.html#GetFirewallState'>GetFirewallState</a></li>" +
+							"<li>4 = Register for callbacks when the driver blocks a drive through auto-blocking mode.</li>" +
+							"<li>5 = Register a memory buffer for callbacks when the driver reads a file through <a href='c_method.html#DriverReadFile'>WAAPI_MID_DRIVER_READ_FILE</a>.</li>" +
+							"<li>9 = Register for a callback when there is a progress change in the method <a href='c_method.html#InstallMissingPatches1014'>InstallMissingPatches</a> of Windows Update Agent.</li>" +
+							"<li>(Windows only) 10 = Register for callbacks when a product state changes. This is equivalent to (<code>event_type</code> = 3) except the changes will be monitored and notified at real time without 5 seconds interval call of wa_api_invoke. The supported signatures and methods can be found in the latest support chart" +
+							"</ul>");
+							addJsonRow("config", "object", "(optional)The config key is only needed for certain event_type values. The required config objects are detailed below:<br><ul>"+
+							"<li>event_type = 3: <code>{\"signature\": number, \"method\": number}</code> Where 'signature' is the product signature and 'method' is the method id for the call to monitor.</li>"+
+							"<li>event_type = 5: <code>{\"buffer\": string, \"size\": number}</code> Where 'buffer' is the textual representation of the numeric pointer address of the pre-allocated memory buffer (i.e. pointer address as a stringified integer), and 'size' is the size of the user-allocated memory buffer (passed under 'buffer' key), in bytes.</li></ul>");
+						endJsonTable();
+					</script>
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "On success" );
+							addReturn( "WAAPI_ERROR_GENERAL", "General error has occurred, query details for more information" );
+							addReturn( "WAAPI_ERROR_NOT_INITIALIZED", "MDES SDK has not been initialized yet, see wa_api_setup for initialization details." );
+							addReturn( "WAAPI_ERROR_INVALID_JSON", "The value passed in for <code>json_event_info</code> is not valid JSON format." );
+							addReturn( "WAAPI_ERROR_INVALID_INPUT_ARGS", "The value passed in for <code>json_event_info</code> does not contain required keys or is invalid." );
+							addReturn( "WAAPI_ERROR_ACCESS_DENIED", "The access was denied to perform the requested action." );
+						</script>
+					</table>
+					
+					<b>Remarks</b>
+					<ul>
+						<li>See the <a href='c_guide_event_handling.html'>MDES SDK guide</a> for details on handling events.</li>
+					</ul>
+							
+				</div> <!-- end of wa_api_register_handler -->
+				
+				<div id="wa_api_unregister_handler" class="function-border">
+					<div class="function">wa_api_unregister_handler</div>
+					<p>Unregisters an event handler.</p>
+					<pre class="prettyprint c"><code> WAAPI_DECLFUNCTION wa_api_unregister_handler( 
+        const <span class="nocode"><a class="typ" href="#wa_wchar">wa_int</a></span> handler_id
+ );</code></pre>
+ 					<p>The event is unregistered by using the <code>handler_id</code> that was returned from the <a href="#wa_api_register_handler">wa_api_register_handler</a> call.</p>
+						
+					<table class="table table-condensed">
+						<thead><tr><th>Parameters</th><th/><th/></tr></thead>
+						<script type="text/javascript">
+							addParam( "handler_id", "IN", "The event handler id for the event to remove." );
+						</script>
+					</table>
+					
+					<table class="table table-condensed">
+						<thead><tr><th>Return codes</th><th/></tr></thead>
+						<script type="text/javascript">
+							addReturn( "WAAPI_OK", "On success" );
+							addReturn( "WAAPI_ERROR_GENERAL", "General error has occurred, query details for more information" );
+							addReturn( "WAAPI_ERROR_NOT_INITIALIZED", "MDES SDK has not been initialized yet, see wa_api_setup for initialization details." );
+							addReturn( "WAAPI_ERROR_INVALID_JSON", "The value passed in for <code>json_event_info</code> is not valid JSON format." );
+							addReturn( "WAAPI_ERROR_INVALID_INPUT_ARGS", "The value passed in for <code>json_event_info</code> does not contain required keys or is invalid." );
+							addReturn( "WAAPI_ERROR_ACCESS_DENIED", "The access was denied to perform the requested action." );
+						</script>
+					</table>
+					
+				</div> <!-- end of wa_api_unregister_handler -->
+				
+			</section><!-- end of functions -->
+			
+			<!-- Data types -->
+			<section id="data-types">
+				<h4>Data types</h4>
+				
+				<p>We only use primative integer and character data types in all function calls. The complexity of function calls is
+				handled by the JSON formated input/output character streams.</p>
+				
+				<p id="wa_int">
+					Defines the integer data type used in function calls.
+					<pre class="prettyprint c"><code> typedef __int32 wa_int;</code></pre>
+
+				</p>
+				
+				<p id="wa_wchar">
+					Defines the character data type used in function calls.
+					<pre class="prettyprint c"><code> typedef wchar_t wa_wchar;</code></pre>
+				</p>
+				
+				<p id="wa_event_handler">
+					Defines the event function pointer data type used in function calls.
+					<pre class="prettyprint c"><code> typedef void (*wa_event_handler)( wa_wchar * json_event );</code></pre>
+				</p>
+			</section> <!-- end of data types-->
+			
+			<!-- configurations -->
+			<section id="configurations">
+				<h4>Configurations</h4>
+				
+				<p>We have allowed the ability to configure the internal workings of the MDES SDK to best fit your integration needs. We have assigned
+					the default values for a reason, however, you may change these via the <a href="#wa_api_setup">wa_api_setup</a> function call.
+				<p>For example, in order to enable pretty-printing of JSON output, you would pass the following JSON formatted character pointer
+					to <a href="#wa_api_setup">wa_api_setup</a> for the <code>json_config</code> parameter. </p>
+					
+				<pre class="prettyprint c"><code> {
+     "config" :
+     {
+         "enable_pretty_print" : true
+     }
+ }</code></pre>
+ 
+				<p>The following are the available configuration keys for the API:</p>
+				<script type="text/javascript">
+					for(const config in G_CONFIGURATIONS)
+					{
+						const cfg = G_CONFIGURATIONS[config];
+						const configDefine = cfg["name"];
+						const configValue = cfg["option"];
+						const configDesc = cfg["brief"];
+						const configDefault = cfg["default"];
+						const configType = cfg["type"];
+						const configTitle = cfg["friendly_name"];
+						const isConfigDeprecated = cfg.hasOwnProperty("deprecated") && cfg["deprecated"];
+						const isConfigObsolete = cfg.hasOwnProperty("obsolete") && cfg["obsolete"];
+						
+						const badgeContent = generateBadge("DEPRECATED", isConfigDeprecated)
+											+ generateBadge("OBSOLETE", isConfigObsolete);
+						document.write(`<div class="configuration-title mb-5"><div class="title blue" id="${configDefine}">${configTitle}</div>${badgeContent}</div>`);
+						document.write(`<p>${configDesc}</p>`);
+						document.write(`<p>Type: <strong>${configType}</strong></p>`);
+						document.write(`<p>Default: <strong>${configDefault}</strong></p>`);
+						
+						document.write(`<pre class='prettyprint c'><code> #define ${configDefine} L"${configValue}"</code></pre>`);
+					}
+				</script>
+				
+			</section><!-- end of configurations -->			
+			
+			<section id="product-categories">
+				<h4>Product categories</h4>
+				<p>Classification of products can be used for detection and to determine functionality supported by a given product. A single product can encompass
+					many product categories. The category <a href="#WAAPI_CATEGORY_ALL">&quot;all&quot;</a> refers to all detectable products.</p>
+					
+				<p>Available product categories:</p>
+				<script type="text/javascript">
+ 					
+					for(category in G_CATEGORIES)
+					{								
+						var cat = G_CATEGORIES[category],
+							catTitle = cat["friendly_name"],
+							catDefine = cat["name"],
+							catValue = cat["id"],
+							catDesc = cat["brief"];
+						
+						document.write( "<div class='title blue' id='" + catDefine + "'>" + catTitle + "</div>" ); 
+						document.write( "<p>" + catDesc + "</p>" );
+						document.write( "<pre class='prettyprint c'><code>" );
+						document.write( " #define " + catDefine + " " + catValue );
+						document.write( "</code></pre>" );	
+					}
+					
+ 				</script>	
+				
+			</section><!-- end of product categories -->
+			
+		</div>
+
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+</body>
+</html>

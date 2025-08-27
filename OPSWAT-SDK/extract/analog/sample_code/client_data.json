@@ -1,0 +1,17 @@
+{
+  "os": {
+    "version": "10.0.19043",
+    "architecture": "64-bit",
+    "service_pack": "0.0",
+    "os_type": 1,
+    "os_id": 60
+  },
+  "product": {
+    "signature_id": 2505,
+    "product_id": 2465,
+    "vendor_id": 1415,
+    "version": "9.0.0",
+    "architecture": "32-bit",
+    "language": ""
+  }
+}

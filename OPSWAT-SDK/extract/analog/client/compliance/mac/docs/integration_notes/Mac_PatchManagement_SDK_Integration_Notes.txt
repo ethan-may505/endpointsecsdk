@@ -1,0 +1,8 @@
+4V Patch Management Integration Notes
+-------------------------------------
+Apple Inc. [100011]
+	Software Update {100076}
+		- Software Update <100192>
+			- GetMissingPatches (1013)
+				- Return WAAPI_ERROR_ACCESS_DENIED when running non root on Mac OS less than 10.9.
+			

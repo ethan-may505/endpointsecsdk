@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:51:29 2025" Name="PATCH_MANAGEMENT_Mac_Support_Chart" SDKVersion="4.3.4314.0" Timestamp="1755593489.5211515">
+				<Vendor Vendor_ID="100292" Vendor_Name="Action1 Corporation">
+					<Support Product_ID="100496" Product_Name="Action1 Agent" Signature_ID="100556" Tested_Points="1.28.39.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.28.X" Signature_Name="Action1 Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100011" Vendor_Name="Apple Inc.">
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="2.1" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="1.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="1.3" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="2.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="3.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100076" Product_Name="Software Update" Signature_ID="100192" Tested_Points="2.3" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Software Update" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="v" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100237" Vendor_Name="BMC Software, Inc.">
+					<Support Product_ID="100397" Product_Name="BMC Client Management Agent" Signature_ID="100458" Tested_Points="20.08.03" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.08.X" Signature_Name="BMC Client Management Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="O" DownloadMissingPatches="X" GetInstalledPatches="O" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100119" Vendor_Name="Dell Inc.">
+					<Support Product_ID="100150" Product_Name="Dell KACE Agent" Signature_ID="100165" Tested_Points="5.2" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.X" Signature_Name="Dell KACE Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100150" Product_Name="Dell KACE Agent" Signature_ID="100307" Tested_Points="5.2" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.X" Signature_Name="Dell KACE Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100269" Vendor_Name="FileWave">
+					<Support Product_ID="100448" Product_Name="FileWave Client" Signature_ID="100508" Tested_Points="15.0.1" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.0.X" Signature_Name="FileWave Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100062" Vendor_Name="G Data Software AG">
+					<Support Product_ID="100264" Product_Name="G DATA Security Client" Signature_ID="100322" Tested_Points="14" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="G DATA Security Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100264" Product_Name="G DATA Security Client" Signature_ID="100322" Tested_Points="15.5.1553" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.5.X" Signature_Name="G DATA Security Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100267" Vendor_Name="HCL Technologies Limited">
+					<Support Product_ID="100443" Product_Name="BigFix Client" Signature_ID="100504" Tested_Points="10.0.3" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="BigFix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100443" Product_Name="BigFix Client" Signature_ID="100504" Tested_Points="10.0.5" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="BigFix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100443" Product_Name="BigFix Client" Signature_ID="100504" Tested_Points="11.0.0.175" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="BigFix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100194" Vendor_Name="IBM Corp.">
+					<Support Product_ID="100284" Product_Name="IBM Bigfix Client" Signature_ID="100344" Tested_Points="9.5.10" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.5.X" Signature_Name="IBM Bigfix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100284" Product_Name="IBM Bigfix Client" Signature_ID="100344" Tested_Points="10.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="IBM Bigfix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="100284" Product_Name="IBM Bigfix Client" Signature_ID="100344" Tested_Points="10.0.3" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="IBM Bigfix Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100190" Vendor_Name="Ivanti, Inc.">
+					<Support Product_ID="100285" Product_Name="Ivanti PatchLink Agent" Signature_ID="100337" Tested_Points="8.3057" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.X" Signature_Name="Ivanti PatchLink Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100093" Vendor_Name="JAMF Software">
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="9.72.1429971387.c" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.72.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.6.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.6.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.15.1" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.15.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.24.2" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.24.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.30.3" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.30.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.32.2" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.32.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100113" Product_Name="Casper Suite" Signature_ID="100113" Tested_Points="10.45.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.45.X" Signature_Name="Casper Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100499" Product_Name="Jamf Composer" Signature_ID="100559" Tested_Points="11.12.1" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.12.X" Signature_Name="Jamf Composer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="10.45.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.45.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="10.46.1" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.46.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="10.50.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.50.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="10.49.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.49.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="11.0.1" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100432" Product_Name="Jamf Pro" Signature_ID="100493" Tested_Points="11.1.1" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.1.X" Signature_Name="Jamf Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100278" Vendor_Name="Kandji, Inc.">
+					<Support Product_ID="100466" Product_Name="Kandji Agent" Signature_ID="100525" Tested_Points="1.8.5" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.8.X" Signature_Name="Kandji Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100466" Product_Name="Kandji Agent" Signature_ID="100525" Tested_Points="4.5.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.5.X" Signature_Name="Kandji Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100466" Product_Name="Kandji Agent" Signature_ID="100525" Tested_Points="4.5.3" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.5.X" Signature_Name="Kandji Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100118" Vendor_Name="Kromtech">
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="2.3.8" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.3.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="v"/>
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="3.4.2" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="v"/>
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="3.7.2" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.7.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="100199" Vendor_Name="MacPaw Inc.">
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.4.6" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.5.1" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.5.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.12.6" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.12.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.13.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.13.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.13.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.13.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.13.4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.13.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.13.6" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.13.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.14.1" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.14.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.14.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.14.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.14.3" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.14.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.14.4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.14.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.15.2" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.15.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="4.15.8" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.15.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="5.0.2" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="5.0.4" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="5.0.6" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="5.0.9" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100305" Product_Name="CleanMyMac X" Signature_ID="100364" Tested_Points="5.1.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.1.X" Signature_Name="CleanMyMac X" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100090" Vendor_Name="Microsoft Corporation">
+					<Support Product_ID="100455" Product_Name="Microsoft AutoUpdate" Signature_ID="100516" Tested_Points="4.66" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.X" Signature_Name="Microsoft AutoUpdate" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100515" Product_Name="Microsoft Intune Agent" Signature_ID="100573" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Microsoft Intune Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100192" Vendor_Name="Munki">
+					<Support Product_ID="100282" Product_Name="Managed Software Center" Signature_ID="100342" Tested_Points="4.8.3547" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.8.X" Signature_Name="Managed Software Center" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100282" Product_Name="Managed Software Center" Signature_ID="100342" Tested_Points="5.3.0.4289" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.3.X" Signature_Name="Managed Software Center" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100282" Product_Name="Managed Software Center" Signature_ID="100342" Tested_Points="6.2.0.4576" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.2.X" Signature_Name="Managed Software Center" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100262" Vendor_Name="Musarubra US LLC.">
+					<Support Product_ID="100440" Product_Name="Trellix Agent for Mac" Signature_ID="100501" Tested_Points="10.7.9" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.7.X" Signature_Name="Trellix Agent for Mac" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100440" Product_Name="Trellix Agent for Mac" Signature_ID="100501" Tested_Points="5.7.9.139" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.7.X" Signature_Name="Trellix Agent for Mac" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100440" Product_Name="Trellix Agent for Mac" Signature_ID="100501" Tested_Points="5.8.2.929" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent for Mac" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100271" Vendor_Name="Qualys, Inc.">
+					<Support Product_ID="100452" Product_Name="Qualys Cloud Security Agent" Signature_ID="100512" Tested_Points="5.0.0-10" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Qualys Cloud Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100452" Product_Name="Qualys Cloud Security Agent" Signature_ID="100512" Tested_Points="5.1.0-13" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.1.X" Signature_Name="Qualys Cloud Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100452" Product_Name="Qualys Cloud Security Agent" Signature_ID="100512" Tested_Points="6.0.0-30" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="Qualys Cloud Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100452" Product_Name="Qualys Cloud Security Agent" Signature_ID="100512" Tested_Points="6.1.0-20" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Qualys Cloud Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="O" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100268" Vendor_Name="Quest Software Inc.">
+					<Support Product_ID="100446" Product_Name="Quest KACE Agent" Signature_ID="100506" Tested_Points="13.1" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="Quest KACE Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100446" Product_Name="Quest KACE Agent" Signature_ID="100506" Tested_Points="13.2" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="Quest KACE Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100216" Vendor_Name="Tanium Inc.">
+					<Support Product_ID="100347" Product_Name="Tanium Client" Signature_ID="100406" Tested_Points="7.4.4.1250" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.4.X" Signature_Name="Tanium Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100020" Vendor_Name="VMware, Inc.">
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="22.05.0" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.05.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="22.03.0" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.03.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="22.08.1" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.08.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.01" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.04.1" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.04.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.06.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.06.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.07.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.07.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.09.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.09.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="23.10.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.10.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="24.01.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.01.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="24.01.1" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.01.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="24.04.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.04.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="24.07.1" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.07.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100383" Product_Name="Workspace ONE Intelligent Hub" Signature_ID="100445" Tested_Points="24.07.3" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.07.X" Signature_Name="Workspace ONE Intelligent Hub" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="X" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="X" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100276" Vendor_Name="ZOHO Corp">
+					<Support Product_ID="100463" Product_Name="ManageEngine Patch Manager Plus Agent" Signature_ID="100524" Tested_Points="11.3.2404.01.M" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.3.X" Signature_Name="ManageEngine Patch Manager Plus Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="100463" Product_Name="ManageEngine Patch Manager Plus Agent" Signature_ID="100524" Tested_Points="11.3.2412.1.M" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.3.X" Signature_Name="ManageEngine Patch Manager Plus Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" FetchRemoteData="X" GetMissingPatches="v" InstallMissingPatches="X" DownloadMissingPatches="X" GetInstalledPatches="v" SetAgentState="X" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - PATCH_MANAGEMENT</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="PATCH_MANAGEMENT">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetAgentState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">FetchRemoteData</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_small">InstallMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_small">DownloadMissingPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetInstalledPatches</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">SetAgentState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetAgentState='v'">
+											<td class="cellv">
+												<a title="GetAgentState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='X'">
+											<td class="cellx">
+												<a title="GetAgentState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='O'">
+											<td class="cello">
+												<a title="GetAgentState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='Z'">
+											<td class="cellz">
+												<a title="GetAgentState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@FetchRemoteData='v'">
+											<td class="cellv">
+												<a title="FetchRemoteData = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='X'">
+											<td class="cellx">
+												<a title="FetchRemoteData = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='O'">
+											<td class="cello">
+												<a title="FetchRemoteData = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@FetchRemoteData='Z'">
+											<td class="cellz">
+												<a title="FetchRemoteData = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetMissingPatches='v'">
+											<td class="cellv">
+												<a title="GetMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='X'">
+											<td class="cellx">
+												<a title="GetMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='O'">
+											<td class="cello">
+												<a title="GetMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetMissingPatches='Z'">
+											<td class="cellz">
+												<a title="GetMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@InstallMissingPatches='v'">
+											<td class="cellv">
+												<a title="InstallMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='X'">
+											<td class="cellx">
+												<a title="InstallMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='O'">
+											<td class="cello">
+												<a title="InstallMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@InstallMissingPatches='Z'">
+											<td class="cellz">
+												<a title="InstallMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@DownloadMissingPatches='v'">
+											<td class="cellv">
+												<a title="DownloadMissingPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='X'">
+											<td class="cellx">
+												<a title="DownloadMissingPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='O'">
+											<td class="cello">
+												<a title="DownloadMissingPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@DownloadMissingPatches='Z'">
+											<td class="cellz">
+												<a title="DownloadMissingPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstalledPatches='v'">
+											<td class="cellv">
+												<a title="GetInstalledPatches = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='X'">
+											<td class="cellx">
+												<a title="GetInstalledPatches = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='O'">
+											<td class="cello">
+												<a title="GetInstalledPatches = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstalledPatches='Z'">
+											<td class="cellz">
+												<a title="GetInstalledPatches = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@SetAgentState='v'">
+											<td class="cellv">
+												<a title="SetAgentState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='X'">
+											<td class="cellx">
+												<a title="SetAgentState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='O'">
+											<td class="cello">
+												<a title="SetAgentState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAgentState='Z'">
+											<td class="cellz">
+												<a title="SetAgentState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

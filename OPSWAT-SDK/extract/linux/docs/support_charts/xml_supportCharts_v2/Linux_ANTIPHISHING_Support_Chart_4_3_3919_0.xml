@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:51:12 2025" Name="ANTIPHISHING_Linux_Support_Chart" SDKVersion="4.3.3919.0" Timestamp="1755593472.260846">
+				<Vendor Vendor_ID="200016" Vendor_Name="Google Inc.">
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="33.0" Release_Name="" Test_Covered_Major_Version="33" Test_Covered_Minor_Version="33.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="34.0" Release_Name="" Test_Covered_Major_Version="34" Test_Covered_Minor_Version="34.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="35.0" Release_Name="" Test_Covered_Major_Version="35" Test_Covered_Minor_Version="35.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="36.0" Release_Name="" Test_Covered_Major_Version="36" Test_Covered_Minor_Version="36.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="37.0" Release_Name="" Test_Covered_Major_Version="37" Test_Covered_Minor_Version="37.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="38.0" Release_Name="" Test_Covered_Major_Version="38" Test_Covered_Minor_Version="38.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="39.0" Release_Name="" Test_Covered_Major_Version="39" Test_Covered_Minor_Version="39.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="40.0" Release_Name="" Test_Covered_Major_Version="40" Test_Covered_Minor_Version="40.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="41.0" Release_Name="" Test_Covered_Major_Version="41" Test_Covered_Minor_Version="41.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="100.0.4896.75" Release_Name="" Test_Covered_Major_Version="100" Test_Covered_Minor_Version="100.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="110.0.5481.177" Release_Name="" Test_Covered_Major_Version="110" Test_Covered_Minor_Version="110.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="111.0.5563.64" Release_Name="" Test_Covered_Major_Version="111" Test_Covered_Minor_Version="111.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="123.0.6312.58" Release_Name="" Test_Covered_Major_Version="123" Test_Covered_Minor_Version="123.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="124.0.6367.155" Release_Name="" Test_Covered_Major_Version="124" Test_Covered_Minor_Version="124.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="125.0.6422.60" Release_Name="" Test_Covered_Major_Version="125" Test_Covered_Minor_Version="125.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="125.0.6422.112" Release_Name="" Test_Covered_Major_Version="125" Test_Covered_Minor_Version="125.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="126.0.6478.55" Release_Name="" Test_Covered_Major_Version="126" Test_Covered_Minor_Version="126.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="126.0.6478.182" Release_Name="" Test_Covered_Major_Version="126" Test_Covered_Minor_Version="126.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="127.0.6533.72" Release_Name="" Test_Covered_Major_Version="127" Test_Covered_Minor_Version="127.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="128.0.6613.84" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="129.0.6668.58" Release_Name="" Test_Covered_Major_Version="129" Test_Covered_Minor_Version="129.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="130.0.6723.58" Release_Name="" Test_Covered_Major_Version="130" Test_Covered_Minor_Version="130.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="131.0.6778.69" Release_Name="" Test_Covered_Major_Version="131" Test_Covered_Minor_Version="131.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="132.0.6834.83" Release_Name="" Test_Covered_Major_Version="132" Test_Covered_Minor_Version="132.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="133.0.6943.53" Release_Name="" Test_Covered_Major_Version="133" Test_Covered_Minor_Version="133.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="134.0.6998.35" Release_Name="" Test_Covered_Major_Version="134" Test_Covered_Minor_Version="134.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="135.0.7049.52" Release_Name="" Test_Covered_Major_Version="135" Test_Covered_Minor_Version="135.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="136.0.7103.59" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="136.0.7103.113" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="137.0.7151.55" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="138.0.7204.49" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200001" Product_Name="Google Chrome" Signature_ID="200002" Tested_Points="139.0.7258.66" Release_Name="" Test_Covered_Major_Version="139" Test_Covered_Minor_Version="139.0.X" Signature_Name="Google Chrome" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200008" Vendor_Name="Mozilla Corporation">
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="1.5.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.5.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="2.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="3.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="32.0" Release_Name="" Test_Covered_Major_Version="32" Test_Covered_Minor_Version="32.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="34.0" Release_Name="" Test_Covered_Major_Version="34" Test_Covered_Minor_Version="34.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="35.0" Release_Name="" Test_Covered_Major_Version="35" Test_Covered_Minor_Version="35.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="4.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="38.0.5" Release_Name="" Test_Covered_Major_Version="38" Test_Covered_Minor_Version="38.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="28.0" Release_Name="" Test_Covered_Major_Version="28" Test_Covered_Minor_Version="28.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="52.2.0" Release_Name="" Test_Covered_Major_Version="52" Test_Covered_Minor_Version="52.2.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="60.0" Release_Name="" Test_Covered_Major_Version="60" Test_Covered_Minor_Version="60.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="73.0" Release_Name="" Test_Covered_Major_Version="73" Test_Covered_Minor_Version="73.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="110.0.1" Release_Name="" Test_Covered_Major_Version="110" Test_Covered_Minor_Version="110.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="111.0.1" Release_Name="" Test_Covered_Major_Version="111" Test_Covered_Minor_Version="111.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="113.0" Release_Name="" Test_Covered_Major_Version="113" Test_Covered_Minor_Version="113.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="112.0" Release_Name="" Test_Covered_Major_Version="112" Test_Covered_Minor_Version="112.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="102.10.0" Release_Name="" Test_Covered_Major_Version="102" Test_Covered_Minor_Version="102.10.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="113.0.1" Release_Name="" Test_Covered_Major_Version="113" Test_Covered_Minor_Version="113.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="116.0" Release_Name="" Test_Covered_Major_Version="116" Test_Covered_Minor_Version="116.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="117.0" Release_Name="" Test_Covered_Major_Version="117" Test_Covered_Minor_Version="117.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="79.0" Release_Name="" Test_Covered_Major_Version="79" Test_Covered_Minor_Version="79.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="124.0.2" Release_Name="" Test_Covered_Major_Version="124" Test_Covered_Minor_Version="124.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="125.0" Release_Name="" Test_Covered_Major_Version="125" Test_Covered_Minor_Version="125.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="125.0.3" Release_Name="" Test_Covered_Major_Version="125" Test_Covered_Minor_Version="125.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="126.0" Release_Name="" Test_Covered_Major_Version="126" Test_Covered_Minor_Version="126.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="126.0.1" Release_Name="" Test_Covered_Major_Version="126" Test_Covered_Minor_Version="126.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="127.0" Release_Name="" Test_Covered_Major_Version="127" Test_Covered_Minor_Version="127.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="127.0.1" Release_Name="" Test_Covered_Major_Version="127" Test_Covered_Minor_Version="127.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="127.0.2" Release_Name="" Test_Covered_Major_Version="127" Test_Covered_Minor_Version="127.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="128.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="128.0.3" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="129.0.1" Release_Name="" Test_Covered_Major_Version="129" Test_Covered_Minor_Version="129.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="129.0.2" Release_Name="" Test_Covered_Major_Version="129" Test_Covered_Minor_Version="129.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="130.0" Release_Name="" Test_Covered_Major_Version="130" Test_Covered_Minor_Version="130.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="130.0.1" Release_Name="" Test_Covered_Major_Version="130" Test_Covered_Minor_Version="130.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="131.0" Release_Name="" Test_Covered_Major_Version="131" Test_Covered_Minor_Version="131.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="131.0.2" Release_Name="" Test_Covered_Major_Version="131" Test_Covered_Minor_Version="131.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="131.0.3" Release_Name="" Test_Covered_Major_Version="131" Test_Covered_Minor_Version="131.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="132.0" Release_Name="" Test_Covered_Major_Version="132" Test_Covered_Minor_Version="132.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="132.0.1" Release_Name="" Test_Covered_Major_Version="132" Test_Covered_Minor_Version="132.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="132.0.2" Release_Name="" Test_Covered_Major_Version="132" Test_Covered_Minor_Version="132.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="133.0" Release_Name="" Test_Covered_Major_Version="133" Test_Covered_Minor_Version="133.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="133.0.3" Release_Name="" Test_Covered_Major_Version="133" Test_Covered_Minor_Version="133.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="134.0" Release_Name="" Test_Covered_Major_Version="134" Test_Covered_Minor_Version="134.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="134.0.1" Release_Name="" Test_Covered_Major_Version="134" Test_Covered_Minor_Version="134.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="134.0.2" Release_Name="" Test_Covered_Major_Version="134" Test_Covered_Minor_Version="134.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="135.0" Release_Name="" Test_Covered_Major_Version="135" Test_Covered_Minor_Version="135.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="135.0.1" Release_Name="" Test_Covered_Major_Version="135" Test_Covered_Minor_Version="135.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="136.0" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="136.0.1" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="136.0.2" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="136.0.3" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="136.0.4" Release_Name="" Test_Covered_Major_Version="136" Test_Covered_Minor_Version="136.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="137.0" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="137.0.1" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="137.0.2" Release_Name="" Test_Covered_Major_Version="137" Test_Covered_Minor_Version="137.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="138.0" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="138.0.1" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="138.0.3" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="138.0.4" Release_Name="" Test_Covered_Major_Version="138" Test_Covered_Minor_Version="138.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="139.0" Release_Name="" Test_Covered_Major_Version="139" Test_Covered_Minor_Version="139.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="140.0" Release_Name="" Test_Covered_Major_Version="140" Test_Covered_Minor_Version="140.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="141.0" Release_Name="" Test_Covered_Major_Version="141" Test_Covered_Minor_Version="141.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200002" Product_Name="Mozilla Firefox" Signature_ID="200003" Tested_Points="141.0.2" Release_Name="" Test_Covered_Major_Version="141" Test_Covered_Minor_Version="141.0.X" Signature_Name="Mozilla Firefox" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="va" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="68.9.0" Release_Name="" Test_Covered_Major_Version="68" Test_Covered_Minor_Version="68.9.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="115.14.0" Release_Name="" Test_Covered_Major_Version="115" Test_Covered_Minor_Version="115.14.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.1.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.1.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="115.15.0" Release_Name="" Test_Covered_Major_Version="115" Test_Covered_Minor_Version="115.15.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.2.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.2.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="102.3.0" Release_Name="" Test_Covered_Major_Version="102" Test_Covered_Minor_Version="102.3.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.3.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.3.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.3.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.3.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.4.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.4.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.5.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.5.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.5.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.5.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.6.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.6.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.7.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.7.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.8.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.8.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.8.1" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.8.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.9.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.9.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+					<Support Product_ID="200137" Product_Name="Mozilla Firefox ESR" Signature_ID="200146" Tested_Points="128.10.0" Release_Name="" Test_Covered_Major_Version="128" Test_Covered_Minor_Version="128.10.X" Signature_Name="Mozilla Firefox ESR" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="v" SetAntiphishingState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="200107" Vendor_Name="Trend Micro, Inc.">
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="11.0.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="X" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="12.0.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="X" SetAntiphishingState="X" Uninstall="X"/>
+					<Support Product_ID="200072" Product_Name="Trend Micro Deep Security Agent" Signature_ID="200073" Tested_Points="20.0.0" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.0.X" Signature_Name="Trend Micro Deep Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAntiphishingState="X" SetAntiphishingState="X" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - ANTIPHISHING</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="ANTIPHISHING">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetAntiphishingState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">SetAntiphishingState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetAntiphishingState='v'">
+											<td class="cellv">
+												<a title="GetAntiphishingState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAntiphishingState='X'">
+											<td class="cellx">
+												<a title="GetAntiphishingState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAntiphishingState='O'">
+											<td class="cello">
+												<a title="GetAntiphishingState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAntiphishingState='Z'">
+											<td class="cellz">
+												<a title="GetAntiphishingState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAntiphishingState='va'">
+											<td class="cellva">
+												<a title="GetAntiphishingState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@SetAntiphishingState='v'">
+											<td class="cellv">
+												<a title="SetAntiphishingState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAntiphishingState='X'">
+											<td class="cellx">
+												<a title="SetAntiphishingState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAntiphishingState='O'">
+											<td class="cello">
+												<a title="SetAntiphishingState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAntiphishingState='Z'">
+											<td class="cellz">
+												<a title="SetAntiphishingState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@SetAntiphishingState='va'">
+											<td class="cellva">
+												<a title="SetAntiphishingState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

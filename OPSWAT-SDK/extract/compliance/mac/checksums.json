@@ -1,0 +1,13 @@
+{
+    "sdk_version": "4_3_4325_0",
+    "checksums": [
+        {
+            "name": "libwaresource.dylib",
+            "path": "bin",
+            "hash": {
+                "type": "sha256",
+                "value": "f0f121167081618be1615ff60e15a1740110202f9834edffeca1031d48212444"
+            }
+        }
+    ]
+}

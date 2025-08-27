@@ -1,0 +1,13 @@
+{
+    "sdk_version": "4.3.4861.0",
+    "checksums": [
+        {
+            "name": "libwaresource.dll",
+            "path": "bin",
+            "hash": {
+                "type": "sha256",
+                "value": "854fa52df0c40422d6e5c54b7e1b80cbb0e8ec8e7ba6a15d2e234af300d24b6a"
+            }
+        }
+    ]
+}

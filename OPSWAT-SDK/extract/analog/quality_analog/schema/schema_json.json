@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "oesis": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "header": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "timestamp": {
+                    "type": "integer"
+                  },
+                  "time": {
+                    "type": "string"
+                  },
+                  "copyright": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  },
+                  "schema_version": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "timestamp",
+                  "time",
+                  "copyright",
+                  "version",
+                  "schema_version",
+                  "description"
+                ]
+              }
+            },
+            "required": [
+              "header"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "oesis"
+    ]
+}

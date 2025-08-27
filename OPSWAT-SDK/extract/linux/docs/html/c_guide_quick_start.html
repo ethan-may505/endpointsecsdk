@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+		
+		<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+		<div class="sidebar">
+			
+			<ul class="nav nav-list nav-sidebar nav-scroll">
+				<li class="active"><a href="#loading">Loading the library</a></li>
+				<li><a href="#init">Initialize &amp; configure</a></li>
+				<li><a href="#call">Call functionality</a></li>
+				<li><a href="#deinit">Deinitialize</a></li>
+			</ul>
+		
+		</div> 
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> Quick start guide</h3>
+			<p>This guide will walk you through the basic steps needed to link against the MDES SDK and start calling functionality. 
+				If you are new to the MDES SDK, this is the first guide you should read before continuing.</p>
+			
+			<section id="loading">
+				<h4>Loading the library</h4>
+				
+				<p>Before you do anything, you must first load the MDES SDK into the process space. You can do this either implicitly or explicitly. Your integration must
+					dynamically link against the libwaapi.dll. For the purpose of this example, we will assume implicit loading has been performed (e.g. linked against
+					the libwaapi.lib file at compile time). If the libwaapi.lib file is in your working directory or in the path specified in
+					the LIB environment variable, you can use the following to implicitly link the MDES SDK:</p>
+					
+				<pre class="prettyprint c"><code> // implicitly link against the MDES SDK
+ #pragma comment( lib, "libwaapi" )
+</code></pre>
+				<p>The alternative would be to link against the libwaapi.lib file in the project settings of your IDE.</p>
+						
+				<p>You only need to include a single header file in your source code to obtain access to the entire MDES SDK. Include wa_api.h. Make sure this
+				header is in your header search path. NOTE: You need all header files found in the &quot;inc&quot; directory to be deployed along side this header, however,
+				you only need to include this header in your source.</p>
+				
+				<pre class="prettyprint c"><code> // obtain access to the MDES SDK
+ #include "wa_api.h"
+</code></pre>
+				<p>The MetaDefender Endpoint Security SDK does not make use of namespaces.</p>
+					
+			</section> <!-- end of load library section -->
+			
+			<section id="init">
+				<h4>Initialize &amp; configure</h4>
+				<p>We must first intialize the MDES SDK before we can use it. We can also set any configuration options during this process. You only have to initialize the MDES SDK
+					a single time, regardless of single or multithreaded deployment. Some setup options may be reconfigured after setup has occurred, but options such as license info, threading mode or file locations may not be changed without first calling teardown.
+					If you attempt to initialize non-reconfigurable options in the MDES SDK when it is already initialized, you will get an <a href="c_return_codes.html#WAAPI_ERROR_ALREADY_INITIALIZED">already initialized error code</a>.
+					You must pass in a valid license key in order for the MDES SDK to successfully initialize itself. If you do not have a license key, contact sales@opswat.com.</p>
+				<pre class="prettyprint c"><code> // setup any configuration options, pass NULL to use all defaults, replace "passkey_string" with customer`s license one
+ const <a class="typ nocode" href="c_sdk.html#wa_wchar">wa_wchar</a> * json_config = L"{ \"config\" : { \"enable_pretty_print\": true , \"passkey_string\": \"passkey_string\"}}";
+ 
+ // declare variable to populate results, must be freed later
+ wa_wchar * json_out = NULL;
+ 
+ // initialize
+ <a class="typ nocode" href="c_sdk.html#wa_int">wa_int</a> return_code = <a class="typ nocode" href="c_sdk.html#wa_api_setup">wa_api_setup</a>( json_config, &json_out );
+ if( WAAPI_SUCCESS( return_code ) )
+ {
+	// TODO: Successful initialization
+ }
+ else
+ {
+	// TODO: Failed to initialize
+ }
+ wa_api_free( json_out );
+</code></pre>
+				
+			</section> <!-- end of init section -->
+			
+			<section id="call">
+				<h4>Call functionality</h4>
+				<p>After a successful initialization, we can make invocation calls through the <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> method. In this example, we are going to detect all public file sharing applications installed on the local machine.</p>
+				
+				<p>We must setup our JSON input argument to detect installed applications of category public file sharing and pass
+				the proper <code>component_method</code> to the function. The <code>json_out</code> parameter will be allocated and populated with the results, either successful results
+				or the error results if the function call fails.</p>
+				
+				<pre class="prettyprint c"><code> // setup our input
+ wstringstream ss;
+ ss << L"{ \"input\" : { \"method\" : 0, \"category\" : " << <a class="typ nocode" href="c_return_codes.html#WAAPI_CATEGORY_PUBLIC_FILE_SHARING">WAAPI_CATEGORY_PUBLIC_FILE_SHARING</a> << L" }}";
+
+ std::wstring json_in(ss.str());
+	
+ // declare variable to populate results, must be freed later
+ <a class="typ nocode" href="c_sdk.html#wa_wchar">wa_wchar</a> * json_out = NULL;
+
+ // invoke
+ return_code = <a class="typ nocode" href="c_sdk.html#wa_api_invoke">wa_api_invoke</a>( json_in.c_str(), &json_out );
+ if( WAAPI_SUCCESS( return_code ) )
+ {
+ 	// TODO: handle success results
+ }
+ else
+ {
+ 	// TODO: handle failure results
+ }
+
+ // handle clean, json_out must be freed
+ <a class="typ nocode" href="c_sdk.html#wa_api_free">wa_api_free</a>( json_out );
+</code></pre>
+				
+			</section>
+			
+			<section id="deinit">
+				<h4>Deinitialize</h4>
+				<p>Once you are finished with the MDES SDK, you can now deinitialize it. When you deinitialize the MDES SDK, we will release all internally held data structures and memory.
+				Once this is complete, you can unload the MDES SDK from your process space.</p>
+				
+				<pre class="prettyprint c"><code> // deinitialize the MDES SDK
+ return_code =  <a class="typ nocode" href="c_sdk.html#wa_api_teardown">wa_api_teardown</a>();
+ if( WAAPI_SUCCESS( return_code ) )
+ {
+	// TODO: Successful deinitialization
+ }
+ else
+ {
+	// TODO: Failed to deinitialize
+ }
+</code></pre>
+				
+			</section>
+			
+		</div>
+
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+</body>
+</html>

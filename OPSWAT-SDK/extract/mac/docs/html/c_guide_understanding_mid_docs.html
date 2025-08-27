@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> Understanding component method documentation </h3>
+			<p>Hover over each of the <i class="icon-info-sign blue icon-large"></i> signs to view the pop-up details.</p>
+
+			<!-- Break down into sections -->
+			<table class="table-no-border">
+				
+				<tr>
+					<td><i id="info-title" class="icon-info-sign blue icon-2x"></i></td>	
+					<td><h4>Get product running directory</h4></td>
+				</tr>
+				<tr>
+					<td><i id="info-desc" class="icon-info-sign blue icon-2x"></i></td>	
+					<td><p>Will check if the given product is running on the endpoint. The running state of the product does not refer to the products capabilities
+				 	(such as an antivirus product's real-time protection). The running state simply refers to whether the product's process is running or
+				  	active on the endpoint.</p></td>
+				</tr>
+				<tr>
+					<td><i id="info-define" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<script>
+							createComponentDefine( "WAAPI_MID_GET_RUNNING_STATE", "101" );
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-json-in" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<script>
+							writeProductIdTable(101);
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-json-out" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<script>
+							addJsonOutIntro();
+						</script>
+						<pre class="prettyprint c"><code> {
+        "result" : {
+                "method" : 101,
+                "code" : number,
+                "timing" : number,
+                "timestamp" : string,	
+                "running" : boolean
+        }
+ }</code></pre>	
+ 						<script>
+	 						startJsonTable();
+							addJsonRow( "method", "number", "The method that generated this result.");
+							addJsonRow( "code", "number", "The result code for this method call.");
+							addJsonRow( "timing", "number", "The measured time for the method call in milliseconds.");
+							addJsonRow( "timestamp", "string", "The timestamp in seconds of when the call was made.");
+							addJsonRow( "running", "boolean", "Will return true if the product is running and false if the product is not running.");
+							endJsonTable();
+						</script>
+					</td>
+				</tr>
+			</table>
+	
+		</div>
+
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+	
+	<script>
+		$(document).ready(function(){
+			$('#info-title').popover( { placement : 'left',
+										title : 'Name',
+										content: 'The name of the component method.',
+										trigger : 'hover' } );
+										
+			$('#info-desc').popover( { placement : 'left',
+										title : 'Description',
+										content: 'The description of the component method that defines what functionality this method pertains to.',
+										trigger : 'hover' } );
+										
+			$('#info-supported-components').popover( { placement : 'left',
+										title : 'Supported components',
+										content: 'The components in which this componment method can be called on. If a component is not listed in this'
+										+ ' section, then a call to the component method on the component method will return the component not supported error code.',
+										trigger : 'hover' } );
+			
+			$('#info-define').popover( { placement : 'left',
+										title : 'Identifier',
+										content: 'The defined identifer value and source code #define. This is the value that is passed in the component_method'
+										+ ' parameter of the wa_api_invoke function.',
+										trigger : 'hover' } );
+										
+			$('#info-json-in').popover( { placement : 'left',
+										title : 'Input parameter description',
+										content: 'Defines the expected JSON input that is to be provided to the json_in parameter of the wa_api_invoke function.',
+										trigger : 'hover' } );
+			
+			$('#info-json-out').popover( { placement : 'left',
+										title : 'Output parameter description',
+										content: 'Defines the expected JSON output that that is provided/combined with the json_out parameter of the wa_api_invoke function.'
+										+ ' This output is only provided on a successful call. If an error occurs, then the default JSON error output is provided to the' 
+										+ ' json_out parameter.',
+										trigger : 'hover' } );
+										
+			$('#info-returns').popover( { placement : 'left',
+										title : 'Additional return codes',
+										content: 'Describes additional possible return codes that can be returned from the wa_api_invoke function in addition to the default'
+										+ ' return codes listed under the wa_api_invoke. These additional possible return codes are specific to the component method.',
+										trigger : 'hover' } );
+			
+		});
+	</script>
+	
+</body>
+</html>

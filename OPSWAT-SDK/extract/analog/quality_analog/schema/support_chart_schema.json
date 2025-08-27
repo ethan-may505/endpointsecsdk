@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["timestamp", "support_products"],
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "support_products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["vendor_id", "vendor_name", "patch_id"],
+        "properties": {
+          "vendor_id": {
+            "type": "number"
+          },
+          "vendor_name": {
+            "type": "string"
+          },
+          "patch_id": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}
+

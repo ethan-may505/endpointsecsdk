@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "Windows": {
+      "Desktop": "7, 8, 8.1, 10, 11",
+      "Server": "2008 R2, 2012, 2012 R2, 2016, 2019, 2022"
+    },
+    "macOS": {
+      "Yosemite": "10.10",
+      "El Capitan": "10.11",
+      "Sierra": "10.12",
+      "High Sierra": "10.13",
+      "Mojave": "10.14",
+      "Catalina": "10.15",
+      "Big Sur": "11",
+      "Monterey": "12",
+      "Ventura": "13",
+      "Sonoma": "14"
+    },
+    "Linux": {
+      "Ubuntu": "20.04, 22.04",
+      "Oracle": "8, 9",
+      "Amazon Linux": "2",
+      "Red Hat Enterprise": "8, 9",
+      "Fedora": "38",
+      "SUSE": "15",
+      "CentOS": "7",
+      "Linux Mint": "20, 21",
+      "Debian": "11, 12",
+      "Alma": "8, 9",
+      "Rocky": "8, 9"
+    }
+  },
+  "timestamp": "2025-08-21 09:13:17"
+}

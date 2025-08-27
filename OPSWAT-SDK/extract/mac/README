@@ -1,0 +1,92 @@
+OPSWAT MetaDefender Endpoint Security SDK V4 
+==========================================
+
+Overview
+--------
+
+OPSWAT's framework for software manageability is written in C++ with a C 
+integration point. This file gives a brief introduction to the package
+content. For details on the framework, please see the HTML documentation 
+found here:
+
+docs/html/index.html
+
+Requirements for integrators
+----------------------------
+MetaDefender Endpoint Security SDK V4 is designed as a very light weight framework for software and network
+manageability. Currently, we support the Windows, Mac and Linux operating systems.
+Please refer to the minimum deployment dependencies for integrating MetaDefender Endpoint Security SDK V4.
+        
+Package content
+---------------
+The following describes the package content of this OESIS .tar archive
+
+/
+|--- bin/
+|    |--- advancedbrowser
+|        |--- release/
+|    |--- detection
+|        |--- release/
+|    |--- deviceinfo
+|        |--- release/
+|    |--- diagnostics
+|        |--- release/
+|    |--- infection
+|        |--- release/
+|    |--- manageability
+|        |--- release/
+|    |--- removal
+|        |--- release/
+|    |--- vulnerability
+|        |--- release/
+|    |--- wadriver (temporarily removed)
+|        |--- release/
+|--- docs/
+|    |--- html/
+|    |--- sample_code/
+|    |--- support_charts/
+|--- inc/
+|--- OSSLicense
+|--- README
+      
+### bin ###
+
+    Contains the libraries and resources for integrating the MetaDefender Endpoint Security SDK V4.
+    The following dylibs are required for ALL deployments (found in the detection directory):
+        libwaapi.dylib
+        libwautils.dylib
+    The following files are required for offline deployments:
+        libwaresource.dylib
+        
+    All files found in each of the module directories, such as manageability, are required to use that module's functionality. These modules
+    allow the addition of extended MetaDefender Endpoint Security SDK functionality.
+        
+### docs/html ###
+
+    Detailed documentation of the MetaDefender Endpoint Security SDK V4, user guides, FAQ's etc. Refer to this documentation
+    for all of your integration needs.
+    
+### docs/sample_code ###
+
+    Sample MetaDefender Endpoint Security SDK V4 integrations in different languages.
+    
+### docs/support_charts ###
+
+    Information on the currently supported products in the MetaDefender Endpoint Security SDK V4. The support_charts.html provides a user friendly
+    view of the content in raw_json.js and the package structure is important for the page to render properly.
+    The raw_json.js file contains the JSON formatted text for the support charts. It is written in the form of a
+    JavaScript file to ensure it can be loaded locally by browsers. Removing the initial assignment text
+    of "SUPPORT_CHARTS = " will leave the file as pure JSON, which can then be read by a JSON parser.
+
+### inc ###
+
+    Contains the header files for integrating the MetaDefender Endpoint Security SDK V4. 
+
+### OSSLicense ###
+    
+    Information on the open source software used for the core functionality of MetaDefender Endpoint Security SDK V4.
+
+### README ###
+    
+    This file.
+ 

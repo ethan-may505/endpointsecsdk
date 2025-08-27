@@ -1,0 +1,106 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ]
+      },
+      "vendor": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ]
+      },
+      "signatures": {
+        "type": "array",
+        "items": 
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "support_3rd_party_patch": {
+                "type": "boolean"
+              },
+              "validation_supported": {
+                "type": "integer"
+              },
+              "3rd_party_patch_properties": {
+                "type": "object",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "installation_mode": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "installation_mode"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "support_3rd_party_patch",
+              "3rd_party_patch_properties"
+            ]
+          }
+        ,
+        "uniqueItems": true,
+        "minItems":1
+      },
+      "marketing_names": {
+        "type": "array",
+        "items": 
+          {
+            "type": "string"
+          }
+      },
+      "support_3rd_party_patch": {
+        "type": "boolean"
+      },
+      "support_system_patch": {
+        "type": "boolean"
+      },
+      "schema_version": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "schema_version",
+      "product",
+      "vendor",
+      "signatures",
+      "marketing_names",
+      "support_3rd_party_patch",
+      "support_system_patch"
+    ],
+    "additionalProperties": false
+  }

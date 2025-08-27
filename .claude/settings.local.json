@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(ls:*)",
+      "Bash(\"/c/Program Files (x86)/Microsoft Visual Studio/Installer/vswhere.exe\" -latest -products * -requires Microsoft.Component.MSBuild -property installationPath)",
+      "Bash(find:*)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/MSBuild.exe\" \"../OPSWAT-SDK-Downloader/C-Sharp/SDKDownloader.sln\" /p:Configuration=Release /verbosity:minimal)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/MSBuild.exe\" \"../OPSWAT-SDK-Downloader/C-Sharp/SDKDownloader.sln\" \"/p:Configuration=Release\" \"/verbosity:minimal\")",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/MSBuild.exe\" \"C:/Users/ethan.may/Documents/Github/endpointsecsdk/OPSWAT-SDK-Downloader/C-Sharp/SDKDownloader.sln\" \"/p:Configuration=Release\" \"/verbosity:minimal\")",
+      "Bash(py --version)",
+      "Bash(make:*)",
+      "Bash(./build.sh)",
+      "Bash(py:*)",
+      "Bash(chmod:*)",
+      "Bash(./setup-sdk-files.sh:*)",
+      "Bash(./build.sh:*)"
+    ],
+    "deny": []
+  }
+}

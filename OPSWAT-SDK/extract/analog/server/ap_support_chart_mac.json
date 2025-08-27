@@ -1,0 +1,1274 @@
+{
+  "timestamp": "1755793545",
+  "support_products": [
+    {
+      "vendor_id": 100012,
+      "vendor_name": "Mozilla Corporation",
+      "patch_id": {
+        "100000": {
+          "product_id": 100014,
+          "product_name": "Firefox",
+          "tested_version": "141.0.3",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100292
+          ],
+          "signature_name_map": {
+            "100292": "Firefox"
+          }
+        },
+        "100018": {
+          "product_id": 100015,
+          "product_name": "Thunderbird",
+          "tested_version": "140.2.0",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100015
+          ],
+          "signature_name_map": {
+            "100015": "Thunderbird"
+          }
+        },
+        "100103": {
+          "product_id": 100015,
+          "product_name": "Thunderbird",
+          "tested_version": "140.0.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100015
+          ],
+          "signature_name_map": {
+            "100015": "Thunderbird"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100072,
+      "vendor_name": "TeamViewer GmbH",
+      "patch_id": {
+        "100001": {
+          "product_id": 100090,
+          "product_name": "TeamViewer",
+          "tested_version": "15.68.5",
+          "support_to_latest_version": true,
+          "comment": "Teamviewer opens automatically after it is patched",
+          "signatures": [
+            100090
+          ],
+          "signature_name_map": {
+            "100090": "TeamViewer"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100178,
+      "vendor_name": "Piriform Ltd",
+      "patch_id": {
+        "100002": {
+          "product_id": 100251,
+          "product_name": "CCleaner",
+          "tested_version": "2.09.187",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100308
+          ],
+          "signature_name_map": {
+            "100308": "CCleaner"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100185,
+      "vendor_name": "Apache Software Foundation",
+      "patch_id": {
+        "100003": {
+          "product_id": 100262,
+          "product_name": "OpenOffice",
+          "tested_version": "4.1.15",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100319
+          ],
+          "signature_name_map": {
+            "100319": "OpenOffice"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100202,
+      "vendor_name": "LogMeIn, Inc.",
+      "patch_id": {
+        "100004": {
+          "product_id": 100319,
+          "product_name": "GoToMeeting",
+          "tested_version": "10.20.0.19992",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100377
+          ],
+          "signature_name_map": {
+            "100377": "GoToMeeting"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100169,
+      "vendor_name": "VideoLAN",
+      "patch_id": {
+        "100006": {
+          "product_id": 100232,
+          "product_name": "VLC",
+          "tested_version": "3.0.21.0",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100283
+          ],
+          "signature_name_map": {
+            "100283": "VLC"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100099,
+      "vendor_name": "Slack Technologies, Inc.",
+      "patch_id": {
+        "100008": {
+          "product_id": 100119,
+          "product_name": "Slack",
+          "tested_version": "4.45.69",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100119
+          ],
+          "signature_name_map": {
+            "100119": "Slack"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100005,
+      "vendor_name": "Opera Software",
+      "patch_id": {
+        "100009": {
+          "product_id": 100005,
+          "product_name": "Opera",
+          "tested_version": "120.0.5543.161",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100286
+          ],
+          "signature_name_map": {
+            "100286": "Opera"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100144,
+      "vendor_name": "Cisco Systems, Inc.",
+      "patch_id": {
+        "100010": {
+          "product_id": 100346,
+          "product_name": "Webex",
+          "tested_version": "45.8.0.32875",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100405
+          ],
+          "signature_name_map": {
+            "100405": "Webex"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100036,
+      "vendor_name": "Box, Inc.",
+      "patch_id": {
+        "100012": {
+          "product_id": 100045,
+          "product_name": "Box Sync",
+          "tested_version": "4.0.8088",
+          "support_to_latest_version": true,
+          "comment": "Box Sync for Mac only support two latest versions of MacOS. Can still run on Mac OS 10.14",
+          "signatures": [
+            100131
+          ],
+          "signature_name_map": {
+            "100131": "Box Sync"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100004,
+      "vendor_name": "Google Inc.",
+      "patch_id": {
+        "100014": {
+          "product_id": 100004,
+          "product_name": "Google Chrome",
+          "tested_version": "139.0.7258.139",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100004
+          ],
+          "signature_name_map": {
+            "100004": "Google Chrome"
+          }
+        },
+        "100085": {
+          "product_id": 100067,
+          "product_name": "Google Drive",
+          "tested_version": "112.0",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100206
+          ],
+          "signature_name_map": {
+            "100206": "Google Drive"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100209,
+      "vendor_name": "Corel Corporation",
+      "patch_id": {
+        "100017": {
+          "product_id": 100327,
+          "product_name": "WinZip",
+          "tested_version": "9.0.5520",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100387
+          ],
+          "signature_name_map": {
+            "100387": "WinZip"
+          }
+        },
+        "100026": {
+          "product_id": 100327,
+          "product_name": "WinZip",
+          "tested_version": "8.0.5152",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100387
+          ],
+          "signature_name_map": {
+            "100387": "WinZip"
+          }
+        },
+        "100027": {
+          "product_id": 100327,
+          "product_name": "WinZip",
+          "tested_version": "7.0.4565",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100387
+          ],
+          "signature_name_map": {
+            "100387": "WinZip"
+          }
+        },
+        "100084": {
+          "product_id": 100327,
+          "product_name": "WinZip",
+          "tested_version": "10.5.6553",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100387
+          ],
+          "signature_name_map": {
+            "100387": "WinZip"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100184,
+      "vendor_name": "The Document Foundation",
+      "patch_id": {
+        "100019": {
+          "product_id": 100261,
+          "product_name": "LibreOffice",
+          "tested_version": "25.8.0.4",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100318
+          ],
+          "signature_name_map": {
+            "100318": "LibreOffice"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100166,
+      "vendor_name": "Adobe Systems Inc.",
+      "patch_id": {
+        "100022": {
+          "product_id": 100340,
+          "product_name": "Adobe Acrobat Reader DC Classic 2020",
+          "tested_version": "20.005.30774",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100399
+          ],
+          "signature_name_map": {
+            "100399": "Adobe Acrobat Reader DC Classic 2020"
+          }
+        },
+        "100023": {
+          "product_id": 100291,
+          "product_name": "Adobe Acrobat Reader DC Continuous",
+          "tested_version": "25.001.20630",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100350
+          ],
+          "signature_name_map": {
+            "100350": "Adobe Acrobat Reader DC Continuous"
+          }
+        },
+        "100024": {
+          "product_id": 100316,
+          "product_name": "Adobe Acrobat Reader DC Classic 2017",
+          "tested_version": "17.012.30262",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100351
+          ],
+          "signature_name_map": {
+            "100351": "Adobe Acrobat Reader DC Classic 2017"
+          }
+        },
+        "100025": {
+          "product_id": 100315,
+          "product_name": "Adobe Acrobat Reader DC Classic 2015",
+          "tested_version": "15.006.30527",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100375
+          ],
+          "signature_name_map": {
+            "100375": "Adobe Acrobat Reader DC Classic 2015"
+          }
+        },
+        "100088": {
+          "product_id": 100296,
+          "product_name": "Adobe Acrobat DC Continuous",
+          "tested_version": "25.001.20630",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100354
+          ],
+          "signature_name_map": {
+            "100354": "Adobe Acrobat DC Continuous"
+          }
+        },
+        "100090": {
+          "product_id": 100296,
+          "product_name": "Adobe Acrobat DC Continuous",
+          "tested_version": "25.001.20630",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100354
+          ],
+          "signature_name_map": {
+            "100354": "Adobe Acrobat DC Continuous"
+          }
+        },
+        "100093": {
+          "product_id": 100316,
+          "product_name": "Adobe Acrobat Reader DC Classic 2017",
+          "tested_version": "17.012.30262",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100351
+          ],
+          "signature_name_map": {
+            "100351": "Adobe Acrobat Reader DC Classic 2017"
+          }
+        },
+        "100094": {
+          "product_id": 100340,
+          "product_name": "Adobe Acrobat Reader DC Classic 2020",
+          "tested_version": "20.005.30774",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100399
+          ],
+          "signature_name_map": {
+            "100399": "Adobe Acrobat Reader DC Classic 2020"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100090,
+      "vendor_name": "Microsoft Corporation",
+      "patch_id": {
+        "100028": {
+          "product_id": 100369,
+          "product_name": "Microsoft Word",
+          "tested_version": "16.99.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100431
+          ],
+          "signature_name_map": {
+            "100431": "Microsoft Word"
+          }
+        },
+        "100029": {
+          "product_id": 100371,
+          "product_name": "Microsoft Excel",
+          "tested_version": "16.99.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100433
+          ],
+          "signature_name_map": {
+            "100433": "Microsoft Excel"
+          }
+        },
+        "100030": {
+          "product_id": 100372,
+          "product_name": "Microsoft PowerPoint",
+          "tested_version": "16.99.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100434
+          ],
+          "signature_name_map": {
+            "100434": "Microsoft PowerPoint"
+          }
+        },
+        "100031": {
+          "product_id": 100374,
+          "product_name": "Microsoft Outlook",
+          "tested_version": "16.99.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100436
+          ],
+          "signature_name_map": {
+            "100436": "Microsoft Outlook"
+          }
+        },
+        "100032": {
+          "product_id": 100373,
+          "product_name": "Microsoft OneNote",
+          "tested_version": "16.99.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100435
+          ],
+          "signature_name_map": {
+            "100435": "Microsoft OneNote"
+          }
+        },
+        "100037": {
+          "product_id": 100145,
+          "product_name": "OneDrive",
+          "tested_version": "25.130.0706.0004",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100159
+          ],
+          "signature_name_map": {
+            "100159": "OneDrive"
+          }
+        },
+        "100046": {
+          "product_id": 100370,
+          "product_name": "Microsoft Teams",
+          "tested_version": "1.8.00.21151",
+          "support_to_latest_version": true,
+          "comment": "This patch only support for PKG installation, should uninstall first if current installation is DMG",
+          "signatures": [
+            100432
+          ],
+          "signature_name_map": {
+            "100432": "Microsoft Teams"
+          }
+        },
+        "100056": {
+          "product_id": 100369,
+          "product_name": "Microsoft Word",
+          "tested_version": "16.66.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100431
+          ],
+          "signature_name_map": {
+            "100431": "Microsoft Word"
+          }
+        },
+        "100057": {
+          "product_id": 100371,
+          "product_name": "Microsoft Excel",
+          "tested_version": "16.66.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100433
+          ],
+          "signature_name_map": {
+            "100433": "Microsoft Excel"
+          }
+        },
+        "100058": {
+          "product_id": 100372,
+          "product_name": "Microsoft PowerPoint",
+          "tested_version": "16.66.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100434
+          ],
+          "signature_name_map": {
+            "100434": "Microsoft PowerPoint"
+          }
+        },
+        "100059": {
+          "product_id": 100374,
+          "product_name": "Microsoft Outlook",
+          "tested_version": "16.66.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100436
+          ],
+          "signature_name_map": {
+            "100436": "Microsoft Outlook"
+          }
+        },
+        "100060": {
+          "product_id": 100373,
+          "product_name": "Microsoft OneNote",
+          "tested_version": "16.66.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100435
+          ],
+          "signature_name_map": {
+            "100435": "Microsoft OneNote"
+          }
+        },
+        "100065": {
+          "product_id": 100422,
+          "product_name": "Visual Studio Code",
+          "tested_version": "1.103.1",
+          "support_to_latest_version": true,
+          "comment": "Patch using universal installer",
+          "signatures": [
+            100483
+          ],
+          "signature_name_map": {
+            "100483": "Visual Studio Code"
+          }
+        },
+        "100066": {
+          "product_id": 100422,
+          "product_name": "Visual Studio Code",
+          "tested_version": "1.76.2",
+          "support_to_latest_version": true,
+          "comment": "Patch using universal installer, only support for Mac 10.12, VSCode version 1.76 is the last to support mentioned OS",
+          "signatures": [
+            100483
+          ],
+          "signature_name_map": {
+            "100483": "Visual Studio Code"
+          }
+        },
+        "100067": {
+          "product_id": 100414,
+          "product_name": "Microsoft Edge",
+          "tested_version": "139.0.3405.102",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100474
+          ],
+          "signature_name_map": {
+            "100474": "Microsoft Edge"
+          }
+        },
+        "100087": {
+          "product_id": 100455,
+          "product_name": "Microsoft AutoUpdate",
+          "tested_version": "4.79",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100516
+          ],
+          "signature_name_map": {
+            "100516": "Microsoft AutoUpdate"
+          }
+        },
+        "100102": {
+          "product_id": 100370,
+          "product_name": "Microsoft Teams",
+          "tested_version": "25212.2404.3875.1360",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100513
+          ],
+          "signature_name_map": {
+            "100513": "Microsoft Teams (work or school)"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100168,
+      "vendor_name": "Zoom Video Communications, Inc.",
+      "patch_id": {
+        "100033": {
+          "product_id": 100231,
+          "product_name": "Zoom",
+          "tested_version": "6.5.10",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100282
+          ],
+          "signature_name_map": {
+            "100282": "Zoom"
+          }
+        },
+        "100095": {
+          "product_id": 100231,
+          "product_name": "Zoom",
+          "tested_version": "6.5.10",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100282
+          ],
+          "signature_name_map": {
+            "100282": "Zoom"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100150,
+      "vendor_name": "Objective Development Soft.",
+      "patch_id": {
+        "100035": {
+          "product_id": 100198,
+          "product_name": "Little Snitch",
+          "tested_version": "6.2.3",
+          "support_to_latest_version": true,
+          "comment": "Installation can popup a demo windows, it's still work well for now",
+          "signatures": [
+            100244
+          ],
+          "signature_name_map": {
+            "100244": "Little Snitch"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100199,
+      "vendor_name": "MacPaw Inc.",
+      "patch_id": {
+        "100039": {
+          "product_id": 100381,
+          "product_name": "The Unarchiver",
+          "tested_version": "4.3.9",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100443
+          ],
+          "signature_name_map": {
+            "100443": "The Unarchiver"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100079,
+      "vendor_name": "Vivaldi Technologies",
+      "patch_id": {
+        "100040": {
+          "product_id": 100098,
+          "product_name": "Vivaldi",
+          "tested_version": "7.5.3735.64",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100098
+          ],
+          "signature_name_map": {
+            "100098": "Vivaldi"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100046,
+      "vendor_name": "Dropbox, Inc.",
+      "patch_id": {
+        "100041": {
+          "product_id": 100057,
+          "product_name": "Dropbox",
+          "tested_version": "230.4.8797",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100148
+          ],
+          "signature_name_map": {
+            "100148": "Dropbox"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100228,
+      "vendor_name": "Garmin Ltd.",
+      "patch_id": {
+        "100042": {
+          "product_id": 100380,
+          "product_name": "Garmin BaseCamp",
+          "tested_version": "4.8.13",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100442
+          ],
+          "signature_name_map": {
+            "100442": "Garmin BaseCamp"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100082,
+      "vendor_name": "RealVNC Ltd",
+      "patch_id": {
+        "100043": {
+          "product_id": 100101,
+          "product_name": "VNC Viewer",
+          "tested_version": "7.13.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100101
+          ],
+          "signature_name_map": {
+            "100101": "VNC Viewer"
+          }
+        },
+        "100044": {
+          "product_id": 100101,
+          "product_name": "VNC Viewer",
+          "tested_version": "6.21.406",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100101
+          ],
+          "signature_name_map": {
+            "100101": "VNC Viewer"
+          }
+        },
+        "100054": {
+          "product_id": 100388,
+          "product_name": "VNC Server",
+          "tested_version": "7.13.1",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100449
+          ],
+          "signature_name_map": {
+            "100449": "VNC Server"
+          }
+        },
+        "100064": {
+          "product_id": 100101,
+          "product_name": "VNC Viewer",
+          "tested_version": "6.22.515",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100101
+          ],
+          "signature_name_map": {
+            "100101": "VNC Viewer"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100229,
+      "vendor_name": "8x8 Inc.",
+      "patch_id": {
+        "100045": {
+          "product_id": 100384,
+          "product_name": "8x8 Work",
+          "tested_version": "8.23.2",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100446
+          ],
+          "signature_name_map": {
+            "100446": "8x8 Work"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100091,
+      "vendor_name": "Bombich Software, Inc.",
+      "patch_id": {
+        "100048": {
+          "product_id": 100111,
+          "product_name": "Carbon Copy Cloner",
+          "tested_version": "6.1.11",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100111
+          ],
+          "signature_name_map": {
+            "100111": "Carbon Copy Cloner"
+          }
+        },
+        "100051": {
+          "product_id": 100111,
+          "product_name": "Carbon Copy Cloner",
+          "tested_version": "5.1.28",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100111
+          ],
+          "signature_name_map": {
+            "100111": "Carbon Copy Cloner"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100235,
+      "vendor_name": "The Wireshark developer community",
+      "patch_id": {
+        "100052": {
+          "product_id": 100394,
+          "product_name": "Wireshark",
+          "tested_version": "4.4.8",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100455
+          ],
+          "signature_name_map": {
+            "100455": "Wireshark"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100256,
+      "vendor_name": "Evernote Corp.",
+      "patch_id": {
+        "100063": {
+          "product_id": 100419,
+          "product_name": "Evernote",
+          "tested_version": "10.151.3",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100480
+          ],
+          "signature_name_map": {
+            "100480": "Evernote"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100242,
+      "vendor_name": "KeePassXC Team",
+      "patch_id": {
+        "100069": {
+          "product_id": 100404,
+          "product_name": "KeePassXC",
+          "tested_version": "2.7.10",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100464
+          ],
+          "signature_name_map": {
+            "100464": "KeePassXC"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100266,
+      "vendor_name": "Zabbix LLC",
+      "patch_id": {
+        "100072": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.4.13",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100073": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.0.28",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100074": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.4.13",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100075": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.0.28",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100076": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.4.13",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100077": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "6.0.28",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100078": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "4.0.50",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100079": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "4.0.50",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100080": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "4.0.50",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100081": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "5.0.42",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100082": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "5.0.42",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        },
+        "100083": {
+          "product_id": 100441,
+          "product_name": "Zabbix Agent",
+          "tested_version": "5.0.42",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100502
+          ],
+          "signature_name_map": {
+            "100502": "Zabbix Agent"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100231,
+      "vendor_name": "Spotify Ltd",
+      "patch_id": {
+        "100086": {
+          "product_id": 100389,
+          "product_name": "Spotify",
+          "tested_version": "1.2.70.409",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100450
+          ],
+          "signature_name_map": {
+            "100450": "Spotify"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100257,
+      "vendor_name": "RingCentral, Inc.",
+      "patch_id": {
+        "100089": {
+          "product_id": 100420,
+          "product_name": "RingCentral",
+          "tested_version": "25.3.1012.895",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100481
+          ],
+          "signature_name_map": {
+            "100481": "RingCentral"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100238,
+      "vendor_name": "ManyCam ULC.",
+      "patch_id": {
+        "100091": {
+          "product_id": 100399,
+          "product_name": "ManyCam",
+          "tested_version": "9.1.0.5",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100459
+          ],
+          "signature_name_map": {
+            "100459": "ManyCam"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100061,
+      "vendor_name": "AgileBits",
+      "patch_id": {
+        "100096": {
+          "product_id": 100257,
+          "product_name": "1Password",
+          "tested_version": "8.11.6",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100314
+          ],
+          "signature_name_map": {
+            "100314": "1Password"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100089,
+      "vendor_name": "Sublime HQ Pty Ltd",
+      "patch_id": {
+        "100099": {
+          "product_id": 100490,
+          "product_name": "Sublime Merge",
+          "tested_version": "Build 2110",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100550
+          ],
+          "signature_name_map": {
+            "100550": "Sublime Merge"
+          }
+        }
+      }
+    },
+    {
+      "vendor_id": 100289,
+      "vendor_name": "JGraph",
+      "patch_id": {
+        "100100": {
+          "product_id": 100491,
+          "product_name": "draw.io",
+          "tested_version": "28.0.6",
+          "support_to_latest_version": true,
+          "comment": "",
+          "signatures": [
+            100551
+          ],
+          "signature_name_map": {
+            "100551": "draw.io"
+          }
+        }
+      }
+    }
+  ],
+  "domains": [
+    "download.mozilla.org",
+    "ftp.mozilla.org",
+    "dl.teamviewer.com",
+    "download.ccleaner.com",
+    "jaist.dl.sourceforge.net",
+    "builds.cdn.getgo.com",
+    "mirror.mangohost.net",
+    "downloads.slack-edge.com",
+    "download3.operacdn.com",
+    "e3.boxcdn.net",
+    "dl.google.com",
+    "download.winzip.com",
+    "ftp.gwdg.de",
+    "ardownload3.adobe.com",
+    "ardownload2.adobe.com",
+    "officecdn.microsoft.com",
+    "oneclient.sfx.ms",
+    "statics.teams.cdn.office.net",
+    "msedge.sf.dl.delivery.mp.microsoft.com",
+    "officecdnmac.microsoft.com",
+    "cdn.zoom.us",
+    "www.obdev.at",
+    "dl.devmate.com",
+    "downloads.vivaldi.com",
+    "edge.dropboxstatic.com",
+    "download.garmin.com",
+    "downloads.realvnc.com",
+    "work-desktop-assets.8x8.com",
+    "2.na.dl.wireshark.org",
+    "mac.desktop.evernote.com",
+    "github.com",
+    "cdn.zabbix.com",
+    "download.scdn.co",
+    "app.ringcentral.com",
+    "download2.manycams.com",
+    "downloads.1password.com"
+  ]
+}

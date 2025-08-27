@@ -1,0 +1,346 @@
+
+/* blue = #2672fb; */
+/* grey = #808083; */
+/* black = #000000; */
+
+@font-face {
+	font-family: Apex;
+	src: url('../font/font.otf') format('opentype');
+}
+
+body {
+	color: #808083;
+	font-family: 'Roboto', Arial;
+	text-rendering: optimizeLegibility;
+}
+
+.blue {
+	color: #2672fb;
+}
+.grey {
+	color: #808083;
+}
+.white {
+	color: #FFFFFF;
+}
+.blue-bg {
+	background-color: #2672fb;
+}
+
+a.white {
+	color: #FFFFFF;
+}
+a.white:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.hide {
+	display: none;
+}
+.superscript {
+	vertical-align: super;
+}
+
+div.strip {
+	background: #2672fb;
+	width: 100%;
+	height: 14px;
+	top: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 501;
+}
+
+#mainContainer {
+	position: absolute;
+	top: 14px;
+	left: 0;
+	right: 0;
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+#navContainer {
+	position: fixed;
+	top: 14px;
+	left: 0;
+	right: 0;
+	margin-left: 180px;
+	margin-right: 180px;
+	background-color: #FFFFFF;
+	font-family: Apex;
+	z-index: 500;
+}
+
+#bottomContainer {
+	position: relative;
+	top: 256px;
+	background-color: #FFFFFF;
+}
+
+div.sidebar {
+	position: fixed;
+	width: 240px;					/* sidebar fixed width */
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: Apex;
+	border-right: 1px solid #E3E3E3;
+	top: 267px; /* top offset of bottomContainer + 10 for margin-bottom of this + 1 for border width */
+	bottom: 0;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 1081px) and (max-width: 1440px) {
+	/* Customize for nav bar and sidebar on laptop device */
+	#bottomContainer {
+		top: 326px;
+	}
+
+	div.sidebar {
+		top: 337px; /* top offset of bottomContainer + 10 for margin-bottom of this + 1 for border width */
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1080px) {
+	/* Update the container layout left and right on low resolution laptop screen, tablet and mobile device */
+    #mainContainer {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    #navContainer {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+
+	/* Customize for nav bar and sidebar on low resolution laptop screen, tablet and mobile device */
+	#bottomContainer {
+		top: 326px;
+	}
+
+	div.sidebar {
+		top: 337px; /* top offset of bottomContainer + 10 for margin-bottom of this + 1 for border width */
+	}
+}
+
+div.nav-banner {
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 50px;
+	padding: 40px 18px 18px 18px;
+}
+div.nav-banner > span {
+	font-size: .5em;
+}
+div.nav-banner > .superscript {
+	font-size: 42px;
+	position: relative;
+	top: 11px;
+}
+
+#apiSwap {
+	float: right;
+	margin-top: 25px;
+	font-size: 16px;
+}
+.popover-title {
+	display: none;
+}
+#apiSwapList {
+	list-style-type: none;
+}
+#apiSwapMenu {
+	cursor: pointer;
+}
+
+img.logo {
+	height: 50px;
+	display: inline;
+	padding-top: 12px;
+	padding-bottom: 14px;
+}
+
+.nav-sidebar a {
+	color: #808083
+}
+.nav-sidebar a.active {
+	color: #2672fb;
+}
+.nav-sidebar a:hover {
+	color: #2672fb;
+}
+.nav-sidebar .nav-scroll {
+	max-height: 100%;
+}
+.accordion-heading {
+	background-color: #FFF;
+	border: 1px solid #E3E3E3;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.accordion-heading:hover {
+	background-color: #2672fb;
+}
+.accordion-heading.active {
+	background-color: #2672fb;
+}
+.accordion-toggle {
+	color: #808083;
+	text-decoration: none !important;
+	padding: 3px 10px;
+	font-weight: bold;
+}
+.accordion-toggle:hover {
+	color: #FFF;
+}
+.accordion-toggle span {
+	padding-right: 10px;
+	width: 11px;
+}
+.accordion-toggle span:before {
+	content: "\f078" !important;
+}
+.accordion-toggle.collapsed span:before {
+	content: "\f054" !important;
+}
+.accordion-heading.active .accordion-toggle {
+	color: #FFF;
+}
+.accordion-body.in {
+	margin-top: -10px;
+}
+
+div.bottom-container-scroll-area {
+	padding-left: 250px; 			/* increase if sidebar increases */
+}
+div.bottom-container-scroll-area.no-nav {
+	padding-left: 20px;
+}
+
+div.function-border,
+section.function-border {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	border: 1px solid #E3E3E3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+div.function-title, div.configuration-title {
+	display: flex;
+	flex-direction: row;
+	gap: 0 5px;
+}
+
+/* TODO: Bootstrap v3 does not have Flex (starting from v4), therefore using common css */
+.badge-container {
+	display: flex;
+	align-items: center;
+}
+
+section {
+	padding-bottom: 20px;
+}
+
+div.search-container {
+	padding: 140px 40px 0 270px; /* increase if sidebar increases */
+}
+
+div.function {
+	font-size: 14px;
+	color: #2672fb;
+}
+
+div.title {
+	font-size: 14px;
+}
+
+div.title.i {
+	color: #808083;
+}
+
+div.func-int {
+	font-size: 14px;
+}
+
+.btn-opswat {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2672fb;
+  *background-color: #2672fb;
+  background-image: -moz-linear-gradient(top, #2672fb, #2672fb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2672fb), to(#2672fb));
+  background-image: -webkit-linear-gradient(top, #2672fb, #2672fb);
+  background-image: -o-linear-gradient(top, #2672fb, #2672fb);
+  background-image: linear-gradient(to bottom, #2672fb, #2672fb);
+  background-repeat: repeat-x;
+  border-color: #2672fb #2672fb #2672fb;
+}
+
+.btn-opswat:hover,
+.btn-opswat:active,
+.btn-opswat.active,
+.btn-opswat.disabled,
+.btn-opswat[disabled] {
+  color: #ffffff;
+  background-color: #2672fb;
+  *background-color: #2672fb;
+}
+
+.roadmap-feature {
+	display: none;
+}
+
+.btn-opswat:active,
+.btn-opswat.active {
+  background-color: #2672fb;
+}
+
+.btn-group.open .btn-opswat.dropdown-toggle {
+  background-color: #2672fb;
+}
+
+div.guide-hover {
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #2672fb;
+	display: inline-block;
+	float: left;
+	padding: 0px 5px 0px 5px;
+	border: 1px solid #2672fb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.table-no-border {
+	border: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table-no-border td {
+	padding-right: 20px;
+}
+
+ul.no-indent {
+  list-style-position: inside;
+  padding-left: 0;
+}

@@ -1,0 +1,41 @@
+{
+  "oesis": [
+    {
+      "header": {
+        "name": "MetaDefender Endpoint Security SDK Compliance Data",
+        "timestamp": 1755790203,
+        "time": "2025-08-21 22:30:03 +0700",
+        "copyright": "OPSWAT, all rights reserved, 2025. No distribution without prior permission. All information confidential.",
+        "version": "1.0",
+        "schema_version": "1.0-1.0",
+        "description": "This package contains MetaDefender Endpoint Security SDK Compliance data package, including data files and related documentations."
+      }
+    },
+    {
+      "files": {
+        "libwaresource.dll": {
+          "version": "4.3.4861.0",
+          "sha256": "854fa52df0c40422d6e5c54b7e1b80cbb0e8ec8e7ba6a15d2e234af300d24b6a"
+        },
+        "libwaresource.dylib": {
+          "version": "4.3.4325.0",
+          "sha256": "f0f121167081618be1615ff60e15a1740110202f9834edffeca1031d48212444"
+        },
+        "libwaresource.so": {
+          "arm64": {
+            "version": "4.3.3928.0",
+            "sha256": "90f4ecac4d84280cb90c4c4ef7bed3504a03d8b80c6a643bed962f9ec136a7d9"
+          },
+          "x64": {
+            "version": "4.3.3928.0",
+            "sha256": "14d4937fcda91300adc0fcc468bb1954b134e053d746529fa693f20ad2eb2dcc"
+          },
+          "x86": {
+            "version": "4.3.3928.0",
+            "sha256": "4097684ab8118d20604115366433098fb3b0b77e1b2ca525bbf8c2af374b9a60"
+          }
+        }
+      }
+    }
+  ]
+}

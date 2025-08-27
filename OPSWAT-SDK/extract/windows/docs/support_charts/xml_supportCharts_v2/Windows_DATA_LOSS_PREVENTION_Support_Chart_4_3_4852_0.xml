@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:54:32 2025" Name="DATA_LOSS_PREVENTION_Windows_Support_Chart" SDKVersion="4.3.4852.0" Timestamp="1755593672.7734096">
+				<Vendor Vendor_ID="1279" Vendor_Name="Abelssoft">
+					<Support Product_ID="2222" Product_Name="GoogleClean" Signature_ID="2259" Tested_Points="1.0.0.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="GoogleClean" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1663" Vendor_Name="Actifile">
+					<Support Product_ID="2955" Product_Name="Actifile Agent" Signature_ID="3013" Tested_Points="1.1.1.1" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.1.X" Signature_Name="Actifile Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2955" Product_Name="Actifile Agent" Signature_ID="3013" Tested_Points="1.0.0.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="Actifile Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2955" Product_Name="Actifile Agent" Signature_ID="3013" Tested_Points="2.0.0.26" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.0.X" Signature_Name="Actifile Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1689" Vendor_Name="Arcserve (USA), LLC">
+					<Support Product_ID="3057" Product_Name="Arcserve UDP Agent" Signature_ID="3127" Tested_Points="r7.0" Release_Name="" Test_Covered_Major_Version="r7" Test_Covered_Minor_Version="r7.X" Signature_Name="Arcserve UDP Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3057" Product_Name="Arcserve UDP Agent" Signature_ID="3127" Tested_Points="7.0.4455" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.0.X" Signature_Name="Arcserve UDP Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1649" Vendor_Name="AsiaInfo, Inc.">
+					<Support Product_ID="2927" Product_Name="Asiainfo OfficeScan Agent" Signature_ID="2985" Tested_Points="12.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="Asiainfo OfficeScan Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA, ZH" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2927" Product_Name="Asiainfo OfficeScan Agent" Signature_ID="2985" Tested_Points="13.0" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="Asiainfo OfficeScan Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA, ZH" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2927" Product_Name="Asiainfo OfficeScan Agent" Signature_ID="2985" Tested_Points="12.0.1651" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Asiainfo OfficeScan Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA, ZH" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2927" Product_Name="Asiainfo OfficeScan Agent" Signature_ID="2985" Tested_Points="11.0.9638" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="Asiainfo OfficeScan Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA, ZH" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2927" Product_Name="Asiainfo OfficeScan Agent" Signature_ID="2985" Tested_Points="16.0.283" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.0.X" Signature_Name="Asiainfo OfficeScan Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA, ZH" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="661" Vendor_Name="Cicada Security Technology Inc.">
+					<Support Product_ID="1075" Product_Name="Cicada Client" Signature_ID="1088" Tested_Points="2.1" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Cicada Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1716" Vendor_Name="CoSoSys Ltd.">
+					<Support Product_ID="3215" Product_Name="Endpoint Protector Client" Signature_ID="3417" Tested_Points="5.2.2.9" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.2.X" Signature_Name="Endpoint Protector Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="3215" Product_Name="Endpoint Protector Client" Signature_ID="3417" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Endpoint Protector Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="3215" Product_Name="Endpoint Protector Client" Signature_ID="3417" Tested_Points="5.6.3.1" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.6.X" Signature_Name="Endpoint Protector Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="106" Vendor_Name="Code42 Software">
+					<Support Product_ID="3191" Product_Name="Code42" Signature_ID="3370" Tested_Points="8.2.1" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.2.X" Signature_Name="Code42" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3191" Product_Name="Code42" Signature_ID="3370" Tested_Points="8.2.1.77" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.2.X" Signature_Name="Code42" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="588" Vendor_Name="DESlock Limited">
+					<Support Product_ID="875" Product_Name="DESlock+" Signature_ID="884" Tested_Points="4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.X" Signature_Name="DESlock+ (x86)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="875" Product_Name="DESlock+" Signature_ID="884" Tested_Points="4.9.4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.9.X" Signature_Name="DESlock+ (x86)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="875" Product_Name="DESlock+" Signature_ID="885" Tested_Points="4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.X" Signature_Name="DESlock+ (x64)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="875" Product_Name="DESlock+" Signature_ID="885" Tested_Points="4.9.4" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.9.X" Signature_Name="DESlock+ (x64)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1447" Vendor_Name="Digital Guardian">
+					<Support Product_ID="2526" Product_Name="Digital Guardian Agent" Signature_ID="2568" Tested_Points="7.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.X" Signature_Name="Digital Guardian Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2526" Product_Name="Digital Guardian Agent" Signature_ID="2568" Tested_Points="7.8.5.0048" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.8.X" Signature_Name="Digital Guardian Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="415" Vendor_Name="Doctor Web, Ltd.">
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="9.1.3.04030" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.1.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="10.0.10.07010" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="11.0.0.08191" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="7.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="8.0" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="12.0.2.11161" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="12.10.0.06140" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.10.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="610" Product_Name="Dr.Web Security Space" Signature_ID="617" Tested_Points="12.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="Dr.Web Security Space" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="124" Vendor_Name="EMC Corporation">
+					<Support Product_ID="1121" Product_Name="RSA DLP Endpoint Agent" Signature_ID="1135" Tested_Points="9.6.1000.90" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.6.X" Signature_Name="RSA DLP Endpoint Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1120" Product_Name="RSA Data Loss Prevention" Signature_ID="1134" Tested_Points="9.6.1000.10191" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.6.X" Signature_Name="RSA Data Loss Prevention" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1557" Vendor_Name="EgoSecure">
+					<Support Product_ID="2757" Product_Name="EgoSecure Endpoint Agent" Signature_ID="2800" Tested_Points="10.3.859.3" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="EgoSecure Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1323" Vendor_Name="Essential Data Tools">
+					<Support Product_ID="2301" Product_Name="FileRescue Pro" Signature_ID="2339" Tested_Points="4.12.0.211" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.12.X" Signature_Name="FileRescue Pro" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1214" Vendor_Name="Faronics Corporation">
+					<Support Product_ID="2193" Product_Name="Faronics Data Igloo Standard" Signature_ID="2229" Tested_Points="2.10.1110.375" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.10.X" Signature_Name="Faronics Data Igloo Standard" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1645" Vendor_Name="Forcepoint, Inc.">
+					<Support Product_ID="2918" Product_Name="Forcepoint DLP" Signature_ID="2972" Tested_Points="8.4.0.198        " Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.4.X" Signature_Name="Forcepoint DLP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2918" Product_Name="Forcepoint DLP" Signature_ID="2972" Tested_Points="8.4.0.200" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.4.X" Signature_Name="Forcepoint DLP" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3291" Product_Name="Forcepoint One Endpoint" Signature_ID="3537" Tested_Points="21.05.5086.1" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.05.X" Signature_Name="Forcepoint One Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3291" Product_Name="Forcepoint One Endpoint" Signature_ID="3537" Tested_Points="22.06.5578" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.06.X" Signature_Name="Forcepoint One Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3291" Product_Name="Forcepoint One Endpoint" Signature_ID="3537" Tested_Points="23.11.5662" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.11.X" Signature_Name="Forcepoint One Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3291" Product_Name="Forcepoint One Endpoint" Signature_ID="3537" Tested_Points="24.04.5677" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.04.X" Signature_Name="Forcepoint One Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2981" Product_Name="TRITON AP-ENDPOINT" Signature_ID="3046" Tested_Points="8.3.2540.1" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.3.X" Signature_Name="TRITON AP-ENDPOINT" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2981" Product_Name="TRITON AP-ENDPOINT" Signature_ID="3046" Tested_Points="8.0.0.1" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="TRITON AP-ENDPOINT" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2981" Product_Name="TRITON AP-ENDPOINT" Signature_ID="3046" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="TRITON AP-ENDPOINT" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2981" Product_Name="TRITON AP-ENDPOINT" Signature_ID="3046" Tested_Points="20.12.4959" Release_Name="" Test_Covered_Major_Version="20" Test_Covered_Minor_Version="20.12.X" Signature_Name="TRITON AP-ENDPOINT" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1672" Vendor_Name="Heimdal Security">
+					<Support Product_ID="2992" Product_Name="Heimdal Thor Agent" Signature_ID="3057" Tested_Points="2.5.210.2000" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.5.X" Signature_Name="Heimdal Thor Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2992" Product_Name="Heimdal Thor Agent" Signature_ID="3057" Tested_Points="3.7.6.3000" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.7.X" Signature_Name="Heimdal Thor Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1024" Vendor_Name="Lepide Software Pvt. Ltd.">
+					<Support Product_ID="2758" Product_Name="LepideAuditor Suite" Signature_ID="2801" Tested_Points="16.3" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="LepideAuditor Suite" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1276" Vendor_Name="MSecure Data Labs">
+					<Support Product_ID="2760" Product_Name="MSecure DenyWall Total Security 360" Signature_ID="2804" Tested_Points="10.0.6.3" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="MSecure DenyWall Total Security 360" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="379" Vendor_Name="McAfee, Inc.">
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="9.3.0.637" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.3.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="9.3.633" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.3.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="10.0.2" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="11.3.2" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.3.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="11.4.300" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.4.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1068" Product_Name="McAfee DLP Endpoint" Signature_ID="1081" Tested_Points="11.10.100.172" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.10.X" Signature_Name="McAfee DLP Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1790" Vendor_Name="Netwrix Corporation">
+					<Support Product_ID="3426" Product_Name="Netwrix Auditor" Signature_ID="3712" Tested_Points="10.5.11059.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.5.X" Signature_Name="Netwrix Auditor" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3426" Product_Name="Netwrix Auditor" Signature_ID="3712" Tested_Points="10.6.12275.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.6.X" Signature_Name="Netwrix Auditor" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="240" Vendor_Name="Symantec Corporation">
+					<Support Product_ID="3637" Product_Name="Symantec Data Loss Prevention Agent" Signature_ID="4041" Tested_Points="16.0.00206.60578" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.0.X" Signature_Name="Symantec Data Loss Prevention Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2962" Product_Name="Symantec Data Loss Prevention Detection Server" Signature_ID="3020" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Symantec Data Loss Prevention Detection Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2961" Product_Name="Symantec Data Loss Prevention Enforce Server" Signature_ID="3019" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Symantec Data Loss Prevention Enforce Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2960" Product_Name="Symantec Data Loss Prevention Single-Tier Server" Signature_ID="3018" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Symantec Data Loss Prevention Single-Tier Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="429" Vendor_Name="Thirtyseven4">
+					<Support Product_ID="640" Product_Name="Thirtyseven4 AntiVirus" Signature_ID="647" Tested_Points="16.00" Release_Name="" Test_Covered_Major_Version="16" Test_Covered_Minor_Version="16.X" Signature_Name="Thirtyseven4 AntiVirus" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="1766" Vendor_Name="Trellix">
+					<Support Product_ID="3405" Product_Name="Trellix Data Loss Prevention - Endpoint" Signature_ID="3682" Tested_Points="11.10.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.10.X" Signature_Name="Trellix Data Loss Prevention - Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3405" Product_Name="Trellix Data Loss Prevention - Endpoint" Signature_ID="3682" Tested_Points="11.10.0.292" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.10.X" Signature_Name="Trellix Data Loss Prevention - Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3405" Product_Name="Trellix Data Loss Prevention - Endpoint" Signature_ID="3682" Tested_Points="11.10.100.172" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.10.X" Signature_Name="Trellix Data Loss Prevention - Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3405" Product_Name="Trellix Data Loss Prevention - Endpoint" Signature_ID="3682" Tested_Points="11.11.0.1382" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.11.X" Signature_Name="Trellix Data Loss Prevention - Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="148" Vendor_Name="Trend Micro, Inc.">
+					<Support Product_ID="3338" Product_Name="Cyber Eye Security Agent" Signature_ID="3577" Tested_Points="14.0" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="Cyber Eye Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3338" Product_Name="Cyber Eye Security Agent" Signature_ID="3577" Tested_Points="14.0.10349" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Cyber Eye Security Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="13.95" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.2012" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.8358" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.8417" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.10092" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.4026" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.14492" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.14649" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="2987" Product_Name="Trend Micro Apex One Security Agent" Signature_ID="3050" Tested_Points="14.0.20114" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.0.X" Signature_Name="Trend Micro Apex One Security Agent" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="10.5" Release_Name="" Test_Covered_Major_Version="10.5" Test_Covered_Minor_Version="10.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="10.6" Release_Name="" Test_Covered_Major_Version="10.6" Test_Covered_Minor_Version="10.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="11.0.1028" Release_Name="" Test_Covered_Major_Version="11.0" Test_Covered_Minor_Version="11.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="12.0.1222" Release_Name="" Test_Covered_Major_Version="12.0" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="12.0.1352" Release_Name="" Test_Covered_Major_Version="12.0" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="12.0.1315" Release_Name="" Test_Covered_Major_Version="12.0" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="11.0" Release_Name="" Test_Covered_Major_Version="11.0" Test_Covered_Minor_Version="11.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="10.6.3205" Release_Name="" Test_Covered_Major_Version="10.6" Test_Covered_Minor_Version="10.6.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="13.95" Release_Name="" Test_Covered_Major_Version="13.9" Test_Covered_Minor_Version="13.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="12.0.5383" Release_Name="" Test_Covered_Major_Version="12.0" Test_Covered_Minor_Version="12.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="12.0" Release_Name="" Test_Covered_Major_Version="12.0" Test_Covered_Minor_Version="12.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="539" Product_Name="Trend Micro OfficeScan Client" Signature_ID="544" Tested_Points="11.0.4150" Release_Name="" Test_Covered_Major_Version="11.0" Test_Covered_Minor_Version="11.0.X" Signature_Name="Trend Micro OfficeScan Client" Marketing_Alias_Names="" Supported_Languages="EN, JA" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="1004" Vendor_Name="Wave Systems Corp.">
+					<Support Product_ID="1595" Product_Name="Wave Data Protection Agent" Signature_ID="1617" Tested_Points="3.4.8846.1" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="Wave Data Protection Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="1594" Product_Name="Wave Data Protection Management Server" Signature_ID="1616" Tested_Points="3.4" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.X" Signature_Name="Wave Data Protection Management Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1865" Vendor_Name="Xcitium">
+					<Support Product_ID="3654" Product_Name="Xcitium Client - Security" Signature_ID="4061" Tested_Points="13.2.0.9559" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.2.X" Signature_Name="Xcitium Client - Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="3654" Product_Name="Xcitium Client - Security" Signature_ID="4061" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Xcitium Client - Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - DATA_LOSS_PREVENTION</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="DATA_LOSS_PREVENTION">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

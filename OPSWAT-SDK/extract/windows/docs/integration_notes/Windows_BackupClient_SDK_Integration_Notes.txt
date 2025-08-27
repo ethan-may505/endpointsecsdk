@@ -1,0 +1,15 @@
+4V Backup Client Integration Notes
+------------------------------
+[Microsoft Corporation] [90]
+	Microsoft OneDrive {833}
+		- Microsoft OneDrive <842>
+			- GetBackupState (1008)
+				- Can not get last_backup_activity in case synchronizes items from OneDrive folder on local to cloud
+	Windows Backup and Restore {923}
+		- Windows Backup and Restore <935>
+			- GetBackupState (1008)
+				- Might return wrong timestamps for some entries of the backups list when we have just changed the Backup setting.
+				- For non-system backup, only the selected items within the latest Backup setting could appear in the backups list.
+				- The entry for system image backup is always listed in backups if it has been backed up at least once before.
+				- If the last backup included system-image, we would use the timestamps of the last backup as time_ended, otherwise, we would consider the one saved in the system as time_ended for system image backup entry.
+=========================================================================================================

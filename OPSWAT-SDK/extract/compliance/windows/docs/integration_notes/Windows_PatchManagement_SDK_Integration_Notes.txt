@@ -1,0 +1,7 @@
+4V Patch Management Integration Notes
+-------------------------------------
+[Microsoft Corporation] [90]
+	Windows Update Agent {1090}
+		- Windows Update Agent <1103>
+			- GetAgentState (1012)
+				- For Windows 10 builds before Anniversary Update, make sure Windows Policy is applied properly for this function to work correctly.

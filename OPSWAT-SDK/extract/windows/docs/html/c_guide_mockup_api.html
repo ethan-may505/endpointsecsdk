@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> How to use the Mockup API </h3>
+			<p>Hover over each of the <i class="icon-info-sign blue icon-large"></i> signs to view the pop-up details.</p>
+
+			<!-- Break down into sections -->
+			<table class="table-no-border">
+				
+				<tr>
+					<td></td>
+					<td><h4>What is the Mockup API</h4></td>
+				</tr>
+				<tr>
+					<td><i id="info-desc" class="icon-info-sign blue icon-2x"></i></td>
+					<td><p>The Mockup API provides a mechanism to test various output scenarios in any environment, against any product, for any method.</p></td>
+				</tr>
+				<tr>
+					<td><i id="info-mock-use" class="icon-info-sign blue icon-2x"></i></td>	
+					<td><p>In order to use the Mockup API, MetaDefender Endpoint Security SDK must be configured correctly. Passing in the <a href="c_sdk.html#WAAPI_CONFIG_MOCKUP_MODE">WAAPI_CONFIG_MOCKUP_MODE</a> to <a href="c_sdk.html#wa_api_setup">wa_api_setup</a> will cause
+						the MDES SDK to run in Mockup mode. All calls to <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a> will only return successfully if they are defined in the mockup.json file (except for those mentioned in the Remarks section).</p></td>
+				</tr>
+				<tr>
+					<td><i id="info-mockup-details-core" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>Every mockup.json file must contain the following core structure:</p>
+						<pre class="prettyprint c"><code>{
+    "mockups": {
+        ...
+    }
+}
+</code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-mockup-details-sig" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>The keys within the "mockups" object must contain the following structure:</p>
+						<pre class="prettyprint c"><code>"&lt;V4 signature ID&gt;": {
+    "version": &lt;string&gt;,
+    "methods": {
+        ...
+    }
+}
+</code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-mockup-details-methods" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>The keys within the "methods" object must contain either of the following structures:</p>
+						<pre class="prettyprint c"><code>"&lt;V4 method ID&gt;": {
+    "result": {
+        "&lt;V4 api result key&gt;": &lt;value to return&gt;,
+        ...
+}
+</code></pre>
+						<p>OR</p>
+						<pre class="prettyprint c"><code>"&lt;V4 method ID&gt;": {
+    "error": {
+        "code": &lt;V4 error code&gt;
+    }
+}
+</code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td><i id="info-mockup" class="icon-info-sign blue icon-2x"></i></td>	
+					<td>
+						<p>Below is an example of a complete mockup.json file:</p>
+						<pre class="prettyprint c"><code><script>
+							var mockup = {
+								mockups: {
+									"0": {
+										version: "0.0",
+										methods: {
+											"0": {
+												result: {
+													detected_products : [
+														{
+															signature: 1414,
+															sig_name: "Avira Internet Security",
+															categories: [
+																5, 2, 4, 7
+															],
+															product: {
+																id: 1396,
+																name: "Avira Internet Security"
+															},
+															vendor: {
+																id: 294,
+																name: "Avira GmbH"
+															}
+														}
+													]
+												}
+											}
+										}
+									},
+									"1414": {
+										version: "14.0",
+										methods: {
+											"1000": {
+												result: {
+													code: 0,
+													enabled: true,
+													details: {
+														antivirus: true,
+														antispyware: true
+													}
+												}
+											},
+											"1007": {
+												result: {
+													code: 0,
+													enabled: false
+												}
+											},
+											"1008": {
+												error: {
+													code: -28
+												}
+											}
+										}
+									}
+								}
+							};
+							document.write( JSON.stringify(mockup, null, 4) );
+						</script></code></pre>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><h4>*Remarks</h4></td>
+				</tr>
+				<tr>
+					<td></td>	
+					<td>
+						<ul>
+							<li>When in "mocking" mode, all calls will fail with <a href="c_return_codes.html#WAAPI_ERROR_INVALID_MOCKUP">WAAPI_ERROR_INVALID_MOCKUP</a> if the mockup.json format is incorrect or if the called method is not defined in the mockup.</li>
+							<li>The only methods that will not (and cannot) be mocked are the following: <a href="c_method.html#GetLicenseInfo">GetLicenseInfo</a>, <a href="c_method.html#UpdateLicenseInfo">UpdateLicenseInfo</a>, <a href="c_method.html#GetDeviceIdentity">GetDeviceIdentity</a>, <a href="c_method.html#GetComponents">GetComponents</a> and <a href="c_method.html#GetProductInfo">GetProductInfo</a></li>
+							<li>Any result key may be defined for the output, but the following keys will always be defined for every call: "method", "code", "timing", "timestamp". If "code" is defined then the api will return that code in place of any other.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<hr/>
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+	
+	<script>
+		$(function(){
+			$('#info-desc').popover( { placement : 'left',
+										title : 'Description',
+										content: 'Only a few select methods are not mock-able and they are listed in the Remarks section.',
+										trigger : 'hover' } );
+										
+			$('#info-mock-use').popover( { placement : 'left',
+										title : 'Mockup Use',
+										content: 'The mockup.json file will be explained in detail below.',
+										trigger : 'hover' } );
+									
+			$('#info-mockup').popover( { placement : 'left',
+										title : 'Mockup Example',
+										content: 'The example mockup.json file can be found in the sample_code directory of the MetaDefender Endpoint Security SDK package. There is also a mockup.template.json which has a generic strucutre with notes.',
+										trigger : 'hover' } );
+			$('#info-mockup-details-core').popover( { placement : 'left',
+										title : 'Mockup Core',
+										content: 'The inner structure will be explained in detail below.',
+										trigger : 'hover' } );
+			$('#info-mockup-details-sig').popover( { placement : 'left',
+										title : 'Mockup Signature',
+										content: 'The V4 signature ID must be a VALID id in the API, but does not need to be a real product on the system. If the method to be called does not require an ID, like detection, then "0" can be used. If no version is needed then use "0.0".',
+										trigger : 'hover' } );
+			$('#info-mockup-details-methods').popover( { placement : 'left',
+										title : 'Mockup Methods',
+										content: 'All api keys are output keys for the specified method and the return value should be any valid return value for that key. See the Remarks section for more details.',
+										trigger : 'hover' } );
+		});
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "os": {
+    "os_name": "Ubuntu 20.04.6 LTS",
+    "os_version": "20.04.6",
+    "os_type": 2
+  },
+  "package": {
+    "package_name": "firefox",
+    "package_version": "136.0+build3-0ubuntu0.20.04.1"
+  }
+}

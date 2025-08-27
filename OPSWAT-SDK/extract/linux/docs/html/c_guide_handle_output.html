@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+	
+	<div class="strip"> </div>
+	
+	<div id="mainContainer">
+		
+	<script>buildNav(4, 0, 0);</script>
+	
+	<!-- search content will override the bottom-container -->
+	<div id="bottomContainer" class="bottom-container">
+		
+		<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+		<div class="sidebar">
+			
+			<ul class="nav nav-list nav-sidebar nav-scroll">
+				<li class="active"><a href="#success">Handling successful return</a></li>
+				<li><a href="#failure">Handling failed return</a></li>
+				<li><a href="#setupReturn">Handling setup return</a></li>
+			</ul>
+		
+		</div>
+			
+		<!-- Scrolling area that auto-updates with side-nav -->
+		<div class="bottom-container-scroll-area">
+			
+			<h3 class="blue"><a href="c_guide.html">MDES SDK Guides</a> <i class="icon-chevron-right grey"></i> How to handle output results</h3>
+			<p>wa_api_invoke invocations return an error code and populate a JSON formatted wa_wchar pointer that is passed as a <code>json_out</code> parameter.
+				 The content of this JSON formatted wa_wchar pointer will be dependent on the success/failure error code returned.</p>
+				 
+			<p>Regardless of the success or failure of the wa_api_invoke, you <strong>must</strong> pass the <code>json_out</code> allocated pointer
+				to wa_api_free to release the allocated memory back to the process.</p>
+			
+			<section id="success">
+				<h4>Successful call</h4>
+				<p>If this functions returns a successful error code the <code>json_out</code> will be populated with the following:</p>
+				
+				<pre class="prettyprint c"><code> {
+        "result" : {
+                "method" : number,
+                "code" : number,
+                "timing" : number,
+                "timestamp" : string,
+                "result" : object
+        }
+ }</code></pre>
+ 				<script>
+ 					startJsonTable();
+					addJsonRow( "method", "number", "The method that generated this result.");
+					addJsonRow( "code", "number", "The result code for this method call.");
+					addJsonRow( "timing", "number", "The measured time for the method call in milliseconds.");
+					addJsonRow( "timestamp", "string", "The timestamp in seconds of when the call was made.");
+					addJsonRow( "result", "object", "The method specific results from the invocation specified on the given component. The details of value are defined in detail by each value passed in the <code>component_method</code> parameter to wa_api_invoke.");
+					endJsonTable();
+ 				</script>
+ 
+			</section> <!-- end of success -->
+			
+			<section id="failure">
+				<h4>Failed call</h4>
+				<p>If this functions returns a failure error code the <code>json_out</code> will be populated with error information:</p>
+				
+				<pre class="prettyprint c"><code> {
+        "error": {
+                "log_paths": [
+                    string,
+                    ...
+                ],
+                "code" : number,
+                "method" : number,
+                "errors" : [            
+                        {
+                                "code" : number,
+                                "method" : string,
+                                "called_at" : string,
+                                "returned_at" : string,
+                                "message" : string,
+                                "errors" : array
+                        },
+                        ...
+                ],
+                "description" : string,
+                "define" : string,
+                "timing" : number
+                "timestamp" : string
+        }	
+ }</code></pre>
+ 				
+ 				<script>
+ 					startJsonTable();
+					addJsonRow( "code", "number", "The value of the error code, which is the same as the wa_int returned by the wa_api_invoke function.");
+					addJsonRow( "method", "number", "The method which generated the error if call has a method number.");
+					addJsonRow( "log_paths", "array<string>", "Paths to the log files related to the installation process. For the InstallFromFiles method only");
+					addJsonRow( "errors", "array", "The error stack trace. Very useful for OPSWAT engineers for determine the location of the error for debugging.");
+					addJsonRow( "errors.code", "number", "The value of the error code at this point in the call stack.");
+					addJsonRow( "errors.method", "string", "(optional)The name of the method that returned an error.");
+					addJsonRow( "errors.called_at", "string", "(optional)The file and line number for the function that errored.");
+					addJsonRow( "errors.returned_at", "string", "(optional)The file and line number where the error was returned.");
+					addJsonRow( "errors.message", "string", "(optional)An error message to provide additional details.");
+					addJsonRow( "errors.errors", "array", "(optional)Recursively shows the error stack. Has the same properties as the parent errors array.");
+					addJsonRow( "description", "string", "The print friendly description of the error code.");
+					addJsonRow( "define", "string", "The print friendly error define, e.g. WAAPI_ERROR_GENERAL.");
+					addJsonRow( "timestamp", "string", "The timestamp in seconds of when the call was made.");
+					addJsonRow( "timing", "number", "The measured time for the method call in milliseconds.");
+					endJsonTable();
+ 				</script>
+
+			</section> <!-- end of failure -->
+			
+			<section id="setupReturn">
+				<h4>Setup call</h4>
+				<p>This is the expected return from a wa_api_setup call. Each deployed module can return a different configuration object with keys that may only exist for that module. Only the guaranteed keys are shown here.</p>
+				
+				<pre class="prettyprint c"><code> {
+        "errors" : [            
+                {
+                        "module" : string,
+                        "code" : number
+                },
+                ...
+        ],
+        "configs" : [
+                {
+                        "timing" : number,
+                        "module" : string,
+                        ...
+                },
+                ...
+        ]
+ }
+</code></pre>
+ 				
+ 				<script>
+ 					startJsonTable();
+					addJsonRow( "errors", "array", "An array of errors that occurred when trying to load extension modules. This is a reference of what modules are currently not available. This could also contain a standard error stack if a setup error occurred.");
+					addJsonRow( "errors.module", "string", "The module where the setup error occurred.");
+					addJsonRow( "errors.code", "number", "The error code returned when trying to load the referenced module.");
+					addJsonRow( "configs", "array", "An array of objects with the current setup configuration values for each deployed module.");
+					addJsonRow( "configs.timing", "number", "The time that it took to perform the call in ms.");
+					addJsonRow( "configs.module", "string", "The name of the module who owns this configuration.");
+					endJsonTable();
+ 				</script>
+
+			</section> <!-- end of setup return -->
+			
+		</div>
+
+	</div>
+	
+	<!-- search goes here, clears above -->
+	<div id="search-container" class="search-container"></div>
+	</div>
+</body>
+</html>
