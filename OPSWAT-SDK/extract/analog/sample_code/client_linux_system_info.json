@@ -1,11 +1,3 @@
-{
-  "os": {
-    "os_name": "Ubuntu 20.04.6 LTS",
-    "os_version": "20.04.6",
-    "os_type": 2
-  },
-  "package": {
-    "package_name": "firefox",
-    "package_version": "136.0+build3-0ubuntu0.20.04.1"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3afa118924c7bbf7b638e7aacb7a28a1e5bc5d791428cb66ccf1eed30410320
+size 207

@@ -1,29 +1,3 @@
-{
-    "checksums": [
-        {
-            "path": "bin/x86", 
-            "hash": {
-                "type": "sha256", 
-                "value": "4097684ab8118d20604115366433098fb3b0b77e1b2ca525bbf8c2af374b9a60"
-            }, 
-            "name": "libwaresource.so"
-        }, 
-        {
-            "path": "bin/x64", 
-            "hash": {
-                "type": "sha256", 
-                "value": "14d4937fcda91300adc0fcc468bb1954b134e053d746529fa693f20ad2eb2dcc"
-            }, 
-            "name": "libwaresource.so"
-        }, 
-        {
-            "path": "bin/arm64", 
-            "hash": {
-                "type": "sha256", 
-                "value": "90f4ecac4d84280cb90c4c4ef7bed3504a03d8b80c6a643bed962f9ec136a7d9"
-            }, 
-            "name": "libwaresource.so"
-        }
-    ], 
-    "sdk_version": "4.3.3928.0"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:822809d6e3b231126f10175187d883959bb20271255d9883491b0419a2e00e04
+size 836
