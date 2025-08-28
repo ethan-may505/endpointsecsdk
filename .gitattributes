@@ -1,2 +1,0 @@
-*.json filter=lfs diff=lfs merge=lfs -text
-OPSWAT-SDK/extract/analog/server/*.json filter=lfs diff=lfs merge=lfs -text
