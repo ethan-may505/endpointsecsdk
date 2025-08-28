@@ -21,3 +21,5 @@ obj/
 .claude/settings.local.json
 OPSWAT-SDK/extract/analog/server/cves.json
 OPSWAT-SDK/extract/analog/server/vuln_system_associations.json
+OPSWAT-SDK/extract/analog/server/cves.json
+OPSWAT-SDK/extract/analog/server/vuln_system_associations.json
