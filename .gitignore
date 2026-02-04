@@ -28,9 +28,17 @@ OPSWAT-SDK/extract/analog/server/vuln_system_associations.json
 *.dll
 *.so
 *.so.*
-dll/
-lib/
-so/
+*.jar
+*.class
+*.exe
+*.dat
+*.log
+dll/*
+lib/*
+so/*
+!dll/.gitkeep
+!lib/.gitkeep
+!so/.gitkeep
 
 # License and credential files (keep putyourlicense.txt)
 license.cfg
