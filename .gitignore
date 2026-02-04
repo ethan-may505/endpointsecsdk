@@ -23,3 +23,23 @@ OPSWAT-SDK/extract/analog/server/cves.json
 OPSWAT-SDK/extract/analog/server/vuln_system_associations.json
 OPSWAT-SDK/extract/analog/server/cves.json
 OPSWAT-SDK/extract/analog/server/vuln_system_associations.json
+
+# SDK binaries and libraries
+*.dll
+*.so
+*.so.*
+dll/
+lib/
+so/
+
+# License and credential files (keep putyourlicense.txt)
+license.cfg
+license.txt
+pass_key.txt
+download_token.txt
+
+# Build outputs
+build/
+*.class
+*.jar
+.claude/

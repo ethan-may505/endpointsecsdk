@@ -1,0 +1,8 @@
+{
+    "passkey": "YOUR_PASSKEY_HERE",
+    "license": {
+      "license": "YOUR_LICENSE_BYTES_HERE",
+      "license_key": "YOUR_LICENSE_KEY_HERE"
+    }
+}
+rename this file to license.txt
