@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:14:58 2025" Name="VPN_CLIENT_Mac_Support_Chart" SDKVersion="4.3.4325.0" Timestamp="1755767698.7696228">
+				<Vendor Vendor_ID="100013" Vendor_Name="AVAST Software a.s.">
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="21.0" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="21.1" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="21.2" Release_Name="" Test_Covered_Major_Version="21" Test_Covered_Minor_Version="21.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.1" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.4" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.2" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.5" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.6" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.7" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.9" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.10" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="22.11" Release_Name="" Test_Covered_Major_Version="22" Test_Covered_Minor_Version="22.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.1.1" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.1.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.1.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.1.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.4.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.4.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.7.1" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.7.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.7.2" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.7.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.11.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.11.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="23.11.1" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.11.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="24.6.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.6.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="24.9.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.9.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100365" Product_Name="Avast One" Signature_ID="100427" Tested_Points="25.3.0" Release_Name="" Test_Covered_Major_Version="25" Test_Covered_Minor_Version="25.3.X" Signature_Name="Avast One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100094" Vendor_Name="Amplusnet S.R.L.">
+					<Support Product_ID="100114" Product_Name="ibVPN" Signature_ID="100114" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="ibVPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100137" Vendor_Name="Check Point Software Technologies">
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="80.89.0076" Release_Name="" Test_Covered_Major_Version="80" Test_Covered_Minor_Version="80.89.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="83.20.0613" Release_Name="" Test_Covered_Major_Version="83" Test_Covered_Minor_Version="83.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="84.30.0820" Release_Name="" Test_Covered_Major_Version="84" Test_Covered_Minor_Version="84.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="85.30.0167" Release_Name="" Test_Covered_Major_Version="85" Test_Covered_Minor_Version="85.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="86.20.1113" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="87.00.3420" Release_Name="" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="89.00.6730" Release_Name="" Test_Covered_Major_Version="89" Test_Covered_Minor_Version="89.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100114" Vendor_Name="ChungwaSoft">
+					<Support Product_ID="100142" Product_Name="Shimo" Signature_ID="100149" Tested_Points="3.4" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.X" Signature_Name="Shimo" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100144" Vendor_Name="Cisco Systems, Inc.">
+					<Support Product_ID="100217" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="100218" Tested_Points="3.1.10010" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.1.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100217" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="100218" Tested_Points="4.2.03013" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.2.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100217" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="100218" Tested_Points="4.3.00748" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.3.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100217" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="100218" Tested_Points="4.10.05111" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.10.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100387" Product_Name="Cisco Secure Client - AnyConnect VPN" Signature_ID="100444" Tested_Points="5.0.00529" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Cisco Secure Client - AnyConnect VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100119" Vendor_Name="Dell Inc.">
+					<Support Product_ID="100180" Product_Name="Connect Tunnel" Signature_ID="100208" Tested_Points="11.40.850774" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.40.X" Signature_Name="Connect Tunnel" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100283" Vendor_Name="ExpressVPN">
+					<Support Product_ID="100477" Product_Name="ExpressVPN" Signature_ID="100535" Tested_Points="11.57.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.57.X" Signature_Name="ExpressVPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100477" Product_Name="ExpressVPN" Signature_ID="100535" Tested_Points="11.58.0" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.58.X" Signature_Name="ExpressVPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100198" Vendor_Name="Fortinet Inc.">
+					<Support Product_ID="100303" Product_Name="FortiClient" Signature_ID="100363" Tested_Points="6.0.7.133" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="FortiClient" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100303" Product_Name="FortiClient" Signature_ID="100363" Tested_Points="7.2.2.0776" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="FortiClient" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100303" Product_Name="FortiClient" Signature_ID="100363" Tested_Points="7.4.0.1645" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.4.X" Signature_Name="FortiClient" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100303" Product_Name="FortiClient" Signature_ID="100363" Tested_Points="7.4.2.1717" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.4.X" Signature_Name="FortiClient" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100303" Product_Name="FortiClient" Signature_ID="100363" Tested_Points="7.4.3.1761" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.4.X" Signature_Name="FortiClient" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100075" Vendor_Name="Golden Frog, GmbH.">
+					<Support Product_ID="100117" Product_Name="VyprVPN" Signature_ID="100117" Tested_Points="2.7.5.3042" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.7.X" Signature_Name="VyprVPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100121" Vendor_Name="GreenWorldSoft">
+					<Support Product_ID="100152" Product_Name="VPN Server Configurator" Signature_ID="100167" Tested_Points="2.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="VPN Server Configurator" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100015" Vendor_Name="Juniper Networks">
+					<Support Product_ID="100121" Product_Name="Junos Pulse" Signature_ID="100121" Tested_Points="5.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.X" Signature_Name="Junos Pulse" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100019" Product_Name="Network Connect" Signature_ID="100291" Tested_Points="15991" Release_Name="" Test_Covered_Major_Version="15991" Test_Covered_Minor_Version="15991.X" Signature_Name="Network Connect" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100019" Product_Name="Network Connect" Signature_ID="100291" Tested_Points="6.5.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.5.X" Signature_Name="Network Connect" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100100" Vendor_Name="Kryptotel fz llc">
+					<Support Product_ID="100120" Product_Name="Vpn One Click" Signature_ID="100120" Tested_Points="1.32" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Vpn One Click" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100074" Vendor_Name="NCP Network Communications Products engineering GmbH">
+					<Support Product_ID="100164" Product_Name="NCP Secure Enterprise Client" Signature_ID="100179" Tested_Points="2.05" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="NCP Secure Enterprise Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100092" Product_Name="NCP Secure Entry Client" Signature_ID="100092" Tested_Points="2.05" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="NCP Secure Entry Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100239" Vendor_Name="OpenVPN, Inc.">
+					<Support Product_ID="100400" Product_Name="OpenVPN Connect" Signature_ID="100460" Tested_Points="3.3.6" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.3.X" Signature_Name="OpenVPN Connect" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100400" Product_Name="OpenVPN Connect" Signature_ID="100460" Tested_Points="3.4.1" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="OpenVPN Connect" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100164" Vendor_Name="PSEUD.iO">
+					<Support Product_ID="100223" Product_Name="Total VPN" Signature_ID="100273" Tested_Points="1.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Total VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100180" Vendor_Name="Privax Ltd">
+					<Support Product_ID="100256" Product_Name="HMA! Pro VPN" Signature_ID="100313" Tested_Points="3.5.6" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.5.X" Signature_Name="HMA! Pro VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100205" Vendor_Name="Pulse Secure">
+					<Support Product_ID="100323" Product_Name="Pulse Connect Secure" Signature_ID="100381" Tested_Points="9.1.3" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.1.X" Signature_Name="Pulse Connect Secure" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100085" Vendor_Name="PureVPN">
+					<Support Product_ID="100104" Product_Name="PureVPN" Signature_ID="100104" Tested_Points="1.99" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="PureVPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100112" Vendor_Name="Shellfire">
+					<Support Product_ID="100140" Product_Name="Shellfire VPN" Signature_ID="100144" Tested_Points="2.4" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="Shellfire VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - VPN_CLIENT</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="VPN_CLIENT">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

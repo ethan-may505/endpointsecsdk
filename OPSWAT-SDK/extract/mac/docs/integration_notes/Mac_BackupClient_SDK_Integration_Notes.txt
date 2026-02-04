@@ -1,0 +1,14 @@
+4V Backup Client Integration Notes
+------------------------------
+[Apple Inc.] [100011]
+	Time Machine {100012}
+		- Time Machine <100191>
+			- GetBackupState (1008)
+				- Can not get state backup and set it as "unknown".
+				- Need Full Disk Access for product which integrated MDES SDK (waremotetest/OEAT/OADT/OPSWAT client/customer's product).
+==============================================================================================================================
+[EaseUS] [100254]
+	EaseUS Todo Backup {100417}
+		- EaseUS Todo Backup <100478>
+			- GetBackupState (1008)
+				- Need Full Disk Access for product which integrated MDES SDK (waremotetest/OEAT/OADT/OPSWAT client/customer's product).

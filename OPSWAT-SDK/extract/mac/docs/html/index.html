@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+
+		<script>buildNav(0, 0, 0);</script>
+
+		<!-- search content will override the bottom-container -->
+		<div id="bottomContainer" class="bottom-container">
+
+			<!-- fixed left navigation side bar that auto-updates with scrolling content -->
+			<div class="sidebar">
+
+				<ul class="nav nav-list nav-sidebar nav-scroll">
+					<li class="active"><a href="#intro">Introduction</a></li>
+					<li><a href="#features">Features</a></li>
+				</ul>
+
+			</div>
+
+			<!-- Scrolling area that auto-updates with side-nav -->
+			<div class="bottom-container-scroll-area">
+				<section id="intro">
+					<h3 class="blue">About</h3>
+					<p>This is the reference document for the MetaDefender Endpoint Security Software Developement Kit (MDES SDK) provided by OPSWAT, Inc. This MDES SDK is for developers who want
+						to integrate software managability with their endpoint products. This document contains:</p>
+
+					<table class="table table-bordered table-condensed">
+						<tr>
+							<td>MDES SDK Documentation</td>
+							<td width="50%">Documentation of data types, functions, and defines used in the MDES SDK.</td>
+						</tr>
+						<tr>
+							<td>MDES SDK Guides</td>
+							<td>Getting started tutorials, how-to&apos;s, and sample code for working with the MDES SDK.</td>
+						</tr>
+						<tr>
+							<td>MDES SDK FAQ</td>
+							<td>Frequently asked questions about the MDES SDK, including integration, package contents, expected functionality, etc.</td>
+						</tr>
+					</table>
+
+					<h4>Introducing MetaDefender Endpoint Security SDK</h4>
+
+					<p>Fast. Light. Simple. The MDES SDK provides a single integration point to many of OPSWAT&apos;s technologies. With custom packaging, provide your integration
+						 with exactly what you need, and only what you need. The architecture is built around the industry standard JSON data exchange format, creating
+						  a simple, extensible interface that performs complex invocations fast!</p>
+
+					<p>MDES SDK offers unparalleled ability to detect, classify and manage 3rd party applications on endpoint devices, with local and remote integration points.</p>
+
+				</section> <!-- end of Introduction -->
+
+				<section id="features">
+					<h4>Features of MetaDefender Endpoint Security SDK</h4>
+
+					<div id="configurable" class="title blue"><i class="icon-ok grey"></i> Configurable</div>
+					<p>Easily configurable to mold the MDES SDK around your integrations needs allowing you to fine tune your usage around your exact needs.</p>
+
+					<div id="lightweight" class="title blue"><i class="icon-ok grey"></i> Lightweight &amp; customizable packages</div>
+					<p>Packages have a minimal footprint for your deployment with customization to easily deploy only what you need.</p>
+
+					<div id="built-in-updates" class="title blue"><i class="icon-ok grey"></i> Built-in, in-process updates</div>
+					<p>Keeping your deployment up-to-date is easy with MDES SDK&apos;s built-in update mechanism. No longer worry about manually updating your deployment with the latest packages.</p>
+
+					<div id="error-reporting" class="title blue"><i class="icon-ok grey"></i> Detailed error reporting</div>
+					<p>Detailed error reporting allowing for simple investigation on issues without the need for debugging sessions.</p>
+
+				</section> <!-- end of Features of MetaDefender Endpoint Security SDK -->
+
+			</div>
+
+		</div>
+
+		<!-- search goes here, clears above -->
+		<div id="search-container" class="search-container"></div>
+
+	</div> <!-- end mainContainer -->
+</body>
+
+</html>

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Tue Aug 19 08:51:30 2025" Name="REMOTE_CONTROL_Mac_Support_Chart" SDKVersion="4.3.4314.0" Timestamp="1755593490.9448893">
+				<Vendor Vendor_ID="100247" Vendor_Name="AnyDesk Software GmbH">
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="6.6.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.6.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="7.0.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.0.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="7.2.1" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="7.2.2" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="7.2.3" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="7.3.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.3.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="8.0.0" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="8.0.1" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="8.1.2" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.1.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100409" Product_Name="AnyDesk" Signature_ID="100469" Tested_Points="9.0.1" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.0.X" Signature_Name="AnyDesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100282" Vendor_Name="BeyondTrust Corporation">
+					<Support Product_ID="100473" Product_Name="BeyondTrust Remote Support Jump Client" Signature_ID="100531" Tested_Points="1.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="BeyondTrust Remote Support Jump Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100473" Product_Name="BeyondTrust Remote Support Jump Client" Signature_ID="100531" Tested_Points="23.3.4.66c9217fad92688a22e0034b991553d051cb11ec" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.3.X" Signature_Name="BeyondTrust Remote Support Jump Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100473" Product_Name="BeyondTrust Remote Support Jump Client" Signature_ID="100531" Tested_Points="23.3.5" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.3.X" Signature_Name="BeyondTrust Remote Support Jump Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100473" Product_Name="BeyondTrust Remote Support Jump Client" Signature_ID="100531" Tested_Points="24.2.4" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.2.X" Signature_Name="BeyondTrust Remote Support Jump Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100472" Product_Name="BeyondTrust Remote Support Representative Console" Signature_ID="100530" Tested_Points="23.3.4" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.3.X" Signature_Name="BeyondTrust Remote Support Representative Console" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100236" Vendor_Name="Citrix Systems, Inc.">
+					<Support Product_ID="100395" Product_Name="Citrix Receiver" Signature_ID="100456" Tested_Points="12.1.0" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.1.X" Signature_Name="Citrix Receiver" Marketing_Alias_Names="Citrix Workspace" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100395" Product_Name="Citrix Receiver" Signature_ID="100456" Tested_Points="12.9.1" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.9.X" Signature_Name="Citrix Receiver" Marketing_Alias_Names="Citrix Workspace" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100395" Product_Name="Citrix Receiver" Signature_ID="100456" Tested_Points="23.09.0" Release_Name="" Test_Covered_Major_Version="23" Test_Covered_Minor_Version="23.09.X" Signature_Name="Citrix Receiver" Marketing_Alias_Names="Citrix Workspace" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100395" Product_Name="Citrix Receiver" Signature_ID="100456" Tested_Points="24.02.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.02.X" Signature_Name="Citrix Receiver" Marketing_Alias_Names="Citrix Workspace" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100475" Product_Name="Citrix Workspace" Signature_ID="100533" Tested_Points="24.02.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.02.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100475" Product_Name="Citrix Workspace" Signature_ID="100533" Tested_Points="24.02.10" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.02.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100475" Product_Name="Citrix Workspace" Signature_ID="100533" Tested_Points="24.11.0" Release_Name="" Test_Covered_Major_Version="24" Test_Covered_Minor_Version="24.11.X" Signature_Name="Citrix Workspace" Marketing_Alias_Names="Citrix Workspace App" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100288" Vendor_Name="Devolutions inc.">
+					<Support Product_ID="100489" Product_Name="Remote Desktop Manager" Signature_ID="100549" Tested_Points="2024.2.10.3" Release_Name="" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.2.X" Signature_Name="Remote Desktop Manager" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100489" Product_Name="Remote Desktop Manager" Signature_ID="100549" Tested_Points="2024.3.4.2" Release_Name="" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.3.X" Signature_Name="Remote Desktop Manager" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100269" Vendor_Name="FileWave">
+					<Support Product_ID="100448" Product_Name="FileWave Client" Signature_ID="100508" Tested_Points="15.0.1" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.0.X" Signature_Name="FileWave Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100260" Vendor_Name="GoTo, Inc.">
+					<Support Product_ID="100497" Product_Name="GoTo" Signature_ID="100557" Tested_Points="4.12.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.12.X" Signature_Name="GoTo" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100497" Product_Name="GoTo" Signature_ID="100557" Tested_Points="4.12.1" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.12.X" Signature_Name="GoTo" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100430" Product_Name="GoTo Resolve" Signature_ID="100490" Tested_Points="1.9.2" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.9.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100430" Product_Name="GoTo Resolve" Signature_ID="100490" Tested_Points="1.9.3" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.9.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100430" Product_Name="GoTo Resolve" Signature_ID="100490" Tested_Points="1.11.0.2421" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.11.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100430" Product_Name="GoTo Resolve" Signature_ID="100490" Tested_Points="1.10.0.2373" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.10.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100430" Product_Name="GoTo Resolve" Signature_ID="100490" Tested_Points="1.20.8.4593" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.20.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100015" Vendor_Name="Juniper Networks">
+					<Support Product_ID="100121" Product_Name="Junos Pulse" Signature_ID="100121" Tested_Points="5.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.X" Signature_Name="Junos Pulse" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100202" Vendor_Name="LogMeIn, Inc.">
+					<Support Product_ID="100343" Product_Name="GoToAssist" Signature_ID="100402" Tested_Points="4.8.0.1692" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.8.X" Signature_Name="GoToAssist" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100343" Product_Name="GoToAssist" Signature_ID="100402" Tested_Points="4.8.0.1702" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.8.X" Signature_Name="GoToAssist" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100319" Product_Name="GoToMeeting" Signature_ID="100377" Tested_Points="10.8.0.16786" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.8.X" Signature_Name="GoToMeeting" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100319" Product_Name="GoToMeeting" Signature_ID="100377" Tested_Points="10.15.0.19228" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.15.X" Signature_Name="GoToMeeting" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100319" Product_Name="GoToMeeting" Signature_ID="100377" Tested_Points="10.16.0.19598" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.16.X" Signature_Name="GoToMeeting" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100309" Product_Name="GoToMyPC" Signature_ID="100368" Tested_Points="1.0" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="GoToMyPC" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100450" Product_Name="LogMeIn Rescue Technician Console" Signature_ID="100510" Tested_Points="7.12.3334.13-1.0.69" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.12.X" Signature_Name="LogMeIn Rescue Technician Console" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100090" Vendor_Name="Microsoft Corporation">
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.00.416567" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.00.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.00.511157" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.00.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.5.00.21551" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.5.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.5.00.22362" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.5.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.5.00.28558" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.5.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.5.00.33356" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.5.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.364" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.7354" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.11156" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.24065" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.28554" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.29954" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.6.00.33757" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.6.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100432" Tested_Points="1.7.00.5951" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.7.X" Signature_Name="Microsoft Teams" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100513" Tested_Points="23285.3809.2525.961" Release_Name="" Test_Covered_Major_Version="23285" Test_Covered_Minor_Version="23285.3809.X" Signature_Name="Microsoft Teams (work or school)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100370" Product_Name="Microsoft Teams" Signature_ID="100513" Tested_Points="23306.3406.2547.5131" Release_Name="" Test_Covered_Major_Version="23306" Test_Covered_Minor_Version="23306.3406.X" Signature_Name="Microsoft Teams (work or school)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100082" Vendor_Name="RealVNC Ltd">
+					<Support Product_ID="100388" Product_Name="VNC Server" Signature_ID="100449" Tested_Points="6.10.0 (r47347)" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.10.X" Signature_Name="VNC Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100388" Product_Name="VNC Server" Signature_ID="100449" Tested_Points="7.12.1" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.12.X" Signature_Name="VNC Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100388" Product_Name="VNC Server" Signature_ID="100449" Tested_Points="7.13.1" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.13.X" Signature_Name="VNC Server" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100101" Product_Name="VNC Viewer" Signature_ID="100101" Tested_Points="5.2.0 (r118477)" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.2.X" Signature_Name="VNC Viewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100101" Product_Name="VNC Viewer" Signature_ID="100101" Tested_Points="6.19.715 (r41730)" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.19.X" Signature_Name="VNC Viewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100101" Product_Name="VNC Viewer" Signature_ID="100101" Tested_Points="6.22.315" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.22.X" Signature_Name="VNC Viewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100101" Product_Name="VNC Viewer" Signature_ID="100101" Tested_Points="7.12.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.12.X" Signature_Name="VNC Viewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100101" Product_Name="VNC Viewer" Signature_ID="100101" Tested_Points="7.13.1" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.13.X" Signature_Name="VNC Viewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100072" Vendor_Name="TeamViewer GmbH">
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="10.0.41404" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="11.0.259193" Release_Name="" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="12.0.259192" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="14.7.48671" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.7.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.18.5" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.18.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="13.2.153829" Release_Name="" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.2.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.36.6" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.36.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.37.3" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.37.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.38.3" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.38.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.39.5" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.39.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.40.9" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.40.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.41.9" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.41.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.41.10" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.41.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.47.3" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.47.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.48.4" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.48.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.49.2" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.49.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.49.3" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.49.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.50.5" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.50.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.51.6" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.51.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.52.3" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.52.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100090" Product_Name="TeamViewer" Signature_ID="100090" Tested_Points="15.53.7" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.53.X" Signature_Name="TeamViewer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="v"/>
+					<Support Product_ID="100470" Product_Name="TeamViewer Host" Signature_ID="100528" Tested_Points="15.53.7" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.53.X" Signature_Name="TeamViewer Host" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100020" Vendor_Name="VMware, Inc.">
+					<Support Product_ID="100445" Product_Name="VMware Horizon Client" Signature_ID="100505" Tested_Points="8.5.1" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.5.X" Signature_Name="VMware Horizon Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100445" Product_Name="VMware Horizon Client" Signature_ID="100505" Tested_Points="8.10.0" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.10.X" Signature_Name="VMware Horizon Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100168" Vendor_Name="Zoom Video Communications, Inc.">
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="3.5.64836.0908" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.5.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="4.4.53582.0519" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="5.12.2" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.12.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="5.12.3" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.12.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="5.13.5" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.13.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="5.13.7" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.13.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="5.17.11" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.17.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.0.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.0.2" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.0.11" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.0.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.1.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.1.1" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.1.5" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.1.6" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.2.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.2.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.2.3" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.2.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.2.10" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.2.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.3.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.3.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.3.5" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.3.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.3.6" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.3.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.3.11" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.3.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.1" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.3" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.6" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.10" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.4.12" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.5.1" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.5.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+					<Support Product_ID="100231" Product_Name="Zoom" Signature_ID="100282" Tested_Points="6.5.3" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.5.X" Signature_Name="Zoom" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100197" Vendor_Name="sshuttle">
+					<Support Product_ID="100301" Product_Name="sshuttle" Signature_ID="100361" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="sshuttle" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - REMOTE_CONTROL</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="REMOTE_CONTROL">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

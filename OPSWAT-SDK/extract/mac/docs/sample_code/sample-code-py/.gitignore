@@ -1,0 +1,8 @@
+*.dll
+*.dat
+*.db
+*.txt
+*.cfg
+.vscode/
+libs/
+

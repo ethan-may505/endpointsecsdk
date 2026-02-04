@@ -1,0 +1,1 @@
+OPSWAT SDK static library should be placed here.

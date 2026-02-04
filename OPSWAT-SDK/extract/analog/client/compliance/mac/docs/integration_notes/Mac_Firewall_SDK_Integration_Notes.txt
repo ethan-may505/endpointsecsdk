@@ -1,0 +1,13 @@
+4V Firewall Integration Notes
+-----------------------------
+[Eset Software] [100021]
+	ESET Cyber Security Pro {100027}
+		- ESET Cyber Security Pro <100154> 
+			- GetFirewallState (1007)
+				- GetFirewallState need having permission to read "/Applications/ESET Cyber Security Pro.app/Contents/etc/esets.cfg", return 	OESIS.WAAPI_ERROR_ACCESS_DENIED when doesn't have permission to read.
+=====================================================================================================================================
+[Intego] [100038]
+	VirusBarrier {100047}
+		- VirusBarrier <100146> 
+			- GetFirewallState (1007)
+				- Returned the value on UI.

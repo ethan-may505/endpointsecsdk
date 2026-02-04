@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:15:00 2025" Name="ENCRYPTION_Mac_Support_Chart" SDKVersion="4.3.4325.0" Timestamp="1755767700.169723">
+				<Vendor Vendor_ID="100069" Vendor_Name="Apimac, software">
+					<Support Product_ID="100086" Product_Name="Protect Files" Signature_ID="100086" Tested_Points="2.1.2 (build 33)" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.1.X" Signature_Name="Protect Files" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100011" Vendor_Name="Apple Inc.">
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.11.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.11.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.8" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.10" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.9" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.12" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.13" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.15.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="10.15.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.0.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.0.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.2.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.2.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.2.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.2.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.5.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.5.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.5.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.5.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.0.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.2.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.2.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.3.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.3.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.7" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.6.8" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.5.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.5.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.7.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.7.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.6.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.0.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.0.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="11.7.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.7.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.6.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.3.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.3.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.6.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.1.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.1.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.1.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.1.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.6.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.6.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.3.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.3.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.7.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.7.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.7.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.7.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.6.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="13.6.6" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="13" Test_Covered_Minor_Version="13.6.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.4.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.4.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="12.7.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.7.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.0" Release_Name="Beta" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="14.6" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.1" Release_Name="Beta" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.1.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.1.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.3" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.3.2" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.3.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.3.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.3.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.4" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.5" Release_Name="Beta" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.4.1" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.4.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.5" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="26.0" Release_Name="Beta" Whole_Disk_Encryption="True" Test_Covered_Major_Version="26" Test_Covered_Minor_Version="26.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.6" Release_Name="Beta" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100011" Product_Name="FileVault" Signature_ID="100145" Tested_Points="15.6" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.X" Signature_Name="FileVault" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100259" Vendor_Name="AxCrypt AB">
+					<Support Product_ID="100427" Product_Name="AxCrypt" Signature_ID="100488" Tested_Points="2.2.804.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.2.X" Signature_Name="AxCrypt" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100076" Vendor_Name="BeLight Software Ltd.">
+					<Support Product_ID="100095" Product_Name="Concealer" Signature_ID="100095" Tested_Points="1.2.1" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.2.X" Signature_Name="Concealer" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100200" Vendor_Name="Beachhead Solutions">
+					<Support Product_ID="100307" Product_Name="SimplySecure" Signature_ID="100366" Tested_Points="6.4.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.4.X" Signature_Name="SimplySecure" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100307" Product_Name="SimplySecure" Signature_ID="100366" Tested_Points="6.10.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.10.X" Signature_Name="SimplySecure" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100057" Vendor_Name="Bitdefender">
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="4.0.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.0.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="4.6.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.6.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="4.8.41.200041" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.8.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.2.4.200013" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.2.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.8.16.200026" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.8.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.6.14.200022" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.12.24.200022" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.12.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.32.200012" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.32.200024" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.34.200029" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.34.200034" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.34.200035" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.34.200037" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.34.200043" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.14.38.200061" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.16.40.200001" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.16.40.200003" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.16.44.200005" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.17.45.200012" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.17.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.17.46.200026" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.17.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.17.47.200034" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.17.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.18.48.200041" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.18.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.18.48.200044" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.18.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.20.52.200087" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.20.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.20.52.200089" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.20.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.20.52.200096" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.20.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100219" Product_Name="Bitdefender Endpoint Security for Mac" Signature_ID="100269" Tested_Points="7.21.53.200097" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.21.X" Signature_Name="Bitdefender Endpoint Security for Mac" Marketing_Alias_Names="Bitdefender Endpoint Security Tools" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100137" Vendor_Name="Check Point Software Technologies">
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="80.89.0076" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="80" Test_Covered_Minor_Version="80.89.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="83.20.0613" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="83" Test_Covered_Minor_Version="83.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="84.30.0820" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="84" Test_Covered_Minor_Version="84.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="85.30.0167" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="85" Test_Covered_Minor_Version="85.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="86.20.1113" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="87.00.3420" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100171" Product_Name="Check Point Endpoint Security" Signature_ID="100187" Tested_Points="89.00.6730" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="89" Test_Covered_Minor_Version="89.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100215" Vendor_Name="CoSoSys Ltd.">
+					<Support Product_ID="100341" Product_Name="Endpoint Protector Client" Signature_ID="100400" Tested_Points="1.0.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="Endpoint Protector Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100341" Product_Name="Endpoint Protector Client" Signature_ID="100400" Tested_Points="2.5.0.8" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.5.X" Signature_Name="Endpoint Protector Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100119" Vendor_Name="Dell Inc.">
+					<Support Product_ID="100253" Product_Name="Dell Data Protection | Encryption" Signature_ID="100310" Tested_Points="8.11.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.11.X" Signature_Name="Dell Data Protection | Encryption" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="va" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100105" Vendor_Name="ENC Security Systems">
+					<Support Product_ID="100128" Product_Name="EncryptStick" Signature_ID="100129" Tested_Points="5.3.0M" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.3.X" Signature_Name="EncryptStick" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100128" Product_Name="EncryptStick" Signature_ID="100129" Tested_Points="5.3M" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.X" Signature_Name="EncryptStick" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100021" Vendor_Name="ESET">
+					<Support Product_ID="100358" Product_Name="ESET Full Disk Encryption" Signature_ID="100420" Tested_Points="1.2.0.8" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.2.X" Signature_Name="ESET Full Disk Encryption" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="O" Uninstall="X"/>
+					<Support Product_ID="100358" Product_Name="ESET Full Disk Encryption" Signature_ID="100420" Tested_Points="1.3.1.15" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="ESET Full Disk Encryption" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="O" Uninstall="X"/>
+					<Support Product_ID="100358" Product_Name="ESET Full Disk Encryption" Signature_ID="100420" Tested_Points="1.3.2.33" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.3.X" Signature_Name="ESET Full Disk Encryption" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="O" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100280" Vendor_Name="Exosphere Labs, Inc.">
+					<Support Product_ID="100468" Product_Name="Exosphere" Signature_ID="100523" Tested_Points="1.19.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.19.X" Signature_Name="Exosphere" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100468" Product_Name="Exosphere" Signature_ID="100523" Tested_Points="1.19.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.19.X" Signature_Name="Exosphere" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100468" Product_Name="Exosphere" Signature_ID="100523" Tested_Points="1.20.3" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.20.X" Signature_Name="Exosphere" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100098" Vendor_Name="Hitek Software LLC">
+					<Support Product_ID="100118" Product_Name="AutoKrypt" Signature_ID="100118" Tested_Points="11.03" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="11" Test_Covered_Minor_Version="11.X" Signature_Name="AutoKrypt" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100240" Vendor_Name="IDRIX">
+					<Support Product_ID="100402" Product_Name="VeraCrypt" Signature_ID="100462" Tested_Points="1.25.9" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.25.X" Signature_Name="VeraCrypt" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100101" Vendor_Name="Kovell Ventures Ltd.">
+					<Support Product_ID="100122" Product_Name="iDoctor" Signature_ID="100122" Tested_Points="1.0.3" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.0.X" Signature_Name="iDoctor" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+					<Support Product_ID="100122" Product_Name="iDoctor" Signature_ID="100122" Tested_Points="1.1" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="iDoctor" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100118" Vendor_Name="Kromtech">
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="2.3.8" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.3.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="va" Uninstall="v"/>
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="3.4.2" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="va" Uninstall="v"/>
+					<Support Product_ID="100148" Product_Name="MacKeeper" Signature_ID="100163" Tested_Points="3.7.2" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.7.X" Signature_Name="MacKeeper" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="va" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="100244" Vendor_Name="Kruptos 2 Software">
+					<Support Product_ID="100406" Product_Name="Kruptos 2 Professional" Signature_ID="100466" Tested_Points="1.3" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.X" Signature_Name="Kruptos 2 Professional" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100104" Vendor_Name="MadowSoft Software">
+					<Support Product_ID="100127" Product_Name="MacFort" Signature_ID="100128" Tested_Points="4.9.8.0" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.9.X" Signature_Name="MacFort" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100078" Vendor_Name="NCH Software">
+					<Support Product_ID="100097" Product_Name="MEO File Encryption Software" Signature_ID="100097" Tested_Points="2.16" Release_Name="" Whole_Disk_Encryption="False" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.X" Signature_Name="MEO File Encryption Software" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100214" Vendor_Name="Nomadesk NV">
+					<Support Product_ID="100338" Product_Name="Nomadesk" Signature_ID="100397" Tested_Points="9.12.8" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.12.X" Signature_Name="Nomadesk" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100077" Vendor_Name="Sophos Limited">
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="9.9.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.9.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="9.9.8" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.9.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.0.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.1.4" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.1.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.2.2" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.2.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.3.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.3.4" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.3.7" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.3.10" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.13" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.15" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.18" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.4.20" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.5.0" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.5.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="10.5.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.5.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2024.1.0.49" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.1.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2024.2.0.35" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.2.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2024.3.0.37" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2024.3.1.1" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.3.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2024.4.0.21" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2024" Test_Covered_Minor_Version="2024.4.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2025.1.0.9" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2025" Test_Covered_Minor_Version="2025.1.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100302" Product_Name="Sophos Endpoint" Signature_ID="100362" Tested_Points="2025.1.1.4" Release_Name="" Whole_Disk_Encryption="N/A" Test_Covered_Major_Version="2025" Test_Covered_Minor_Version="2025.1.X" Signature_Name="Sophos Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="X" Uninstall="X"/>
+					<Support Product_ID="100192" Product_Name="Sophos SafeGuard" Signature_ID="100225" Tested_Points="6.01.0" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.01.X" Signature_Name="Sophos SafeGuard" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="100037" Vendor_Name="Symantec Corporation">
+					<Support Product_ID="100071" Product_Name="Symantec Encryption Desktop" Signature_ID="100222" Tested_Points="10.3.2.15337" Release_Name="" Whole_Disk_Encryption="True" Test_Covered_Major_Version="10.3.2" Test_Covered_Minor_Version="10.3.X" Signature_Name="Symantec Encryption Desktop" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="O" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetEncryptionState="v" Uninstall="X"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - ENCRYPTION</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="ENCRYPTION">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetEncryptionState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetEncryptionState='v'">
+											<td class="cellv">
+												<a title="GetEncryptionState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetEncryptionState='X'">
+											<td class="cellx">
+												<a title="GetEncryptionState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetEncryptionState='O'">
+											<td class="cello">
+												<a title="GetEncryptionState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetEncryptionState='Z'">
+											<td class="cellz">
+												<a title="GetEncryptionState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetEncryptionState='va'">
+											<td class="cellva">
+												<a title="GetEncryptionState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200">
+										<xsl:text>Supports whole disk encryption: </xsl:text>
+										<xsl:value-of select="@Whole_Disk_Encryption"/>
+									</td>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

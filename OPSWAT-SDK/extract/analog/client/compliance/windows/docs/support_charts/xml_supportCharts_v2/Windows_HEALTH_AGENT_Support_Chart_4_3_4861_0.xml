@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:12:56 2025" Name="HEALTH_AGENT_Windows_Support_Chart" SDKVersion="4.3.4861.0" Timestamp="1755767576.898318">
+				<Vendor Vendor_ID="1748" Vendor_Name="Beijing Huorong Network Technology Co., Ltd.">
+					<Support Product_ID="3323" Product_Name="Huorong Endpoint Security Management Endpoint" Signature_ID="3570" Tested_Points="2.0.0.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.0.X" Signature_Name="Huorong Internet Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3323" Product_Name="Huorong Endpoint Security Management Endpoint" Signature_ID="3570" Tested_Points="2.0.4.6" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.0.X" Signature_Name="Huorong Internet Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="173" Vendor_Name="Check Point Software Technologies">
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="80.70.0247" Release_Name="" Test_Covered_Major_Version="80" Test_Covered_Minor_Version="80.70.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="80.86.8083" Release_Name="" Test_Covered_Major_Version="80" Test_Covered_Minor_Version="80.86.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="80.90.5592" Release_Name="" Test_Covered_Major_Version="80" Test_Covered_Minor_Version="80.90.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="81.10.7191" Release_Name="" Test_Covered_Major_Version="81" Test_Covered_Minor_Version="81.10.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="82.40.1102" Release_Name="" Test_Covered_Major_Version="82" Test_Covered_Minor_Version="82.40.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="83.20.3692" Release_Name="" Test_Covered_Major_Version="83" Test_Covered_Minor_Version="83.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="83.30.4036" Release_Name="" Test_Covered_Major_Version="83" Test_Covered_Minor_Version="83.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="84.30.6614" Release_Name="" Test_Covered_Major_Version="84" Test_Covered_Minor_Version="84.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="85.40.2076" Release_Name="" Test_Covered_Major_Version="85" Test_Covered_Minor_Version="85.40.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.20.0119" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.26.6008" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.26.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.30.0145" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.30.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.40.0169" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.40.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.25.5060" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.25.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.50.0190" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.50.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="86.80.0190" Release_Name="" Test_Covered_Major_Version="86" Test_Covered_Minor_Version="86.80.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="87.00.0022" Release_Name="" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="87.20.0139" Release_Name="" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.20.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.10.0220" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.10.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="87.62.2003" Release_Name="" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.62.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="87.31.1016" Release_Name="" Test_Covered_Major_Version="87" Test_Covered_Minor_Version="87.31.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.32.2003" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.32.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.60.0087" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.60.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.61.1009" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.61.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.62.2010" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.62.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="88.70.0326" Release_Name="" Test_Covered_Major_Version="88" Test_Covered_Minor_Version="88.70.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="89.00.0430" Release_Name="" Test_Covered_Major_Version="89" Test_Covered_Minor_Version="89.00.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="848" Product_Name="Check Point Endpoint Security" Signature_ID="857" Tested_Points="89.05.5018" Release_Name="" Test_Covered_Major_Version="89" Test_Covered_Minor_Version="89.05.X" Signature_Name="Check Point Endpoint Security" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="166" Vendor_Name="Cisco Systems, Inc.">
+					<Support Product_ID="2971" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="3032" Tested_Points="4.6.04056" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.6.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="2971" Product_Name="Cisco AnyConnect Secure Mobility Client" Signature_ID="3032" Tested_Points="4.10.01075" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.10.X" Signature_Name="Cisco AnyConnect Secure Mobility Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3621" Product_Name="Cisco Secure Client (UWP)" Signature_ID="4020" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="Cisco Secure Client (UWP)" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3350" Product_Name="Cisco Secure Client - AnyConnect VPN" Signature_ID="3615" Tested_Points="5.0.00546" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Cisco Secure Client - AnyConnect VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3350" Product_Name="Cisco Secure Client - AnyConnect VPN" Signature_ID="3615" Tested_Points="5.0.00529" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="Cisco Secure Client - AnyConnect VPN" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1575" Vendor_Name="CrowdStrike, Inc.">
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="3.0.5121.0" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.0.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="2.28.5013.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.28.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="4.6.6905.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.6.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="4.7.7002.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.7.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="4.12.7504.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.12.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="4.11.7402.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.11.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="4.18.8104.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.18.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.10.9106.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.10.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.14.9504.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.14.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.26.10806.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.26.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.32.11404.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.32.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.33.11506.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.33.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.40.12202.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.40.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.11.12502.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.11.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="5.41.12309.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.41.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.12.12601.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.12.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.13.12705.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.13.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.14.12805.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.14.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.14.12806.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.14.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.16.13004.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.16.13005.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.16.13006.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.16.13008.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.18.13211.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.18.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.20.13408.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.20.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.21.13510.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.21.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.21.13510.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.21.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.22.13607.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.22.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.23.13702.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.23.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.24.13806.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.24.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.25.13905.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.25.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.25.13909.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.25.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.30.14406.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.30.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.34.14806.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.34.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.36.15005.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.36.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.37.15103.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.37.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.38.15205.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.38.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.39.15314.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.39.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.39.15316.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.39.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.40.15406.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.40.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.42.15610.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.42.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.44.15803.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.44.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.45.15907.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.45.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.46.16008.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.46.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.46.16010.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.46.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.48.16205.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.48.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.49.16303.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.49.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.50.16403.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.50.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.50.16410.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.50.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.51.16510.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.51.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.52.16606.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.52.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.53.16705.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.53.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.54.16808.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.54.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.54.16810.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.54.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.56.17009.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.56.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.56.17010.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.56.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.01.17307.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.01.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.01.17311.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.01.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="6.58.17210.0" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.58.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.01.17312.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.01.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.03.17506.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.03.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.04.17605.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.04.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.05.17706.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.05.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.06.17806.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.06.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.10.18011.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.10.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.11.18110.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.11.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.12.18207.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.12.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.13.18307.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.13.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.14.18407.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.14.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.15.18511.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.15.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.16.18605.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.16.18606.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.16.18608.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.16.18613.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.16.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.17.18721.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.17.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.20.19009.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.20.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.20.19011.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.20.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.21.19205.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.21.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.22.19406.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.22.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.23.19507.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.23.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.24.19606.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.24.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.24.19607.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.24.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.25.19706.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.25.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.26.19809.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.26.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.27.19907.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.27.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="2818" Product_Name="CrowdStrike Falcon" Signature_ID="2866" Tested_Points="7.28.20006.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.28.X" Signature_Name="CrowdStrike Falcon" Marketing_Alias_Names="CrowdStrike Windows Sensor" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="196" Vendor_Name="Dell Inc.">
+					<Support Product_ID="3053" Product_Name="Dell SupportAssist" Signature_ID="3120" Tested_Points="3.4.5.366" Release_Name="" Test_Covered_Major_Version="3" Test_Covered_Minor_Version="3.4.X" Signature_Name="Dell SupportAssist" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1782" Vendor_Name="GoTo, Inc.">
+					<Support Product_ID="3408" Product_Name="GoTo Resolve" Signature_ID="3686" Tested_Points="1.9.2.1774" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.9.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3408" Product_Name="GoTo Resolve" Signature_ID="3686" Tested_Points="1.9.3.1866" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.9.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3408" Product_Name="GoTo Resolve" Signature_ID="3686" Tested_Points="1.11.0.2369" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.11.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3408" Product_Name="GoTo Resolve" Signature_ID="3686" Tested_Points="1.10.0.2323" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.10.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3408" Product_Name="GoTo Resolve" Signature_ID="3686" Tested_Points="1.20.8.5670" Release_Name="" Test_Covered_Major_Version="1" Test_Covered_Minor_Version="1.20.X" Signature_Name="GoTo Resolve" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1772" Vendor_Name="HP Development Company, L.P.">
+					<Support Product_ID="3378" Product_Name="HP Support Assistant" Signature_ID="3648" Tested_Points="9.19.52.0" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.19.X" Signature_Name="HP Support Assistant" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+					<Support Product_ID="3378" Product_Name="HP Support Assistant" Signature_ID="3648" Tested_Points="9.20.22.0" Release_Name="" Test_Covered_Major_Version="9" Test_Covered_Minor_Version="9.20.X" Signature_Name="HP Support Assistant" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1792" Vendor_Name="Infoblox">
+					<Support Product_ID="3434" Product_Name="BloxOne® Endpoint" Signature_ID="3724" Tested_Points="2.4.0" Release_Name="" Test_Covered_Major_Version="2" Test_Covered_Minor_Version="2.4.X" Signature_Name="BloxOne® Endpoint" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="va" TerminateProcesses="va" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="662" Vendor_Name="Juniper Networks">
+					<Support Product_ID="2297" Product_Name="Juniper Odyssey Access Client" Signature_ID="2335" Tested_Points="5.60.22403.0" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.60.X" Signature_Name="Juniper Odyssey Access Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="295" Vendor_Name="Kaspersky Lab">
+					<Support Product_ID="2779" Product_Name="Kaspersky Security Center Network Agent" Signature_ID="2826" Tested_Points="10.3.407.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.3.X" Signature_Name="Kaspersky Security Center Network Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="va" Uninstall="v"/>
+					<Support Product_ID="2779" Product_Name="Kaspersky Security Center Network Agent" Signature_ID="2826" Tested_Points="10.4.343.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.4.X" Signature_Name="Kaspersky Security Center Network Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="va" Uninstall="v"/>
+					<Support Product_ID="2779" Product_Name="Kaspersky Security Center Network Agent" Signature_ID="2826" Tested_Points="14.2.0.26967" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.2.X" Signature_Name="Kaspersky Security Center Network Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="va" Uninstall="v"/>
+					<Support Product_ID="2779" Product_Name="Kaspersky Security Center Network Agent" Signature_ID="2826" Tested_Points="12.0.0.7734" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.0.X" Signature_Name="Kaspersky Security Center Network Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="va" Uninstall="v"/>
+					<Support Product_ID="2779" Product_Name="Kaspersky Security Center Network Agent" Signature_ID="2826" Tested_Points="15.2.0.442" Release_Name="" Test_Covered_Major_Version="15" Test_Covered_Minor_Version="15.2.X" Signature_Name="Kaspersky Security Center Network Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="va" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="379" Vendor_Name="McAfee, Inc.">
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="4.6.0.1694" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.6.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="4.8.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.8.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="5.0.3.272" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="5.0.4.283" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.0.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="5.5.0.447" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.5.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="1083" Product_Name="McAfee ePolicy Orchestrator Agent" Signature_ID="1096" Tested_Points="0.0" Release_Name="" Test_Covered_Major_Version="0" Test_Covered_Minor_Version="0.X" Signature_Name="McAfee ePolicy Orchestrator Agent" Marketing_Alias_Names="McAfee Agent" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="90" Vendor_Name="Microsoft Corporation">
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="6.2.9200.16384" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.2.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="6.3.9600.16384" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.3.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="6.1.7600.16385" Release_Name="" Test_Covered_Major_Version="6" Test_Covered_Minor_Version="6.1.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="10.0" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="10.0.19041.1" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="1587" Product_Name="Windows Security Health Agent" Signature_ID="1609" Tested_Points="10.0.26100.1" Release_Name="" Test_Covered_Major_Version="10" Test_Covered_Minor_Version="10.0.X" Signature_Name="Windows Security Health Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="184" Vendor_Name="OPSWAT, Inc.">
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="4.1.299.0" Release_Name="" Test_Covered_Major_Version="4" Test_Covered_Minor_Version="4.1.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="7.6.165.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="7.6.247.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="7.6.335.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="7.6.408.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+					<Support Product_ID="3003" Product_Name="OPSWAT Client" Signature_ID="3000" Tested_Points="7.6.575.0" Release_Name="" Test_Covered_Major_Version="7" Test_Covered_Minor_Version="7.6.X" Signature_Name="OPSWAT Client" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="168" Vendor_Name="Panda Security, S.L.">
+					<Support Product_ID="3033" Product_Name="Panda Adaptive Defense" Signature_ID="3098" Tested_Points="8.0.16.2" Release_Name="" Test_Covered_Major_Version="8" Test_Covered_Minor_Version="8.0.X" Signature_Name="Panda Adaptive Defense" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="240" Vendor_Name="Symantec Corporation">
+					<Support Product_ID="1531" Product_Name="Symantec Network Access Control" Signature_ID="1553" Tested_Points="12.1.2015.2015" Release_Name="" Test_Covered_Major_Version="12" Test_Covered_Minor_Version="12.1.X" Signature_Name="Symantec Network Access Control" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="X"/>
+				</Vendor>
+				<Vendor Vendor_ID="1766" Vendor_Name="Trellix">
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.7.7.378" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.7.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="33.1" Release_Name="" Test_Covered_Major_Version="33" Test_Covered_Minor_Version="33.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.7.8.262" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.7.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.7.9.139" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.7.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.8.0.161" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.8.1.313" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.8.2.929" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.8.3.622" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+					<Support Product_ID="3365" Product_Name="Trellix Agent" Signature_ID="3635" Tested_Points="5.8.4.505" Release_Name="" Test_Covered_Major_Version="5" Test_Covered_Minor_Version="5.8.X" Signature_Name="Trellix Agent" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="O" TerminateProcesses="O" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="v" Uninstall="v"/>
+				</Vendor>
+				<Vendor Vendor_ID="148" Vendor_Name="Trend Micro, Inc.">
+					<Support Product_ID="3435" Product_Name="Trend Micro Apex One" Signature_ID="3725" Tested_Points="14.0" Release_Name="" Test_Covered_Major_Version="14" Test_Covered_Minor_Version="14.X" Signature_Name="Trend Micro Apex One" Marketing_Alias_Names="" Supported_Languages="EN" Legacy_OESIS_V3_ProductInfo="" GetVersion="v" GetRunningState="v" Run="v" TerminateProcesses="v" GetInstallationDirectories="v" GetComponents="v" GetUninstallString="v" ManageLabels="v" IsAuthentic="v" GetProductInfo="v" GetAgentState="X" Uninstall="v"/>
+				</Vendor>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - HEALTH_AGENT</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #00AAFF; }
+					td.cella      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFA600; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+					td.cellvt      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF); }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #FFA600); }
+					td.cellvta     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: color-mix(in srgb, #66FF99, #00AAFF, #FFA600); }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="HEALTH_AGENT">
+						<tr align="left" valign="bottom">
+							<th width="600">Product Name</th>
+							<th width="100">Tested Points</th>
+							<th width="100">Test Covered Minor Version</th>
+							<th width="100">Test Covered Major Version</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetVersion</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetRunningState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Run</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">TerminateProcesses</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_tiny">GetInstallationDirectories</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetComponents</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_medium">GetUninstallString</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">ManageLabels</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">IsAuthentic</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetProductInfo</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">GetAgentState</div>
+							</th>
+							<th class="wrap_v_text">
+								<div class="vtext" id="modtext_normal">Uninstall</div>
+							</th>
+							<th width="100">Product Id</th>
+							<th width="100">Signature Id</th>
+							<th width="600">Supported Languages</th>
+							<th width="600">Marketing Alias Names</th>
+							<th width="100">Release Name</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Vendor">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Vendor_Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Support">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Product_Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Tested_Points"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Minor_Version"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Test_Covered_Major_Version"/>
+									</td>
+									<xsl:choose>
+										<xsl:when test="@GetVersion='v'">
+											<td class="cellv">
+												<a title="GetVersion = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='X'">
+											<td class="cellx">
+												<a title="GetVersion = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='O'">
+											<td class="cello">
+												<a title="GetVersion = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='Z'">
+											<td class="cellz">
+												<a title="GetVersion = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetVersion='va'">
+											<td class="cellva">
+												<a title="GetVersion = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetRunningState='v'">
+											<td class="cellv">
+												<a title="GetRunningState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='X'">
+											<td class="cellx">
+												<a title="GetRunningState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='O'">
+											<td class="cello">
+												<a title="GetRunningState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='Z'">
+											<td class="cellz">
+												<a title="GetRunningState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetRunningState='va'">
+											<td class="cellva">
+												<a title="GetRunningState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Run='v'">
+											<td class="cellv">
+												<a title="Run = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='X'">
+											<td class="cellx">
+												<a title="Run = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='O'">
+											<td class="cello">
+												<a title="Run = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='Z'">
+											<td class="cellz">
+												<a title="Run = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Run='va'">
+											<td class="cellva">
+												<a title="Run = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@TerminateProcesses='v'">
+											<td class="cellv">
+												<a title="TerminateProcesses = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='X'">
+											<td class="cellx">
+												<a title="TerminateProcesses = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='O'">
+											<td class="cello">
+												<a title="TerminateProcesses = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='Z'">
+											<td class="cellz">
+												<a title="TerminateProcesses = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@TerminateProcesses='va'">
+											<td class="cellva">
+												<a title="TerminateProcesses = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetInstallationDirectories='v'">
+											<td class="cellv">
+												<a title="GetInstallationDirectories = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='X'">
+											<td class="cellx">
+												<a title="GetInstallationDirectories = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='O'">
+											<td class="cello">
+												<a title="GetInstallationDirectories = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='Z'">
+											<td class="cellz">
+												<a title="GetInstallationDirectories = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetInstallationDirectories='va'">
+											<td class="cellva">
+												<a title="GetInstallationDirectories = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetComponents='v'">
+											<td class="cellv">
+												<a title="GetComponents = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='X'">
+											<td class="cellx">
+												<a title="GetComponents = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='O'">
+											<td class="cello">
+												<a title="GetComponents = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='Z'">
+											<td class="cellz">
+												<a title="GetComponents = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetComponents='va'">
+											<td class="cellva">
+												<a title="GetComponents = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetUninstallString='v'">
+											<td class="cellv">
+												<a title="GetUninstallString = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='X'">
+											<td class="cellx">
+												<a title="GetUninstallString = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='O'">
+											<td class="cello">
+												<a title="GetUninstallString = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='Z'">
+											<td class="cellz">
+												<a title="GetUninstallString = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetUninstallString='va'">
+											<td class="cellva">
+												<a title="GetUninstallString = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@ManageLabels='v'">
+											<td class="cellv">
+												<a title="ManageLabels = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='X'">
+											<td class="cellx">
+												<a title="ManageLabels = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='O'">
+											<td class="cello">
+												<a title="ManageLabels = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='Z'">
+											<td class="cellz">
+												<a title="ManageLabels = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@ManageLabels='va'">
+											<td class="cellva">
+												<a title="ManageLabels = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@IsAuthentic='v'">
+											<td class="cellv">
+												<a title="IsAuthentic = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='X'">
+											<td class="cellx">
+												<a title="IsAuthentic = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='O'">
+											<td class="cello">
+												<a title="IsAuthentic = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='Z'">
+											<td class="cellz">
+												<a title="IsAuthentic = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@IsAuthentic='va'">
+											<td class="cellva">
+												<a title="IsAuthentic = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetProductInfo='v'">
+											<td class="cellv">
+												<a title="GetProductInfo = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='X'">
+											<td class="cellx">
+												<a title="GetProductInfo = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='O'">
+											<td class="cello">
+												<a title="GetProductInfo = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='Z'">
+											<td class="cellz">
+												<a title="GetProductInfo = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetProductInfo='va'">
+											<td class="cellva">
+												<a title="GetProductInfo = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@GetAgentState='v'">
+											<td class="cellv">
+												<a title="GetAgentState = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='X'">
+											<td class="cellx">
+												<a title="GetAgentState = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='O'">
+											<td class="cello">
+												<a title="GetAgentState = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='Z'">
+											<td class="cellz">
+												<a title="GetAgentState = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@GetAgentState='va'">
+											<td class="cellva">
+												<a title="GetAgentState = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<xsl:choose>
+										<xsl:when test="@Uninstall='v'">
+											<td class="cellv">
+												<a title="Uninstall = Implemented">V</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='X'">
+											<td class="cellx">
+												<a title="Uninstall = NotImplemented">X</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='O'">
+											<td class="cello">
+												<a title="Uninstall = Not Supported">O</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='Z'">
+											<td class="cellz">
+												<a title="Uninstall = Implemented for SP2">Z</a>
+											</td>
+										</xsl:when>
+										<xsl:when test="@Uninstall='va'">
+											<td class="cellva">
+												<a title="Uninstall = Requires admin permission">VA</a>
+											</td>
+										</xsl:when>
+										<xsl:otherwise>
+											<td class="celln"/>
+										</xsl:otherwise>
+									</xsl:choose>
+									<td>
+										<xsl:value-of select="@Product_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Signature_ID"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Supported_Languages"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Marketing_Alias_Names"/>
+									</td>
+									<td>
+										<xsl:value-of select="@Release_Name"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<table border="1" width="500">
+					<tr>
+						<td class="title" colspan="2">Legend</td>
+					</tr>
+					<tr>
+						<td class="cellv">V</td>
+						<td>Implemented</td>
+					</tr>
+					<tr>
+						<td class="cellva">VA</td>
+						<td>Implemented, requires admin</td>
+					</tr>
+					<tr>
+						<td class="cello">O</td>
+						<td>Not Supported</td>
+					</tr>
+					<tr>
+						<td class="cellx">X</td>
+						<td>Not Implemented / Not Tested</td>
+					</tr>
+					<tr>
+						<td class="cellz">Z</td>
+						<td>Implemented on Windows with Security Center (WMI) available</td>
+					</tr>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"> </xsl:template>
+</xsl:stylesheet>

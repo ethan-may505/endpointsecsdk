@@ -1,0 +1,13 @@
+4V Unclassified Integration Notes
+--------------------------------------
+[Adobe Systems Inc.] [100166]
+	Adobe Flash Player {100226}
+		- Adobe Flash Player (PPAPI) <100278>
+			- TerminateProcesses (103)
+				- This method currently works well for Adobe Flash Player plugin on following browsers: Google Chrome, Cốc Cốc, Opera.
+--------------------------------------
+[Joyent, Inc.] [100183]
+	Node.js LTS {100336}
+		- Node.js LTS <100395>
+			- DetectProducts (0)
+				- When install with Homebrew, keg-only packages is required running 'brew link <formula>' to become detectable (https://docs.brew.sh/FAQ#what-does-keg-only-mean).

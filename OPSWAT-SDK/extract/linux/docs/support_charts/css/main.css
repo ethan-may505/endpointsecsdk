@@ -1,0 +1,140 @@
+/* blue = #2672FB; */
+/* darker grey = #808083; */
+/* grey = #9CA3AB */
+/* black = #000000; */
+
+/**************** generic by element ****************/
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	color: #808083;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+}
+a {
+	color: #2672FB;
+	cursor: pointer;
+}
+a:hover, a:focus {
+	color: #000;
+}
+caption {
+	text-align: left;
+}
+/**************** generic form elements ****************/
+input[type="checkbox"] {
+	margin: 6px;
+}
+textarea {
+	width: 500px;
+}
+
+/**************** generic add single attributes ****************/
+.pointable {
+	cursor: pointer !important;
+}
+.blue {
+	color: #2672FB !important;
+}
+.grey {
+	color: #808083 !important;
+}
+.red {
+	color: #F00 !important;
+}
+.left-pad {
+	padding-left: 40px;
+}
+.right-pad {
+	padding-right: 40px;
+}
+.left-bump {
+	margin-left: 40px;
+}
+.right-bump {
+	margin-right: 40px;
+}
+.hidden {
+	display: none;
+}
+
+/**************** navbar ****************/
+div.navbar {
+	background: #2672FB;
+	width: 100%;
+	height: 30px;
+	max-height: 30px;
+}
+div.navbar > a.brand {
+	padding: 0px 40px;
+}
+
+/**************** for all main container ****************/
+div.container {
+	min-width: 1130px;
+	background: #FFF;
+	min-height: 100% !important;
+	height: 100%;
+	width: 100%;
+}
+
+/*	backdrop and body loading classes are for for creating a 'lightbox'
+	style overlay when loading content */
+div.backdrop {
+    display: none;
+    position: fixed;
+    z-index: 1035;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8) url('../img/ajax-loader.gif') 50% 50% no-repeat;
+}
+body.loading {
+    overflow: hidden;   
+}
+body.loading .backdrop {
+    display: block;
+}
+
+/**************** buttons ****************/
+.btn-opswat {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #2672FB;
+	*background-color: #2672FB;
+	background-image: -moz-linear-gradient(top, #51BDE3, #2672FB);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#51BDE3), to(#2672FB));
+	background-image: -webkit-linear-gradient(top, #51BDE3, #2672FB);
+	background-image: -o-linear-gradient(top, #51BDE3, #2672FB);
+	background-image: linear-gradient(to bottom, #51BDE3, #2672FB);
+	background-repeat: repeat-x;
+	border-color: #2672FB #2672FB #2672FB;
+	/*-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;*/
+	/*border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);*/
+}
+.btn-opswat:hover,
+.btn-opswat:active,
+.btn-opswat.active,
+.btn-opswat.disabled,
+.btn-opswat[disabled] {
+	color: #ffffff;
+	background-color: #2672FB;
+	*background-color: #2672FB;
+}
+.btn-opswat:active,
+.btn-opswat.active,
+.btn-group.open .btn-opswat.dropdown-toggle {
+	background-color: #2672FB;
+}
+
+.btn-narrow {
+	padding: 2px 8px;
+}

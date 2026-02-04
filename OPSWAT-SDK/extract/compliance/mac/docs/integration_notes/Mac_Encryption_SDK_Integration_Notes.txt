@@ -1,0 +1,27 @@
+4V Encryption Integration Notes
+------------------------------
+[Kromtech Alliance Corp.] [100118]
+	MacKeeper {100148}
+		- MacKeeper <100163>
+			- GetEncryptionState  (1009)
+				- This function will return WAAPI_ERROR_INVALID_STATE (-23) incase user never setup the password for interface "Data Encryptor" or provided password is incorrect.
+				- Return WAAPI_ERROR_ACCESS_DENIED(-22) if the GUI of MacKeeper is running.
+==============================================================================================================================			
+[Check Point Software Technologies] [100137]
+	Check Point Endpoint Security {100171}
+		- Check Point Endpoint Security <100187> 
+			- GetEncryptionState (1009)
+				- After encrypting, need restart computer at least once.
+==============================================================================================================================
+[Kovell Ventures Ltd.] [100101]		
+		iDoctor {100122}
+			- iDoctor <100122>
+				- GetEncryptionState (1009)
+					- iDoctor can encrypt directory and file
+					- This function will return WAAPI_ERROR_INVALID_INPUT_ARGS -20 incase user have never setup the password yet or provided password is incorrect.
+==============================================================================================================================
+[Apple Inc.] [100011]		
+		FileVault {100011}
+			- FileVault <100145>
+				- GetEncryptionState (1009)
+					- Need to restart to complete progress after encryption/decryption. Otherwise, it will return the last state.

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="#sc_stylesheet"?>
+<!DOCTYPE supportchart [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="sc_stylesheet" version="1.0">
+	<xsl:output method="html" omit-xml-declaration="yes"/>
+	<xsl:variable name="support_chart">
+		<supportchart>
+			 
+			<Table CreatedOn="Thu Aug 21 09:13:05 2025" Name="OS Support Chart Mapping" SDKVersion="4.3.4861.0">
+				<Version Name="Windows XP" Release_Version="5.1" Availability="25.10.2001">
+					<Edition Name="Windows XP" OsId="1"/>
+					<Edition Name="Windows XP Home" OsId="2"/>
+					<Edition Name="Windows XP Pro" OsId="3"/>
+					<Edition Name="Windows XP Media Center" OsId="4"/>
+					<Edition Name="Windows XP Tablet PC" OsId="5"/>
+				</Version>
+				<Version Name="Windows Server 2003" Release_Version="5.2">
+					<Edition Name="Windows Server 2003" OsId="6"/>
+					<Edition Name="Windows Server 2003 Web" OsId="7"/>
+					<Edition Name="Windows Server 2003 Standard" OsId="8"/>
+					<Edition Name="Windows Server 2003 Enterprise" OsId="9"/>
+					<Edition Name="Windows Server 2003 Datacenter" OsId="10"/>
+				</Version>
+				<Version Name="Windows Server 2003 R2" Release_Version="5.2">
+					<Edition Name="Windows Server 2003 R2" OsId="11"/>
+					<Edition Name="Windows Server 2003 Web R2" OsId="12"/>
+					<Edition Name="Windows Server 2003 Standard R2" OsId="13"/>
+					<Edition Name="Windows Server 2003 Enterprise R2" OsId="14"/>
+					<Edition Name="Windows Server 2003 Datacenter R2" OsId="15"/>
+				</Version>
+				<Version Name="Windows Vista" Release_Version="6.0" Availability="30.01.2007">
+					<Edition Name="Windows Vista" OsId="16"/>
+					<Edition Name="Windows Vista Home Basic" OsId="17"/>
+					<Edition Name="Windows Vista Home Premium" OsId="18"/>
+					<Edition Name="Windows Vista Pro" OsId="19"/>
+					<Edition Name="Windows Vista Ultimate" OsId="20"/>
+					<Edition Name="Windows Vista Business" OsId="21"/>
+					<Edition Name="Windows Vista Enterprise" OsId="22"/>
+					<Edition Name="Windows Vista Media Center" OsId="23"/>
+				</Version>
+				<Version Name="Windows Server 2008" Release_Version="6.0">
+					<Edition Name="Windows Server 2008" OsId="24"/>
+					<Edition Name="Windows Server 2008 Web" OsId="25"/>
+					<Edition Name="Windows Server 2008 Standard" OsId="26"/>
+					<Edition Name="Windows Server 2008 Enterprise" OsId="27"/>
+					<Edition Name="Windows Server 2008 Datacenter" OsId="28"/>
+					<Edition Name="Windows Server 2008 HPC" OsId="29"/>
+				</Version>
+				<Version Name="Windows 7" Release_Version="6.1" Availability="22.10.2009">
+					<Edition Name="Windows 7" OsId="30"/>
+					<Edition Name="Windows 7 Starter" OsId="31"/>
+					<Edition Name="Windows 7 Home Premium" OsId="32"/>
+					<Edition Name="Windows 7 Pro" OsId="33"/>
+					<Edition Name="Windows 7 Ultimate" OsId="34"/>
+					<Edition Name="Windows 7 Business" OsId="35"/>
+					<Edition Name="Windows 7 Enterprise" OsId="36"/>
+				</Version>
+				<Version Name="Windows Server 2008 R2" Release_Version="6.1">
+					<Edition Name="Windows Server 2008 R2 Web" OsId="38"/>
+					<Edition Name="Windows Server 2008 R2 Standard" OsId="39"/>
+					<Edition Name="Windows Server 2008 R2 Enterprise" OsId="40"/>
+					<Edition Name="Windows Server 2008 R2 Datacenter" OsId="41"/>
+					<Edition Name="Windows Server 2008 R2 HPC" OsId="42"/>
+					<Edition Name="Windows Server 2008 R2 Foundation" OsId="66"/>
+					<Edition Name="Windows Server 2008 R2 Essentials" OsId="75"/>
+				</Version>
+				<Version Name="Windows 8" Release_Version="6.2" Availability="16.10.2012">
+					<Edition Name="Windows 8" OsId="43"/>
+					<Edition Name="Windows 8 Pro" OsId="44"/>
+					<Edition Name="Windows 8 Ultimate" OsId="45"/>
+					<Edition Name="Windows 8 Enterprise" OsId="47"/>
+				</Version>
+				<Version Name="Windows Server 2012" Release_Version="6.2">
+					<Edition Name="Windows Server 2012" OsId="48"/>
+					<Edition Name="Windows Server 2012 Standard" OsId="49"/>
+					<Edition Name="Windows Server 2012 Datacenter" OsId="50"/>
+					<Edition Name="Windows Server 2012 Foundation" OsId="67"/>
+					<Edition Name="Windows Server 2012 Essentials" OsId="68"/>
+				</Version>
+				<Version Name="Windows 8.1" Release_Version="6.3" Availability="17.10.2013">
+					<Edition Name="Windows 8.1" OsId="51"/>
+					<Edition Name="Windows 8.1 Pro" OsId="52"/>
+					<Edition Name="Windows 8.1 Ultimate" OsId="53"/>
+					<Edition Name="Windows 8.1 Enterprise" OsId="55"/>
+				</Version>
+				<Version Name="Windows Server 2012 R2" Release_Version="6.3">
+					<Edition Name="Windows Server 2012 R2" OsId="56"/>
+					<Edition Name="Windows Server 2012 R2 Standard" OsId="57"/>
+					<Edition Name="Windows Server 2012 R2 Datacenter" OsId="58"/>
+					<Edition Name="Windows Server 2012 R2 Foundation" OsId="69"/>
+					<Edition Name="Windows Server 2012 R2 Essentials" OsId="70"/>
+				</Version>
+				<Version Name="Windows 10" Release_Version="10.0" Availability="29.07.2015">
+					<Edition Name="Windows 10" OsId="59"/>
+					<Edition Name="Windows 10 Home" OsId="82"/>
+					<Edition Name="Windows 10 Pro" OsId="60"/>
+					<Edition Name="Windows 10 Enterprise" OsId="61"/>
+					<Edition Name="Windows 10 Education" OsId="62"/>
+				</Version>
+				<Version Name="Windows Server 2016" Release_Version="10.0">
+					<Edition Name="Windows Server 2016" OsId="63"/>
+					<Edition Name="Windows Server 2016 Standard" OsId="64"/>
+					<Edition Name="Windows Server 2016 Datacenter" OsId="65"/>
+					<Edition Name="Windows Server 2016 Essentials" OsId="71"/>
+				</Version>
+				<Version Name="Windows Server 2019" Release_Version="10.0">
+					<Edition Name="Windows Server 2019 Essentials" OsId="72"/>
+					<Edition Name="Windows Server 2019 Standard" OsId="73"/>
+					<Edition Name="Windows Server 2019 Datacenter" OsId="74"/>
+				</Version>
+				<Version Name="Windows 11" Release_Version="10.0">
+					<Edition Name="Windows 11" OsId="76"/>
+					<Edition Name="Windows 11 Pro" OsId="77"/>
+					<Edition Name="Windows 11 Home" OsId="78"/>
+					<Edition Name="Windows 11 Education" OsId="79"/>
+					<Edition Name="Windows 11 Enterprise" OsId="81"/>
+				</Version>
+				<Version Name="Windows Server 2022">
+					<Edition Name="Windows Server 2022" OsId="80"/>
+				</Version>
+				<Version Name="Windows Server 2025">
+					<Edition Name="Windows Server 2025 Standard" OsId="84"/>
+					<Edition Name="Windows Server 2025 Datacenter" OsId="83"/>
+				</Version>
+			</Table>
+		</supportchart>
+	</xsl:variable>
+	<xsl:template match="Table">
+		<html>
+			<head>
+				<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+				<title>Support Chart - OS IDs</title>
+				<style media="screen" type="text/css">
+					/*
+					CSS File for support charts.
+
+					Modify styles here
+					*/
+							
+					A:visited 
+					{
+					    color: Black;
+					    text-decoration: none;
+					}
+
+					A:link
+					{
+					    color: Black;
+					    text-decoration:none;
+					}
+					A:hover
+					{
+					    color: blue;
+					}
+							
+					table	        {border-collapse: collapse;}
+
+					th            {border: 1px solid black; color: #0000ff; font-weight: bold; background: #FFFFAA; margin:0; padding:0;text-align: center;}
+					th.vert       {writing-mode: tb-rl; filter: flipv fliph; width: 25px; height: 125px; }
+					th.span    {border: 1px solid black; color: #0000ff; font-weight: bold; background: #999999;}
+
+					td {
+					    font-size: 12px; 
+					    font-family: Arial; 
+					    border: 1px solid gray; 
+					    padding: 2px 5px 2px 5px;
+					}
+					td.multicolumn {
+						padding: 0px 0px 0px 0px;
+						margin: 0px 0px 0px 0px;
+						border: 0px solid gray;
+					}
+					table.multicolumn {
+					 margin: 0;
+					 padding: 0 0 0 0;
+					 border-collapse: collapse;
+					 height: 100%;
+					  }
+					
+					th.wrap_v_text{
+						display: block-inline;
+						height: 165px;
+						width: 25px;
+						padding: 0px 0px 3px 2px;
+					}
+					div.vtext {
+						display: block-inline;;
+						width: 20px;
+						white-space: nowrap;
+						padding: 0px;
+
+						font-family: Arial;
+						font-weight: heavy;
+
+						-webkit-transform: rotate(-90deg);
+						-moz-transform: rotate(-90deg);
+						-ms-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						transform: rotate(-90deg);
+
+						-webkit-transform-origin: right bottom 0px;
+						-moz-transform-origin: right bottom 0px;
+						-ms-transform-origin: right bottom 0px;
+						-o-transform-origin: right bottom 0px;
+						transform-origin: right bottom 0px;
+
+						/* This is needed because transformations result in overlap with the row below the header labels, same length as the width of this div */
+						margin-bottom: 20px;
+					}
+
+					#modtext_medium{
+						font-size: 0.9em;
+					}
+
+					#modtext_small{
+						font-size: 0.8em;
+					}
+
+					#modtext_tiny{
+						font-size: 0.72em;
+					}
+
+					#modtext_microscopic{
+						font-size: 0.65em;
+					}
+
+					th.threatlog {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom: #000 2px dotted; border-top: #000 2px dotted;}
+					#threatright {border-right: #000 2px dotted;}
+					#threatleft {border-left: #000 2px dotted;}
+
+					td.vend       {font-size: 12px; font-family: Arial; border: 1px solid black; font-weight:bold; color: #000000; background: #cccccc; }
+					td.title      {font-size: 24px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.content    {font-size: 12px; font-family: Arial; border: 0px solid black; font-weight:bold; color: #000000; background: #FFCC66; }
+					td.cellv      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #66FF99; }
+					td.cellva     {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #0CEEDD; }
+					td.cello      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFF99; }
+					td.cellx      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #CC9966; }
+					td.cellz      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFCCCC; }
+					td.celln      {width: 20px; height: 15px; font-family: Arial; text-align: center; font-weight: bold; border: 1px solid black; color: #000000; background: #FFFFFF; }
+
+					/*  End CSS  */
+				</style>
+			</head>
+			<body leftmargin="0" onload="f50InitTableHeader('bcsdk');" rightmargin="0" topmargin="0">
+				<table border="1" width="1600">
+					<tr>
+						<td class="title">
+							<xsl:value-of select="@Name"/>
+							/ SDK Version - 
+							<xsl:value-of select="@SDKVersion"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Created On - 
+							<xsl:value-of select="@CreatedOn"/>
+						</td>
+					</tr>
+				</table>
+				<table border="1" width="1600">
+					<tbody id="OS IDs">
+						<tr align="left" valign="bottom">
+							<th width="600">OS Name</th>
+							<th width="100">OS ID</th>
+							<th>Comments</th>
+						</tr>
+						<xsl:for-each select="Version">
+							<tr>
+								<td class="vend" colspan="32">
+									<xsl:value-of select="@Name"/>
+								</td>
+							</tr>
+							<xsl:for-each select="Edition">
+								<tr align="left">
+									<td>
+										<xsl:value-of select="@Name"/>
+									</td>
+									<td>
+										<xsl:value-of select="@OsId"/>
+									</td>
+									<td width="1200"/>
+								</tr>
+							</xsl:for-each>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="xsl:template"/>
+</xsl:stylesheet>

@@ -1,0 +1,21 @@
+var G_CATEGORIES = [
+	{"brief":"Defines common product classification. This classification includes all product categories","friendly_name":"All","id":0,"name":"WAAPI_CATEGORY_ALL","supported_methods":{}},
+	{"brief":"Defines public file sharing product classification","friendly_name":"Public File Sharing","id":1,"name":"WAAPI_CATEGORY_PUBLIC_FILE_SHARING","supported_methods":{}},
+	{"brief":"Defines backup client product classification","friendly_name":"Backup","id":2,"name":"WAAPI_CATEGORY_BACKUP_CLIENT","supported_methods":{"1008":"GetBackupState"}},
+	{"brief":"Defines disk encryption product classification","friendly_name":"Encryption","id":3,"name":"WAAPI_CATEGORY_DISK_ENCRYPTION","supported_methods":{"1009":"GetEncryptionState"}},
+	{"brief":"Defines antiphishing product classification","friendly_name":"Antiphishing","id":4,"name":"WAAPI_CATEGORY_ANTIPHISHING","supported_methods":{"1010":"GetAntiphishingState","1025":"SetAntiphishingState"}},
+	{"brief":"Defines antimalware product classification","friendly_name":"Antimalware","id":5,"name":"WAAPI_CATEGORY_ANTIMALWARE","supported_methods":{"1000":"GetRealTimeProtectionState","1001":"GetDefinitionState","1002":"GetThreats","1003":"UpdateDefinitions","1004":"GetLastScanTime","1005":"EnableRTP","1006":"Scan","1022":"GetScanState","1026":"GetRansomwareProtection","1027":"SetRansomwareProtection","1028":"AddProtectedFolders","1029":"AllowAppsControlledFolderAccess","1030":"GetProtectedFolders","1031":"GetAllowAppsControlledFolderAccess"}},
+	{"brief":"Defines browser product classification","friendly_name":"Browser","id":6,"name":"WAAPI_CATEGORY_BROWSER","supported_methods":{"1011":"IsDefaultBrowser"}},
+	{"brief":"Defines firewall product classification","friendly_name":"Firewall","id":7,"name":"WAAPI_CATEGORY_FIREWALL","supported_methods":{"1007":"GetFirewallState","1015":"SetFirewallState"}},
+	{"brief":"Defines instant messenger product classification","friendly_name":"Messenger","id":8,"name":"WAAPI_CATEGORY_INSTANT_MESSENGER","supported_methods":{}},
+	{"brief":"Defines cloud storage product classification","friendly_name":"Cloud Storage","id":9,"name":"WAAPI_CATEGORY_CLOUD_STORAGE","supported_methods":{}},
+	{"brief":"Defines data loss prevention product classification","friendly_name":"Data Loss Prevention","id":11,"name":"WAAPI_CATEGORY_DATA_LOSS_PREVENTION","supported_methods":{}},
+	{"brief":"Defines patch management product classification","friendly_name":"Patch Management","id":12,"name":"WAAPI_CATEGORY_PATCH_MANAGEMENT","supported_methods":{"1012":"GetAgentState","1013":"GetMissingPatches","1014":"InstallMissingPatches","1016":"DownloadMissingPatches","1021":"SetAgentState","1023":"GetInstalledPatches","1024":"CancelAsyncRequest","1032":"FetchRemoteData"}},
+	{"brief":"Defines VPN client product classification","friendly_name":"VPN Client","id":13,"name":"WAAPI_CATEGORY_VPN_CLIENT","supported_methods":{}},
+	{"brief":"Defines Virtual Machine product classification","friendly_name":"Virtual Machine","id":14,"name":"WAAPI_CATEGORY_VIRTUAL_MACHINE","supported_methods":{"1017":"GetAvailableVMs","1018":"ListSnapshots","1019":"ManageVM","1020":"GetVMState"}},
+	{"brief":"Defines health agent product classification","friendly_name":"Health Agent","id":15,"name":"WAAPI_CATEGORY_HEALTH_AGENT","supported_methods":{"1012":"GetAgentState"}},
+	{"brief":"Defines remote desktop control classification","friendly_name":"Remote Desktop Control","id":16,"name":"WAAPI_CATEGORY_REMOTE_CONTROL","supported_methods":{}},
+	{"brief":"Defines a peer to peer application classification","friendly_name":"P2P Agent","id":17,"name":"WAAPI_CATEGORY_PEER_TO_PEER","supported_methods":{}},
+	{"brief":"Defines that the product has an online video and audio conferencing classification","friendly_name":"Web Conference","id":18,"name":"WAAPI_CATEGORY_WEB_CONFERENCE","supported_methods":{}},
+	{"brief":"Defines that the product does not have an official classification","friendly_name":"Unclassified","id":10,"name":"WAAPI_CATEGORY_UNCLASSIFIED","supported_methods":{}}
+];

@@ -1,0 +1,44 @@
+4V Firewall Integration Notes
+-----------------------------
+[Bitdefender] [135]
+	Bitdefender Endpoint Security Tools {2368}
+		- Bitdefender Endpoint Security Tools <2406> 
+			 - SetFirewallState (1015)
+				- After running this method, an error windows of Product.Configuration.Tool.exe (sometime) 	will pop up. It's an error of product, we can continue by choosing "Close the program".
+========================================================================================================================================================
+[Kaspersky Lab] [295]
+	Kaspersky Internet Security {359}
+		Kaspersky Internet Security <364>
+			- SetFirewallState (1015)
+				- We have to set a password for Parental Control to control settings (disable FW) - link https://support.kaspersky.com/4191.
+				- DisableFW return WAAPI_ERROR_ACCESS_DENIED when missing password or wrong password.
+	
+	Kaspersky Endpoint Security {1383}
+		Kaspersky Endpoint Security <1401>
+			- SetFirewallState (1015)
+				- We have to set a password for Parental Control to control settings (disable FW) - link https://support.kaspersky.com/4191.
+				- DisableFW return WAAPI_ERROR_ACCESS_DENIED when missing password or wrong password.
+	
+	Kaspersky Total Security {1996}
+		Kaspersky Total Security <2030>
+			- SetFirewallState (1015)
+				- We have to set a password for Parental Control to control settings (disable FW) - link https://support.kaspersky.com/4191.
+				- DisableFW return WAAPI_ERROR_ACCESS_DENIED when missing password or wrong password.
+	
+	Kaspersky PURE {358}
+		Kaspersky PURE <363>
+			- SetFirewallState (1015)
+				- We have to set a password for Parental Control to control settings (disable FW) - link https://support.kaspersky.com/4191.
+				- DisableFW return WAAPI_ERROR_ACCESS_DENIED when missing password or wrong password.
+	
+	Kaspersky Small Office Security {548}
+		Kaspersky Small Office Security <553>
+			- SetFirewallState (1015)
+				- We have to set a password for Parental Control to control settings (disable FW) - link https://support.kaspersky.com/4191.
+				- DisableFW return WAAPI_ERROR_ACCESS_DENIED when missing password or wrong password.
+========================================================================================================================================================
+[AVG Technologies CZ, s.r.o.] [256]
+	AVG Internet Security {306}
+		AVG Internet Security <2845>
+			- SetFirewallState (1015)
+				- The product UI is not updated after enabling/disabling Firewall.

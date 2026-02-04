@@ -1,0 +1,47 @@
+# Downloaded SDK files - these will be downloaded by the build script
+inc/
+libs/
+extract/
+client/
+
+# Build directory
+build/
+
+# SDK files - downloaded by SDK downloader, never commit these!
+*.dll
+*.lib
+*.so
+*.dylib
+*.h
+*.dat
+*.db
+*.exe
+
+# License and authentication files - NEVER commit these!
+license/
+pass_key.txt
+license.cfg
+download_token.txt
+
+# Go module cache
+go.sum
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Claude Code files
+CLAUDE.md
+.claude/
+claude_chat_*.md

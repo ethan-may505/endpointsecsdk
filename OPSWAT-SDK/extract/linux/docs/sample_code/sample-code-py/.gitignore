@@ -1,0 +1,7 @@
+*.so
+*.dat
+*.db
+*.txt
+*.cfg
+.vscode/
+libs/

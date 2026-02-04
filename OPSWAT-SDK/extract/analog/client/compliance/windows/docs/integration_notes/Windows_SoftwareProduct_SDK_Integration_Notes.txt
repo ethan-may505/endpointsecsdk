@@ -1,0 +1,20 @@
+4V Software Product Integration Notes
+------------------------------
+[Webroot Inc] [456]
+	Webroot SecureAnywhere {680}
+		- Webroot SecureAnywhere <687>
+			- GetProductInfo (109)
+				- Not detected if using option "Randomize the installed filename to bypass certain infections".
+========================================================================================================================================================
+[wj32] [1544]
+	Process Hacker {2733}
+		- Process Hacker <2777>
+			- GetProductInfo (109)
+				- The portable version is only detected after restart at least once.
+========================================================================================================================================================
+[EgoSecure] [1557]
+	EgoSecure Endpoint Agent {2757}
+		- EgoSecure Agent <2800>
+			- GetProductInfo (109)
+				- The category Encryption (WAAPI_CATEGORY_DISK_ENCRYPTION 3) is always listed even if deactivated by system administrator.
+				- The category Antimalware (WAAPI_CATEGORY_ANTIMALWARE 5) will be listed if it used to be activated.

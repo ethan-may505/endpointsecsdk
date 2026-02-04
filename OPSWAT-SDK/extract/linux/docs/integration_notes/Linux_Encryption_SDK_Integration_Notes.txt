@@ -1,0 +1,7 @@
+4V Encryption Integration Notes
+------------------------------
+[SUSE LINUX GmbH] [200106]
+	YaST {200059}
+		YaST <200060>
+			- GetEncryptionState (1009)
+				- This method need the root privilege to get encryption state of root path (/)

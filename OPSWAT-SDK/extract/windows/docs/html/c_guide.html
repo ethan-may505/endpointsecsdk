@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MetaDefender Endpoint Security SDK Documentation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prettify.css" rel="stylesheet">
+	<link href="css/tipuesearch.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/tipuesearch.js"></script>
+	<script src="js/tipuesearch_content.js"></script>
+	<script src="js/tipuesearch_set.js"></script>
+</head>
+
+<!-- body onload will setup scroll tracking and searchable content -->
+<body id="content-scroll-target" data-spy="scroll" onload="init();">
+
+	<div class="strip"> </div>
+
+	<div id="mainContainer">
+
+		<script>buildNav(4, 0, 0);</script>
+
+		<!-- search content will override the bottom-container -->
+		<div id="bottomContainer" class="bottom-container">
+
+			<!-- Scrolling area that auto-updates with side-nav -->
+			<div class="bottom-container-scroll-area no-nav">
+
+				<h3 class="blue">MDES SDK Guides</h3>
+				<p>The following document contains walkthroughs and sample code for integrating to the MetaDefender Endpoint Security SDK. These guides are meant to help speed up the
+				learning curve of the MDES SDK for your integrations needs. All sample code is provided &quot;as is&quot; and in most cases not meant for direct
+				copy-and-paste into your production code base.
+				</p>
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_quick_start.html">Quick start guide</a></h4>
+						<p>This guide will walk you through the basic steps needed to link against the MetaDefender Endpoint Security SDK and start calling functionality. If you are new
+							to the MDES SDK, this is the first guide you should read before continuing.</p>
+
+						<a href="c_guide_quick_start.html" class="btn btn-opswat btn-small ">View guide</a>
+					</div>
+				</div> <!-- end of quick guide -->
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_handle_output.html">How to handle output results</a></h4>
+						<p>This guide will walk you through the basic steps needed to link against the MetaDefender Endpoint Security SDK and start calling functionality. If you are new
+							to the MDES SDK, this is the first guide you should read before continuing.</p>
+
+						<a href="c_guide_handle_output.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of how to handle output results -->
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_understanding_mid_docs.html">Understanding the method documentation</a></h4>
+						<p>This guide will explain the documentation of methods making it easy to understand what each section means. It is recommended
+							to read this before attempting to make calls to <a href="c_sdk.html#wa_api_invoke">wa_api_invoke</a>.</p>
+
+						<a href="c_guide_understanding_mid_docs.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of understanding component method documentation -->
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_mockup_api.html">How to use the Mockup API</a></h4>
+						<p>This guide will explain how to configure and use the Mockup API for testing.</p>
+
+						<a href="c_guide_mockup_api.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of mockup api howto -->
+				
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_async_api.html">How to use the Asynchronous API</a></h4>
+						<p>This guide will explain how to configure and use the Asynchronous API.</p>
+
+						<a href="c_guide_async_api.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of async api howto -->
+				
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_event_handling.html">How to register Event Handlers with the API</a></h4>
+						<p>This guide explains how to register for event callbacks and handle the results. It is recommended
+							to read this before attempting to make calls to <a href="c_sdk.html#wa_api_register_handler">wa_api_register_handler</a>.</p>
+
+						<a href="c_guide_event_handling.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of async api howto -->
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="http://software.opswat.com/OESIS_V4/Win/How_to_upgrade_from_V3_to_V4_using_Adapter.pdf"> How to upgrade from V3 to V4 using Adapter </a></h4>
+						<p>This guide will explain how to perform an MetaDefender Endpoint Security SDK V4 upgrade using V3V4 Adapter for existing V3 integrations.</p>
+
+						<a href="http://software.opswat.com/OESIS_V4/Win/How_to_upgrade_from_V3_to_V4_using_Adapter.pdf" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of vmod policy device howto -->
+
+				<div class="media">
+					<i class="pull-left icon-file icon-4x"></i>
+					<div class="media-body">
+						<h4><a class="grey" href="c_guide_xp_support.html"> How to provide explicit dynamic linking support for Windows XP </a></h4>
+						<p>This guide will explain how to provide Windows XP support if you must use explicit dynamic linking (LoadLibrary).</p>
+
+						<a href="c_guide_xp_support.html" class="btn btn-opswat btn-small">View guide</a>
+					</div>
+				</div> <!-- end of xp support howto -->
+			</div>
+
+		</div>
+		
+
+		<!-- search goes here, clears above -->
+		<div id="search-container" class="search-container"></div>
+
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--[if lt IE 9]>
+<script>
+	alert("The support charts will not work correctly on versions of IE less than 9.x, ideally use Chrome or Firefox.");
+</script>
+<![endif]-->
+
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/support_charts.css" rel="stylesheet">
+
+<script src="js/jquery-min.js"></script>
+<script>
+if(!window.jQuery)
+	alert("Failed to load dependencies. Did this file get moved to a new location in the package?");
+</script>
+<script src="js/html5.js"></script>
+
+<!-- load order here is very important!! -->
+<script id="jsonCharts" type="text/javascript" src="raw_json.js"></script>
+<script>
+if(!window.SUPPORT_CHARTS)
+{
+	$.ajax({
+		url: "http://staging-cloud.us.opswat.com:8080/supportcharts/",
+		dataType: 'jsonp',
+		jsonp: false,
+		crossDomain: true,
+		scriptCharset: 'utf-8',
+		processData: false,
+		type: 'GET',
+		timeout: 20000,
+		success: function(json) {
+			window.SUPPORT_CHARTS = json;
+		},
+		error: function(json) {
+			alert( JSON.stringify(json) );
+		}
+	});
+}
+</script>
+<script type="text/javascript" src="js/support_charts.js"></script>
+
+<title>Support Charts</title>
+</head>
+
+<body>
+
+	<div class="container">
+	
+		<div class='navbar navbar-top'>
+			<a class='brand' href='.'><img src='./img/logo.png'></a>
+			<div id="dateStr" class='pull-right'></div>
+		</div>
+	
+		<div class='browser-container'>
+				<h3 id='sortHeading' class='blue'>Select a Category</h3>
+
+				<ul id='modeTabs' class='nav nav-tabs pull-right'>
+					<li id='prettyPrintTab'><a data-bs-toggle='tab'>Pretty Print</a></li>
+					<li id='labelsTab'><a data-bs-toggle='tab'>Labels</a></li>
+					<li id='methodsTab'><a data-bs-toggle='tab'>Methods</a></li>
+					<li id='vendorsTab'><a data-bs-toggle='tab'>Vendors</a></li>
+					<li class='active' id='categoriesTab'><a data-bs-toggle='tab'>Categories</a></li>
+				</ul>
+
+				<div class='filter-input'>
+					<input id='searchFilterInput' type='text' placeholder='Search for products'>
+				</div>
+				
+				<div id='productContainer'>
+					<div class='product-overlay' id='productOverlay'></div>
+					<ul class='product-list'></ul>
+				</div>
+		</div>
+		
+		<div class='backdrop'></div>
+	</div>
+
+<script>
+	
+$(function()
+{
+	$("#dateStr").html( 'Created On - ' + getCreationTime() );
+
+	/******* toggle the tabs and sorting on click *******/
+	$('#modeTabs a').click(function()
+	{
+		var rent = $(this).parent();
+
+		$('#modeTabs').children().removeClass('active');
+		rent.addClass('active');
+			
+		// make a new call to update the list
+		buildSupportChart(false);
+	});
+	
+	/******* set product overlay blur to hide when focus is lost *******/
+	$('.container').mousedown(function(e)
+	{
+		closePopups();
+	})
+	.on('mousedown', '#productOverlay', function(e)
+	{
+		e.stopPropagation();
+	});
+	
+	/******* dynamic search filtering *******/
+	$('#searchFilterInput').bind('input', function()
+	{
+		buildSupportChart(true);
+	});
+	
+	/******* populate the product list on load *******/
+	buildSupportChart(false);
+	
+});
+</script>
+</body>
+</html>

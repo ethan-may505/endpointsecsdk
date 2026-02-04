@@ -1,0 +1,13 @@
+4V Virtual Machine Integration Notes
+------------------------------
+[VMware, Inc.] [179]
+	VMware Player {303}
+		- VMware Player <308>
+			- ManageVM (1019)
+				- Require VIX to run properly. Otherwise return not supported
+				
+[Microsoft Corporation] [90]			
+	Hyper-V Manager {1553}
+		- Hyper-V Manager <1575>
+			- GetVMState (1020)
+				- Require hyper-v module loaded for powershell for this function to work properly. Otherwise returns error native api

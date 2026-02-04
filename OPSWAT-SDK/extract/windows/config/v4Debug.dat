@@ -1,0 +1,6 @@
+This file enables the debug mode on MDES SDK V4.
+A debug file named "v4DebugInfo.log" that contains debugging information will be created at the deployment path.
+
+WARNING: Do not use the file in official releases, it is only for debugging purposes.
+
+Copyright (c) OPSWAT, Inc. All rights reserved.
